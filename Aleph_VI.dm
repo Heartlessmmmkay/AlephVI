@@ -102649,6 +102649,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #name "Golden Fortress"
 #mapmove 0
 #immobile
+#amphibian
 #gcost 1000
 #rpcost 0
 #uwdamage 999
@@ -102676,8 +102677,21 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #req_pop0ok
 #req_targmnr "Golden Fortress"
 #req_fort 0
+#req_land 1
 #msg "Golden Gates Fires"
-#fort 2
+#fort 2 -- Land Fortress
+--#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_targmnr "Golden Fortress"
+#req_fort 0
+#req_land 0
+#msg "Golden Gates Fires"
+#fort 6 -- UW Fortress
 --#notext
 #nolog
 #end
