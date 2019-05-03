@@ -102277,7 +102277,10 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #end
 
 
--- Start of... Someone.
+-- =================
+-- == MA Asphodel ==
+-- =================
+
 #newmonster
 #copystats 3115--"Ephor"
 #copyspr 3115--"Ephor"
@@ -102696,7 +102699,10 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #nolog
 #end
 
--- Start of Mekone
+-- ===============
+-- == EA Mekone ==
+-- ===============
+
 #selectmonster 3109 -- Ekdromos
 #gcost 40
 #rpcost 30
@@ -102810,10 +102816,502 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #end
 
 
+-- ==============
+-- == EA Ryleh ==
+-- ==============
 
+--FrostFire (Giboleth, Mindblast, Tentacle, Tentacle)
+-- Strange Elements (Cold -> Shock)
+-- Internal Flame (Water)
+--Amphibious (Giboleth)
+--Anoint (Giboleth)
+#selectweapon 1993
+  #name "Fire Damage"
+  #dmg 4
+  #armornegating
+  #fire
+  #nostr
+#end
+#selectweapon 1994
+  #name "ShockFire Damage"
+  #dmg 4
+  #armornegating
+  #shock
+  #nostr
+  #secondaryeffectalways 1993
+#end
+#selectweapon 1995
+  #copyweapon 85
+  #name "ShockFire Tentacle"
+  #secondaryeffectalways 1994
+#end
+#selectweapon 1998
+  #copyweapon 293
+  #name "ShockFire Psychic Damage"
+  #secondaryeffectalways 1994
+#end
+#selectweapon 1999
+  #copyweapon 86
+  #name "ShockFire Mindblast"
+  #secondaryeffect 1998
+#end
+#selectmonster 1403
+  #clearweapons
+  #clearspecial
+  #weapon 1995
+  #weapon 1995
+  #weapon 1999
+  #amphibian
+  #magicbeing
+  #spiritsight
+  #userestricteditem 99
+  #gcost 45
+  #rcost 9
+  #rpcost 54
+  #secondtmpshape 496 
+  #holy
+  #itemslots 12288
+#end
 
+--Powerful Stance (Lobo Guard %%)
+-- Ancestor Blades
+-- Haunted Blades
+--Plows to Swords (Lobo Guard %)
+#selectweapon 1985
+  #name "Haunted Blades"
+  #dmg 12
+  #magic
+  #dt_stun
+  #armornegating
+#end
+#selectweapon 1986
+  #name "Ancestor's Blades + Haunted Blades"
+  #dmg 2
+  #magic
+  #armornegating
+  #secondaryeffectalways 1985
+#end
+#selectweapon 1987
+  #name "Lobo Blades"
+  #dmg 13
+  #att 2
+  #def 2
+  #len 2
+  #rcost 5
+  #twohanded
+  #slash
+  #magic
+  #secondaryeffectalways 1986
+#end
+#selectmonster 337
+  #clearweapons
+  #weapon 1987
+  #weapon 1987
+  #raiseonkill 50
+  #ambidextrous 5
+#end
+#selectsite 1401
+  #name "Lobo Factories"
+  #rarity 5
+  #level 3
+  #path 8
+  #com 1401
+  #mon 337
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_pop0ok
+  #req_site 1401
+  #removesite 1401
+  #msg "remove [Lobo Factories]"
+  #notext
+  #nolog
+#end
+#newevent
+  #rarity 5
+  #req_fornation 37
+  #req_pop0ok
+  #req_fort 0
+  #req_nositenbr 14013
+  #addsite 1401
+  #msg "add [Lobo Factories]"
+  #notext
+  #nolog
+#end
 
+--Evolution (Polypal Mother, Polypal Spawn)
+#selectmonster 1401
+  #clearspecial
+  #amphibian
+  #bluntres
+  #pierceres
+  #poisonres 15
+  #magicbeing
+  #neednoteat
+  #blind
+  #spiritsight
+  #voidsanity 10
+  #mindslime 5
+  #unsurr 5
+  #domsummon 1404
+  #female
+  #holy
+  #immobile
+  #deathparalyze 10
+  #maxage 10000
+  #itemslots 12288
+#end
+#selectmonster 1404
+  #clearspecial
+  #amphibian
+  #magicbeing
+  #darkvision 100
+  #spiritsight
+  #eyes 4
+  #maxage 3000
+  #itemslots 12288
+#end
 
+-- His Majesty's Battlemages (Aboleth)
+-- Focused Mage (Aboleth %, W -> S) (2pts)
+-- Selective Breeding (Abolth %, WESD -> S) (1pt)"
+-- Evolution (Aboleth)
+-- Anoint Commander (Aboleth)
+#selectmonster 1520
+  #clearmagic
+  #magicskill 2 1
+  #magicskill 4 4
+  #clearspecial
+  #amphibian
+  #magicbeing
+  #spiritsight
+  #voidsanity 5
+  #taskmaster 2
+  #maxage 3000
+  #eyes 4
+  #userestricteditem 99
+  #fastcast 25
+  #researchbonus -2
+  #gcost 235
+  #holy
+  #itemslots 12288
+#end
+          
+-- MA Pelagia's Logisitics (Mind Lord) 
+-- Create a copy of Mind Lord for Pelagia, before its altered 
+#selectmonster 3998
+  #copystats 1521
+  #copyspr 1521
+#end
 
+-- His Majesty's Battlemages (Slave Mage, Grandmother, Mind Lord)
+--  Academies of Magic (Mind Lord 200% FEWS-linked, Grandmother 66% S)
+--  Gem Generators (Slave Mage WN, Mind Lord WS) (%)
+#selectmonster 1521 -- Mind Lord
+  #gcost 420
+  #custommagic 3712 200
+  #fastcast 25
+  #researchbonus -5
+  #tmpwatergems 1
+  #tmpastralgems 1 
+#end
+#selectmonster 2886 -- Grandmother
+  #custommagic 2048 66
+  #fastcast 25
+  #researchbonus -5
+  #gcost 300
+#end
+#selectmonster 1518 -- Slave Mage
+  #fastcast 25
+  #researchbonus -2
+  #tmpwatergems 1
+  #tmpnaturegems 1
+#end
+
+-- Apocalypse 
+--  Easy Spell (Light of the Northern Star) (%) 
+--  Expansive Spell (Enslavement) (%) 
+--  Simplified Spell (Enslavement) (%) 
+-- Research Level Reducer (Enslavement) (2ap, %)
+#newspell
+  #copyspell 761
+  #name "Easy light of the Northern Star"
+  #restricted 37
+  #fatiguecost 160
+#end 
+#selectspell "Enslavement"
+  #name "Expansive Simplified Enslavement"
+  #pathlevel 3
+  #fatiguecost 48
+  #aoe 3
+  #researchlevel 5
+#end
+
+-- Logistics (“Xi Akloz“ - Pearlsmith) (Z) 
+-- Exchange Student (Pearl Mage, Daduchos) (Z)
+-- Mecha
+-- Pelagia's Empire of Gold 14% gold bonus
+#selectmonster 3999
+  #copystats 2423
+  #copyspr 2423
+#end
+#selectsite "The Gorge of Ancient Cities"
+  #clear
+  #homecom 1521
+  #homemon 1522
+  #gems 4 3
+  #gems 2 1
+  #gems 3 1
+#end
+#selectnation 37
+  #killcappop -33 
+  #nationinc 14
+  #uwnation
+  #fortera 1
+  #era 2
+  #hero4 3999
+  #clearrec
+  #uwnation
+  #addforeignunit 337
+  #addforeigncom 1401 
+  #addreccom 432
+  #addreccom 1523
+  #addreccom 1527
+  #addreccom 1518
+  #addreccom 3999
+  #addreccom 1520
+  #addreccom 2886
+  #coastcom1 2868  
+  #addrecunit 337
+  #addrecunit 335
+  #addrecunit 336
+  #addrecunit 1515
+  #addrecunit 1517
+  #addrecunit 1524
+  #addrecunit 1526
+  #addrecunit 1619
+  #addrecunit 425
+  #addrecunit 1403
+  #landrec 5311
+  #landrec 5308
+  #landrec 5309
+  #landrec 5310
+  #coastunit1 2884
+#end
+
+-- Conscription (6 Aboleth, ~43 Triton Slave Guardians)
+#newevent
+  #rarity 5
+  #nation -2
+  #req_pregame
+  #req_fornation 37
+  #req_capital 1
+  #req_pop0ok
+  #com 1520
+  #5com 1520
+  #12d6units 1526
+  #notext
+#end
+          
+-- ================
+-- == MA Pelagia ==
+-- ================
+
+-- Logisitcs (Mind Lord)
+-- Mined
+-- Empire of Gold
+--  Golden Gates
+--  Freelance Contractors
+-- Enchanted Forges
+#selectsite 160
+  #homecom 3998
+  #res 125
+  #gold 700
+#end
+#selectnation 37
+  #nationinc 14
+#end
+#selectsite 1400
+  #name "The Golden Gate"
+  #rarity 5
+  #level 3
+  #path 8
+  #com "Golden Fortress"
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_pop0ok
+  #req_site 1400
+  #removesite 1400
+  #msg "remove [The Golden Gate]"
+  #notext
+  #nolog
+#end
+#newevent
+  #rarity 5
+  #req_fornation 75
+  #req_pop0ok
+  #req_fort 0
+  #req_nositenbr 1400
+  #addsite 1400
+  #msg "add [The Golden Gate]"
+  #notext
+  #nolog
+#end
+
+-- From Beyond The Veil
+--  Arisenv(Amber Clan Guard)
+--   Infection
+--   Hunger Unrelenting
+--  Evolution (Amber Clan Guard)
+--  Resilent (Shock, Fire) 
+#selectweapon 1992
+  #copyweapon 20
+  #dt_weapondrain
+#end
+#selectmonster 1419
+  #clearspec
+  #amphibian
+  #enc 0
+  #undead
+  #poisonres 15
+  #coldres 15
+  #shockres 4
+  #fireres 4
+  #raiseshape 1419
+  #raiseonkill 16
+  #weapon 1992
+  #str 15
+  #att 13
+  #rpcost 18
+  #gcost 14
+#end
+
+-- From Beyond The Veil
+--  Fallen (Knight of the Deeps)
+--   Unholy Power
+--   Unblessed (Regeneration) 
+--  Evolution (Knight of the Deeps)
+--  We Brave Few
+#selectmonster 1059
+  #clearspec
+  #amphibian
+  #hp 22
+  #prot 6
+  #mr 19
+  #mor 21
+  #str 18
+  #att 17
+  #def 18
+  #prec 15
+  #ap 35
+  #mapmove 24
+  #reinvigoration 2
+  #unsurr 2
+  #mounted
+  #heal
+  #reclimit 4
+  #regeneration 10
+  #gcost 56
+  #rpcost 48
+#end
+
+-- Slotted (Triton King, Arm)
+-- Evolution (Triton King, Amber Clan Mages)
+#selectmonster 1088
+  #clearspec
+  #amphibian
+  #holy
+  #makepearls 4
+  #itemslots 13454
+  #gcost 410
+#end
+#selectmonster 1417
+  #clearspec
+  #amphibian
+#end
+
+-- Eldritch Corrution (W -> D)
+-- Focused Mage (Amber Clan Mage, EDN -> D)
+#selectmonster 1415
+  #clearmagic
+  #magicskill 5 1
+  #custommagic 13568 100
+#end
+#selectmonster 2823
+  #clearmagic
+  #magicskill 1 1
+  #magicskill 3 1
+  #magicskill 5 1
+  #custommagic 7424 100
+#end
+#selectmonster 2423
+  #clearmagic
+  #magicskill 4 1
+  #magicskill 5 2
+  #custommagic 14592 100
+#end
+#selectmonster 1417
+  #clearmagic
+  #magicskill 0 1
+  #magicskill 5 3
+#end
+#selectmonster 1088
+  #clearmagic
+  #magicskill 5 4
+  #custommagic 10496 100
+  #custommagic 10496 100
+  #custommagic 14592 10
+#end
+#selectmonster 2867
+  #clearmagic
+  #magicskill 0 1
+  #custommagic 7424 100
+#end
+
+-- Exchange Student (Androleth)
+-- Teachings of the Elders (Triton King)
+#selectnation 75
+  #clearrec
+  #uwnation
+  #coastcom1 2825
+  #coastcom2 2867
+  #addreccom 1050
+  #addreccom 1052
+  #addreccom 1069
+  #addreccom 2421
+  #addreccom 1696
+  #addreccom 1418
+  #addreccom 2422
+  #addreccom 1415
+  #addreccom 2823
+  #addreccom 2423
+  #addreccom 1417
+  #addreccom 1088
+  #coastunit1 2821
+  #coastunit2 2869
+  #coastunit3 2884
+  #addrecunit 1056
+  #addrecunit 1046
+  #addrecunit 1057
+  #addrecunit 1048
+  #addrecunit 2416
+  #addrecunit 1419
+#end
+
+-- Oceanic Tuning (Bane Fire)
+#newspell
+  #copyspell "Bane Fire"
+  #name "Oceanic Bane Fire"
+  #restricted 75
+  #spec 8388672
+#end
+
+-- Exchange Student (Enslave Airbreather)
+#selectspell "Enslave Airbreather"
+  #restricted 75
+#end
 
 
