@@ -103484,8 +103484,8 @@ Priests: Average, can perform blood sacrifices"
 #end
 
 #selectsite 58
-#res 125
-#resources 115
+#res 225
+#resources 225
 #gems 5 5
 #end
 
@@ -103558,6 +103558,8 @@ Priests: Weak"
 #gold 210
 #gems 5 6
 #gems 3 3
+#resources 100
+#res 100
 #end
 
 #selectmonster 1316 -- Dai
@@ -103646,6 +103648,170 @@ Priests: Weak"
 #selectspell "Summon Firebird"
 #restricted 27
 #end
+
+
+-- ================
+-- == MA Ermor   == Nation ID 44
+-- ================
+
+
+#selectmonster 259 -- Lictor
+#clearspec
+#undead
+#coldres 25
+#poisonres 25
+#cold 3
+#undead
+#spiritsight
+#end
+
+#newmonster
+#copystats 4992
+#copyspr 4992
+#name "Ermorian Idol"
+#descr "Using this if you aren't Ermor is CHEATING."
+#gcost 80
+#startdom 10
+#hp 180
+#autohealer 5
+#spreaddom 4
+#forgebonus 50
+#itemslots 61568
+#end
+-- Events for pop and sites
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_targmnr "Ermorian Idol"
+#req_targgod 1
+#nation -2
+#msg "People"
+#incpop 200
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_freesites 1
+#req_nositenbr 68
+#req_targmnr "Ermorian Idol"
+#req_targgod 1
+#nation -2
+#msg "Copper Mine"
+#addsite 68
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_freesites 1
+#req_nositenbr 506
+#req_targmnr "Ermorian Idol"
+#req_targgod 1
+#nation -2
+#msg "Superior Iron Mine"
+#addsite 506
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_fornation 44
+#req_pregame 1
+#nation 44
+#msg "Game Start Incomes"
+#incpop 3000
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#2d6vis 5
+#exactgold 1100
+--#notext
+#nolog
+#end
+
+#selectsite 24 -- Sepulchre
+#res 100
+#resources 100
+#gems 0 2
+#gems 1 2
+#gems 2 2
+#gems 3 2
+#gems 4 2
+#gems 5 16
+#gems 6 2
+#gems 7 4
+#gold 210
+#end
+
+-- Crystalized Faith
+#newevent
+#rarity 5
+#req_pop0ok
+#req_domowner 44
+#nation -2
+#req_domchance 4
+#msg "Ermorian Faith has crystalized into Death Gems!"
+#1d3vis 5
+#nolog
+#end
+
+#newspell
+#copyspell 709 -- Utterdark
+#researchlevel 8
+#restricted 44
+#end
+
+#newitem
+#copyitem 337 -- Lightless
+#constlevel 2
+#restricted 44
+#end
+
+#selectsite 158 -- Campus Sceleris
+#name "Campus Sceleris II"
+#gems 5 6
+#end
+
+#selectnation 44
+#uwbuild 1
+#startsite "Campus Sceleris II"
+#end
+
+#selectspell "Anathema"
+#restricted 44
+#end
+#selectspell "Apostasy"
+#restricted 44
+#end
+#selectspell "Chill of the Grave"
+#restricted 44
+#end
+#selectspell "Resilience of the Shadelands"
+#restricted 44
+#end
+#selectspell "Chill of the Grave"
+#restricted 44
+#end
+
 
 
 
