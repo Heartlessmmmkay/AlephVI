@@ -103369,7 +103369,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #newweapon 1807
 #copyweapon 64
 #name "Cursed Word"
-#secondaryeffectalways 364
+#secondaryeffect 364
 #end
 
 #newweapon 1806
@@ -103583,7 +103583,6 @@ Priests: Weak"
 #poisonres 30
 #poisoncloud 5
 #magicboost 53 2
-#magicboost 8 2
 #masterrit -9
 #mastersmith -9
 #researchbonus -99
@@ -103594,7 +103593,6 @@ Priests: Weak"
 #poisonres 50
 #poisoncloud 5
 #magicboost 53 2
-#magicboost 8 2
 #masterrit -9
 #mastersmith -9
 #researchbonus -99
@@ -103619,7 +103617,7 @@ Priests: Weak"
 #selectmonster 1312
 #gcost 9
 #poisoncloud 4
-#poisonres 20
+#poisonres 25
 #rcost 21
 #end
 
@@ -103814,6 +103812,268 @@ Priests: Weak"
 
 
 
+------------------------------------------------------ EA Vanheim
+------------------------------------------------------ EA Vanheim
+------------------------------------------------------ EA Vanheim
+------------------------------------------------------ EA Vanheim
+
+#selectnation 60
+#name "New Vanheim"
+#era 2
+#brief "Vanheim is a human nation ruled by Vanir, ancient enemies of the Jotun giants. Vanir can sail across the oceans and hide themselves with illusions. They mostly use infantry, but utilize many unique troops, including flying Valkyries, human berserkers and skinshifters. Their Dwarven smiths are powerful Earth mages."
+#descr "Vanheim is a land of misty moors and bitter forests. Humans compose most of the population, but the rulers of the land belong to a tall and innately magical race known as the Vanir. The Vanir once fought the giants of Jotunheim, but with the coming of man, they have turned their attention elsewhere. Now only a precious few of the Vanir remain and humans are no longer slaves.
+Humans compose the basic infantry units of Vanheim. The Vanir have blessed some loyal humans with superior fighting skills and the ability to enter a state of wild rage or wolven shape. The Vanir are masters of illusion who fight while mounted on exceptionally fast horses. Female Vanir are called Valkyries and have the ability to fly. This ability was a gift from a dead god who used them as messengers of death. During those days, blood was sacrificed. The old ways have not been used in ages, but still the oldest of the Vanir remember how to sate nature with blood. The Vanir are very skilled sailors and can sail the oceans."
+#summary "Race: Ocean sailing, trace income across oceans, flying troops, illusions, prefers Cold scale +1
+Military: Heavy infantry, skinshifters, Valkyries, Vanir
+Magic: Air, Earth, Blood, some Fire and Death
+Priests: Average, can perform blood sacrifices"
+#end
+
+-- Weapons --
+
+-- armors --
+
+-- misc item
+#newitem
+#copyitem 123
+#copyspr 123
+--#name "Vanheim Hammer"
+#constlevel 2
+#restricted 20
+#end
+
+#newitem
+#copyitem 164
+#copyspr 164
+--#name "Vanheim Shield"
+#constlevel 2
+#restricted 20
+#end
+
+#newitem
+#copyitem 244
+#copyspr 244
+--#name "Unstylish Vanheim Suit"
+#constlevel 2
+#restricted 20
+#end
+
+#newitem
+#copyitem 918
+#copyspr 918
+--#name "Vanheim hat"
+#constlevel 2
+#restricted 20
+#end
+
+#newitem
+#copyitem 980
+#copyspr 980
+--#name "Vanheim Shoes"
+#constlevel 2
+#restricted 20
+#end
+
+#newitem
+#copyitem 448
+#copyspr 448
+--#name "Vanheim Thing"
+#constlevel 2
+#restricted 20
+#end
+-- units --
+
+#selectmonster 1513 -- Vanhere
+#gcost 40
+#undead
+#noriverpass
+#regeneration 21
+#flying
+#coldres 15
+#poisonres 15
+#fireres -5
+#uwdamage 100
+#enc 0
+#heal
+#end
+
+#selectmonster 1508 -- Huskarl
+#gcost 25
+#undead
+#coldres 15
+#poisonres 15
+#enc 0
+#neednoteat
+#pooramphibian
+#clearweapons
+#weapon 42 -- baneblade
+#weapon 21 -- Javelin
+#spiritsight
+#att 13
+#prec 13
+#def 18
+#end
+
+-- RECRITABLE COMMANDERS -- 
+#selectmonster 323 -- Dwarven Smith
+#gcost 140
+#amphibian
+#custommagic 27648 100
+#custommagic 7296 60
+#end
+
+#selectmonster 263 -- Vanherse
+#gcost 140
+#amphibian
+#spy
+#end
+
+#selectmonster 264 -- vanjarl
+#gcost 275
+#commaster
+#amphibian
+#end
+
+#selectmonster 948 -- Vanadrott
+#gcost 410
+#amphibian
+#end
+
+
+
+
+----- Pretenders
+
+
+
+
+-- sites
+#selectsite 115
+#res 225
+#gold 200
+#end
+
+
+-- Nations
+#selectnation 20 -- EA Vanheim
+#era 2
+#addrecunit 1513 -- "Vanhere"
+#startsite "The Flooded City"
+#startsite "The Obsidian Cavern"
+#addreccom 2748
+#addreccom 2750
+#addreccom 2751
+#addreccom 2753
+#killcappop -100
+#end
+
+
+
+-- spells
+#selectspell "Gift of the First Soul"
+#restricted 20
+#end
+
+#selectspell "Break the First Soul"
+#restricted 20
+#end
+
+#selectspell "The Obsidian Butterfly"
+#restricted 20
+#end
+
+#selectspell "Contact Onaqui"
+#restricted 20
+#end
+
+#selectspell "Create Mud Man"
+#restricted 20
+#end
+
+
+#selectspell "Bind Beast Bats"
+#restricted 20
+#end
+
+
+-- Events
+
+#newevent
+#rarity 5
+#req_fornation 20 -- EA Vanheim
+#req_pregame 1
+#nation -2
+#msg "Gold"
+#gold 1100
+#nolog
+#end
+
+#newevent
+#req_fornation 20 -- EA Vanheim
+#magicitem 9
+#msg "Atlas of Creation [Atlas of Creation]"
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#nation -2
+#req_capital 1
+#end
+
+#newevent
+#req_fornation 20 -- EA Vanheim
+#magicitem 9
+#msg "Seal of Solomon [Seal of Solomon]"
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#nation -2
+#req_capital 1
+#end
+
+#newevent
+#req_fornation 20 -- EA Vanheim
+#magicitem 9
+#msg "The Sword of Many Colors [The Sword of Many Colors]"
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#nation -2
+#req_capital 1
+#end
+
+#newevent
+#req_fornation 20 -- EA Vanheim
+#magicitem 9
+#msg "Flower Charm [Flower Charm]"
+#rarity 5
+#nation -2
+#req_owncapital 1
+#end
+
+#newevent
+#req_fornation 20 -- EA Vanheim
+#magicitem 9
+#msg "A lantern for blind people [Lightless Lantern]"
+#rarity 5
+#nation -2
+#req_owncapital 1
+#end
+
+-- #newevent -- Vanheiman cap pop game start
+-- #rarity 5
+-- #req_pregame 5
+-- #req_maxturn 1
+-- #req_unique 1
+-- #req_fornation 20
+-- #nation -2
+-- #req_capital 1
+-- #incpop 3000
+-- #msg "30,000ish people"
+-- #nolog
+-- #end
 
 
 
