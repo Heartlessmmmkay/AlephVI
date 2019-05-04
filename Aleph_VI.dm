@@ -1,4 +1,4 @@
-#modname "Aleph VI"
+#modname "Aleph VI_JRCB"
 #description "Aleph VI"
 #icon "./DomEnhanced/Banner.tga"
 #version .05
@@ -20,7 +20,7 @@
 
 #selectweapon 608 -- Sword of Oaths
 #secondaryeffect 282 -- Paralyze
-#end
+#end000000000000000000000000000000000000000000000000000000000000
 
 #selectweapon 151 -- Wand
 #rcost 1
@@ -74229,6 +74229,7 @@ into unhealthy marshlands, thick with the stench of rotting vegetation. With thi
 #descr "The illusionist creates two phantasmal Cu Sidhe that attack the enemy. These phantasms are cloaked in glamour."
 #damage 5301
 #restricted 18 -- Tir na Nog
+#restricted 95
 #end
 
 #selectspell 623 -- Ghost Wolves
@@ -102401,7 +102402,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #nolog
 #end
 
--- Dom events not firing for indies/hostiles atm.
+-- Dom events 
 
 #newevent
 #rarity 5
@@ -102531,120 +102532,14 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #req_pop0ok
 #req_indepok 1
 #req_domowner 32
-#req_dominion -1
+#req_maxdominion -1
 #msg "30 pop55"
-#incpop 3
+#incpop 15
 #notext
 #nolog
 #end
 
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 32
-#req_dominion -2
-#msg "30 pop51111"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 32
-#req_dominion -3
-#msg "30 pop5111"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 32
-#req_dominion -4
-#msg "30 pop511"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 32
-#req_dominion -5
-#msg "30 pop51"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 32
-#req_dominion -6
-#msg "30 pop11111"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 32
-#req_dominion -7
-#msg "30 pop1111"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 32
-#req_dominion -8
-#msg "30 pop111"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 32
-#req_dominion -9
-#msg "30 pop11"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 32
-#req_dominion -10
-#msg "30 pop 1"
-#incpop 3
-#notext
-#nolog
-#end
+-- Note the above assumed dom 5 because it's unmoddable otherwise.
 
 #newmonster
 #copystats 12
@@ -102739,6 +102634,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #newweapon 1800
 #copyweapon 11
 #name "Ephorian Blades"
+#magic
 #dmg 13
 #att 2
 #secondaryeffectalways 1801 -- Bane of the Fallen
@@ -102791,6 +102687,8 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #constlevel 0
 #researchbonus 14
 #itemcost1 -20
+#tainted 3
+#restricted 32
 #end
 
 #selectmonster "Polemarch"
@@ -103161,6 +103059,150 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
   #nolog
 #end
 
+
+
+-- Dom events 
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 37
+#req_dominion 1
+#msg "30 pop55"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 37
+#req_dominion 2
+#msg "30 pop51111"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 37
+#req_dominion 3
+#msg "30 pop5111"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 37
+#req_dominion 4
+#msg "30 pop511"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 37
+#req_dominion 5
+#msg "30 pop51"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 37
+#req_dominion 6
+#msg "30 pop11111"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 37
+#req_dominion 7
+#msg "30 pop1111"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 37
+#req_dominion 8
+#msg "30 pop111"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 37
+#req_dominion 9
+#msg "30 pop11"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 37
+#req_dominion 10
+#msg "30 pop 1"
+#incpop 3
+#notext
+#nolog
+#end
+
+--ALlow them to fire for hostiles
+
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 37
+#req_maxdominion -1
+#msg "30 pop55"
+#incpop 15
+#notext
+#nolog
+#end
+
+-- Note the above assumed dom 5 because it's unmoddable otherwise.
+
+
+
+
 -- From Beyond The Veil
 --  Arisenv(Amber Clan Guard)
 --   Infection
@@ -103313,5 +103355,319 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #selectspell "Enslave Airbreather"
   #restricted 75
 #end
+
+
+-- ================
+-- == LA Midgard ==
+-- ================
+--LA Midgard
+#selectnation 75
+#secondarycolor 0.3 0.1 0
+#end
+
+
+
+
+
+-- Dom events 
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 95
+#req_dominion 1
+#msg "30 pop55"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 95
+#req_dominion 2
+#msg "30 pop51111"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 95
+#req_dominion 3
+#msg "30 pop5111"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 95
+#req_dominion 4
+#msg "30 pop511"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 95
+#req_dominion 5
+#msg "30 pop51"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 95
+#req_dominion 6
+#msg "30 pop11111"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 95
+#req_dominion 7
+#msg "30 pop1111"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 95
+#req_dominion 8
+#msg "30 pop111"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 95
+#req_dominion 9
+#msg "30 pop11"
+#incpop 3
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 95
+#req_dominion 10
+#msg "30 pop 1"
+#incpop 3
+#notext
+#nolog
+#end
+
+--ALlow them to fire for hostiles
+
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_indepok 1
+#req_domowner 95
+#req_maxdominion -1
+#msg "30 pop55"
+#incpop 15
+#notext
+#nolog
+#end
+
+#newweapon 1807
+#copyweapon 64
+#name "Cursed Word"
+#secondaryeffectalways 364
+#end
+
+#newweapon 1806
+#name "Bane of the Fallen"
+#magic
+#dmg 2
+#secondaryeffectalways 1807 -- Cursed Word
+#armornegating
+#end
+
+#newweapon 1805
+#copyweapon 11
+#name "Ephorian Blades"
+#magic
+#dmg 13
+#att 2
+#secondaryeffectalways 1806 -- Bane of the Fallen
+#end
+--eld aka IDs 2,100,135. 
+#selectmonster 853 -- Skinshift man
+#gcost 25
+#clearweapons
+#weapon 1805
+#weapon 1805
+#cleararmor
+#armor 100
+#armor 135
+#end
+#selectmonster 852 -- skinshift wolf
+#gcost 25
+#clearweapons
+#weapon 20
+#weapon 1805
+#weapon 1805
+#cleararmor
+#armor 100
+#armor 135
+#end
+
+#selectmonster 262 -- van
+#gcost 65
+#berserk 5
+#reinvigoration 2
+#str 15
+#rcost 21
+#eyeloss
+#fireshield 8
+#weapon 20
+#end
+
+#selectmonster 146 -- einhere
+#gcost 25
+#bodyguard 2
+#end
+
+#newmonster
+#copystats 2206
+#copyspr 2206
+#name "Midgardian Dwarf"
+#descr "Illegal for anyone but Midgard."
+#startdom 3
+#gcost 162
+#end
+
+#selectnation 95
+#name "Midgård"
+#era 2
+#brief "Midgård is a human nation whose religious leaders are the few remaining Vanir. Vanir can sail across the oceans and hide themselves with illusions. They mostly use infantry, but utilize many unique troops, including human berserkers and skinshifters. Their human mages are accomplished at Air and Astral magic."
+#descr "Once Midgård was called Vanheim, home of the Vanir. But since the coming of man, the Vanir have dwindled in number. At first, the Vanir were the undisputed rulers of the land, but the growing human population has taken over the land and renamed it Midgård. Only a few Vanir survive, but their magic has not yet departed the land. The Vanir are sacred to the human population and the few surviving Vanjarls carry great influence. The humans of Midgård themselves have become altered by the ancient magic of the Vanir and skinshifters are more common than they once were."
+#summary "Race: Ocean sailing, trace income across oceans, illusions, prefers Cold scale +1
+Military: Heavy infantry, skinshifters, berserkers, Vanir
+Magic: Air, Astral, Blood, Earth, Death, some Nature
+Priests: Average, can perform blood sacrifices"
+#fortera 3
+#nationinc 19
+#addforeigncom "Golden Fortress"
+#addgod "Midgardian Dwarf"
+#startsite "Mag Mor"
+#startsite "Tir na n'Og"
+#addreccom 2469
+#addreccom 1775
+#addrecunit 1751
+#addrecunit 1757
+#killcappop -7
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_pregame
+#req_fornation 95
+#nation 95
+#msg "Golden Reserves"
+#exactgold 1100
+#2com 950
+#com 846
+--#notext
+#nolog
+#end
+#newevent
+#rarity 5
+#req_pop0ok
+#req_pregame
+#req_fornation 95
+#nation 95
+#msg "Golden Reserves 2"
+#2com 846
+#com 263
+#9d6units 146
+--#notext
+#nolog
+#end
+
+#selectsite 58
+#res 125
+#resources 115
+#gems 5 5
+#end
+
+#selectspell "Phantasmal Sidhe"
+#restricted 95
+#end
+#selectspell "Ghost Cu Sidhe"
+#restricted 95
+#end
+#selectspell "Phantasmal Sidhe Army"
+#restricted 95
+#end
+#selectspell "Paths of the Tuatha"
+#restricted 95
+#end
+#selectspell "Erect Dolmen"
+#restricted 95
+#end
+#selectspell "Ensnaring Glamour"
+#restricted 95
+#end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
