@@ -82512,6 +82512,7 @@ Dominion: Summons spectral troops in forts - more in Death scales. Dominion kill
 #fatiguecost 800
 #restricted 97 -- Bogarus
 #onlymnr 1932 -- Alchemist
+#restricted 27 -- Bogarus
 #end
 
 #newspell
@@ -86835,8 +86836,7 @@ Dominion: Summons spectral troops in forts - more in Death scales. Dominion kill
 #nobadevents 5
 #type 8
 #restricteditem 88
-#restricted 97 -- Bogarus
-#restricted 166 -- Venedia
+#restricted 27
 #end
 
 #selectitem 778
@@ -87144,7 +87144,7 @@ Dominion: Summons spectral troops in forts - more in Death scales. Dominion kill
 #weapon 1593 -- Vial of Chemicals
 #restricted 52 -- MA Tien Chi
 #restricted 90 -- LA Agartha
-#restricted 97 -- Bogarus
+#restricted 27
 #restricted 157 -- Iram
 #restricted 166 -- Venedia
 #end
@@ -103061,146 +103061,6 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 
 
 
--- Dom events 
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 37
-#req_dominion 1
-#msg "30 pop55"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 37
-#req_dominion 2
-#msg "30 pop51111"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 37
-#req_dominion 3
-#msg "30 pop5111"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 37
-#req_dominion 4
-#msg "30 pop511"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 37
-#req_dominion 5
-#msg "30 pop51"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 37
-#req_dominion 6
-#msg "30 pop11111"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 37
-#req_dominion 7
-#msg "30 pop1111"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 37
-#req_dominion 8
-#msg "30 pop111"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 37
-#req_dominion 9
-#msg "30 pop11"
-#incpop 3
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 37
-#req_dominion 10
-#msg "30 pop 1"
-#incpop 3
-#notext
-#nolog
-#end
-
---ALlow them to fire for hostiles
-
-
-#newevent
-#rarity 5
-#req_pop0ok
-#req_indepok 1
-#req_domowner 37
-#req_maxdominion -1
-#msg "30 pop55"
-#incpop 15
-#notext
-#nolog
-#end
-
--- Note the above assumed dom 5 because it's unmoddable otherwise.
-
-
 
 
 -- From Beyond The Veil
@@ -103593,7 +103453,7 @@ Priests: Average, can perform blood sacrifices"
 #addreccom 1775
 #addrecunit 1751
 #addrecunit 1757
-#killcappop -7
+#killcappop -107
 #end
 
 #newevent
@@ -103649,21 +103509,143 @@ Priests: Average, can perform blood sacrifices"
 #end
 
 
+-- ================
+-- == EA YOMI    ==
+-- ================
+
+--EA Yomi
+#selectnation 27
+#secondarycolor 1 0.5 0
+#end
+
+#newmonster
+#copystats 768
+#copyspr 768
+#name "Defender of the Gate"
+#okmagicleader
+#okundeadleader
+#castledef 75
+#end
 
 
+#selectnation 27
+#name "Yomi"
+#era 2
+#brief "Yomi is a nation of Oni and their servants. Oni are demons of the mountain wilderness. They are magically powerful and almost immortal, but few in number and rather stupid."
+#descr "Yomi is a land of inhospitable mountains, steaming, sulphuric pools and sudden volcanic eruptions. At the center of this unforgiving land lies a great cone-shaped mountain at the top of which is an entrance to the Netherworld. From this gate the Oni have come, one by one or in small groups. Oni are demons of the wild, ugly, pot-bellied and mischievous. They are ruled by Oni Kings who occasionally emerge from the Netherworld to wreak havoc on the land of the living. Oni are almost immortal and must be killed in spirit as well as in body to stay dead."
+#summary "Race: Demons. Extra gold and resources in cave forts.
+Military: Semi-immortal Oni, Bakemono and human servants. Light infantry, medium infantry
+Magic: Death, Fire, Earth, some Air and Nature. Powerful mages, bad at research
+Priests: Weak"
+#fortera 4
+#homefort 19
+#templecost 1
+#labcost 200
+#wallunit 1312
+#wallcom "Defender of the Gate"
+#uwwallcom "Defender of the Gate"
+#wallmult 20
+#startsite "Hall of Elders"
+#startsite "Grand Cathedral"
+#addreccom 1935
+#addreccom 1934
+#addreccom 1932
+#addreccom 1933
+#killcappop -100
+#end
 
+#selectsite 95 -- Mountain of the Oni Kings
+#gold 210
+#gems 5 6
+#gems 3 3
+#end
 
+#selectmonster 1316 -- Dai
+#gcost 490
+#poisonres 30
+#poisoncloud 5
+#awe 7
+#onebattlespell "Divine Blessing"
+#end
 
+#selectmonster 1317 -- Dai ghost
+#gcost 490
+#poisonres 50
+#poisoncloud 5
+#awe 7
+#onebattlespell "Divine Blessing"
+#end
 
+#selectmonster 1276 -- Oni Shugo
+#gcost 195
+#poisonres 30
+#poisoncloud 5
+#magicboost 53 2
+#magicboost 8 2
+#masterrit -9
+#mastersmith -9
+#researchbonus -99
+#douse -9
+#end
+#selectmonster 1277 -- Oni Shugo ghost
+#gcost 195
+#poisonres 50
+#poisoncloud 5
+#magicboost 53 2
+#magicboost 8 2
+#masterrit -9
+#mastersmith -9
+#researchbonus -99
+#douse -9
+#end
 
+#selectmonster 3069 -- Namanari
+#gcost 70
+#holy
+#end
+#selectmonster 3070 -- Chunari
+#gcost 170
+#holy
+#end
+#selectmonster 1432 -- Hannya
+#gcost 280
+#holy
+#end
 
+--2		Toxin Bellows: Raise a recruitable unit's resource cost by 20. But it gains poison aura +(2+size) and 25 poison resistance.
 
+#selectmonster 1312
+#gcost 9
+#poisoncloud 4
+#poisonres 20
+#rcost 21
+#end
 
+#newevent
+#rarity 5
+#req_pop0ok
+#req_pregame
+#req_fornation 27
+#nation 27
+#msg "Conscription"
+#2com 1316
+#com 1316
+#10d6units 1311
+--#notext
+#nolog
+#end
 
+#selectspell "Contact Sirin"
+#restricted 27
+#end
 
+#selectspell "Contact Alkonost"
+#restricted 27
+#end
 
-
-
+#selectspell "Summon Firebird"
+#restricted 27
+#end
 
 
 
