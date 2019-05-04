@@ -104077,5 +104077,313 @@ Priests: Average, can perform blood sacrifices"
 
 
 
+------------------------------------------------------ MA Marignon
+------------------------------------------------------ MA Marignon
+------------------------------------------------------ MA Marignon
+------------------------------------------------------ MA Marignon --- Added monster number 8801 for pretender
+-- Weapons --
+
+-- armors --
+
+-- misc item
+
+#newitem
+#copyitem 337
+#copyspr 337
+#name "Marignese Lightless Lantern"
+#descr "A broken lantern"
+#restricted 50 -- Marignon
+#constlevel 4
+#end
+
+-- units --
+
+
+
+
+-- RECRITABLE COMMANDERS -- 
+#selectmonster 224 -- Witch Hunter
+#commaster
+#end
+
+#selectmonster 225 -- initiate 
+#comslave
+#end
+
+#selectmonster 1369 -- angel of fury
+#onebattlespell "Blessing"
+#end
+
+#selectmonster 135 -- knights of the chalice
+#gcost 50
+#rcost 45
+#fireshield 8
+#eyeloss
+#end
+
+----- Pretenders
+
+#newmonster 8801
+#copystats 280 -- Seithkona
+#clearmagic
+#clearweapons
+#spr1 "./ExtraPretenders/3Maiden.tga"
+#spr2 "./ExtraPretenders/3Maiden2.tga"
+#name "Maid Marignon"
+#descr "In ages past a great Goddess was born in which the power of femininity was embodied in one being. She could bear new life, heal the sick and see future events using divination. Soon after her creation the Pantokrator grew fearful and decided to divide the Goddess into three parts, to more safely contain her power. Each aspect of the Goddess was imprisoned separately to prevent their combined strength from overcoming his bonds. Now, with the Pantokrator gone the shackles are weakening and the Triple Goddess will soon return to guide her daughters once more. The Goddess now resides in three bodies, the Maiden, the Mother and the Crone. The Maiden is the promise of new beginnings and will cause living things to bloom and ripen. She skilled in the primal magic of Fire and Air. The Mother is the power of life and can heal sickness and disease. She is skilled in the hearty magic of Blood and Water. The Crone is the wisdom of age and can predict future events with great accuracy. She is skilled in the arcane magic of Astral and Death."
+#humanoid
+#gcost 150
+#mr 18
+#mor 30
+#goodleader
+#spiritsight
+#heal
+#diseaseres 100
+#weapon 7 -- Quarterstaff
+#magicskill 3 1
+#magicskill 6 1
+#magicboost 0 2
+#magicboost 1 2
+#magicboost 2 -10
+#magicboost 4 -10
+#magicboost 5 -10
+#magicboost 7 -10
+#nobadevents 0
+#supplybonus 30
+#researchbonus -5
+#triplegod 5
+#triple3mon
+#triplegodmag 2
+#startdom 3
+#pathcost 10
+#homerealm 2 -- Celtic
+#end
+
+#newmonster 8802
+#copystats 280 -- Seithkona
+#clearmagic
+#clearweapons
+#spr1 "./ExtraPretenders/3Mother.tga"
+#spr2 "./ExtraPretenders/3Mother2.tga"
+#name "Mother"
+#descr "In ages past a great Goddess was born in which the power of femininity was embodied in one being. She could bear new life, heal the sick and see future events using divination. Soon after her creation the Pantokrator grew fearful and decided to divide the Goddess into three parts, to more safely contain her power. Each aspect of the Goddess was imprisoned separately to prevent their combined strength from overcoming his bonds. Now, with the Pantokrator gone the shackles are weakening and the Triple Goddess will soon return to guide her daughters once more. The Goddess now resides in three bodies, the Maiden, the Mother and the Crone. The Maiden is the promise of new beginnings and will cause living things to bloom and ripen. She skilled in the primal magic of Fire and Air. The Mother is the power of life and can heal sickness and disease. She is skilled in the hearty magic of Blood and Water. The Crone is the wisdom of age and can predict future events with great accuracy. She is skilled in the arcane magic of Astral and Death."
+#humanoid
+#gcost 150
+#mr 18
+#mor 30
+#goodleader
+#spiritsight
+#heal
+#diseaseres 100
+#weapon 7 -- Quarterstaff
+#magicskill 3 1
+#magicskill 6 1
+#magicboost 0 -10
+#magicboost 1 -10
+#magicboost 2 2
+#magicboost 4 -10
+#magicboost 5 -10
+#magicboost 7 2
+#triplegod 5
+#researchbonus -5
+#autodishealer 1
+#nobadevents 0
+#triplegodmag 2
+#startdom 1
+#pathcost 10
+#end
+
+#newmonster 8803
+#copystats 280 -- Seithkona
+#clearmagic
+#clearweapons
+#spr1 "./ExtraPretenders/3Crone.tga"
+#spr2 "./ExtraPretenders/3Crone2.tga"
+#name "Crone"
+#descr "In ages past a great Goddess was born in which the power of femininity was embodied in one being. She could bear new life, heal the sick and see future events using divination. Soon after her creation the Pantokrator grew fearful and decided to divide the Goddess into three parts, to more safely contain her power. Each aspect of the Goddess was imprisoned separately to prevent their combined strength from overcoming his bonds. Now, with the Pantokrator gone the shackles are weakening and the Triple Goddess will soon return to guide her daughters once more. The Goddess now resides in three bodies, the Maiden, the Mother and the Crone. The Maiden is the promise of new beginnings and will cause living things to bloom and ripen. She skilled in the primal magic of Fire and Air. The Mother is the power of life and can heal sickness and disease. She is skilled in the hearty magic of Blood and Water. The Crone is the wisdom of age and can predict future events with great accuracy. She is skilled in the arcane magic of Astral and Death."
+#humanoid
+#gcost 150
+#mr 18
+#mor 30
+#str 7
+#att 7
+#def 7
+#mapmove 10
+#goodleader
+#spiritsight
+#heal
+#diseaseres 100
+#weapon 7 -- Quarterstaff
+#magicskill 3 1
+#magicskill 6 1
+#magicboost 0 -10
+#magicboost 1 -10
+#magicboost 2 -10
+#magicboost 4 2
+#magicboost 5 2
+#magicboost 6 -1
+#magicboost 7 -10
+#nobadevents 25
+#triplegod 5
+#researchbonus -5
+#triplegodmag 2
+#startdom 1
+#pathcost 10
+#end
+
+-- sites
+#selectsite 13 -- The house of fiery justice
+#res 100
+#end
+
+-- Nations
+#selectnation 50 -- MA Marignon
+
+#addgod 8801 -- "Maid Marignon"
+#startsite "The Smouldercone"
+#startsite "Temple of the All-Consuming Flame"
+#waterblessbonus 2
+#killcappop -100
+#end
+
+-- spells
+#selectspell "Liquid Flames of Rhuax"
+#restricted 50 -- Marignon
+#end
+#selectspell "Rhuax Legacy"
+#restricted 50 -- Marignon
+#end
+#selectspell "Heatwave"
+#restricted 50 -- Marignon
+#end
+
+-- Events
+#newevent -- 3 PD/turn
+#req_fornation 50 -- MA Marignon
+#rarity 5
+#req_maxdef 40
+#defence 3
+#notext
+#nolog
+#end
+
+#newevent -- 25 PD
+#req_fornation 50 -- MA Marignon
+#rarity 5
+#req_maxdef 10
+#defence 22
+#notext
+#nolog
+#end
+
+#newevent -- Fort maker
+#rarity 5
+#req_fort 0
+#req_fornation 50 -- MA Marignon
+#req_mindef 45
+#fort 1
+#msg "A fort is constructed"
+--#notext
+#nolog
+#end
+
+#newevent -- Unrest reducer
+#req_fornation 50 -- MA Marignon
+#rarity 5
+#req_mindef 45
+#unrest -133
+#decscale 0
+#notext
+#nolog
+#end
+
+#newevent -- Conscription 1 of 2 for Marignon
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 50 -- Marignon
+#nation -2
+#req_capital 1
+#2com 224 -- Witch hunters
+#2com 224 -- Witch hunters
+#2com 224 -- Witch hunters
+#2com 224 -- Witch hunters
+#2com 224 -- Witch hunters
+#msg "Where are the witches?"
+#nolog
+#end
+
+#newevent -- Conscription 2 of 2 for Marignon
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 50 -- Marignon
+#nation -2
+#req_capital 1
+#5com 1369 -- Angel of fury
+#com 440 -- Palawin
+#msg "Righteous Fury."
+#nolog
+#end
+
+#newevent -- Conscription 2 of 2 for Marignon
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 50 -- Marignon
+#nation -2
+#req_capital 1
+#msg "SquidSlayers Arrive."
+#com 2825
+#10d6units 3020
+#nolog
+#end
+#newevent -- Conscription 2 of 2 for Marignon
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 50 -- Marignon
+#nation -2
+#req_capital 1
+#msg "SquidSlayers Arrive."
+#com 2825
+#10d6units 3020
+#nolog
+#end
+#newevent -- Conscription 2 of 2 for Marignon
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 50 -- Marignon
+#nation -2
+#req_capital 1
+#msg "SquidSlayers Arrive."
+#com 2825
+#10d6units 3020
+#nolog
+#end
+
+-- #newevent -- Marignese cap pop game start
+-- #rarity 5
+-- #req_pregame 5
+-- #req_maxturn 1
+-- #req_unique 1
+-- #req_fornation 50
+-- #nation -2
+-- #req_capital 1
+-- #incpop 3000
+-- #msg "30,000ish people"
+-- #nolog
+-- #end
+
+
+
+
+
 
 
