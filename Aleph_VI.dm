@@ -104382,6 +104382,578 @@ Priests: Average, can perform blood sacrifices"
 -- #end
 
 
+--------------- MA MACHAKA
+--------------- MA MACHAKA
+--------------- MA MACHAKA
+--------------- MA MACHAKA
+
+#selectmonster 1346 -- Fetish
+#descr "For Machaka Only."
+#gcost 174
+
+#end
+
+
+#selectmonster 891 -- Sorceress
+#gcost 85
+#fixforgebonus 2
+#fastcast 25
+#researchbonus -2
+#startage 1
+#older 0
+#addrandomage 0
+#prec 14
+#mr 15
+#allrange 2
+#reinvigoration 1
+#att 11
+#def 12
+#mor 13
+#hp 10
+#end
+
+#selectmonster 892 -- witch doctor 
+#gcost 80
+#researchbonus -99
+#mastersmith -9
+#masterrit -9
+#fastcast 25
+#startage 1
+#older 0
+#addrandomage 0
+#allrange 2
+#prec 14
+#mr 14
+#reinvigoration 1
+#att 11
+#def 11
+#mor 13
+#hp 11
+#magicboost 53 2
+#end
+
+#selectmonster 893 -- Sorcerer
+#gcost 195
+#fixforgebonus 2
+#fastcast 25
+#researchbonus -2
+#startage 1
+#older 0
+#addrandomage 0
+#allrange 2
+#prec 14
+#mr 15
+#reinvigoration 1
+#att 11
+#def 11
+#mor 13
+#hp 11
+
+#end
+
+#selectmonster 894 -- Black Sorcerer 
+#gcost 210
+#researchbonus -99
+#mastersmith -9
+#masterrit -9
+#fastcast 25
+#startage 1
+#older 0
+#addrandomage 0
+#allrange 2
+#prec 14
+#mr 17
+#reinvigoration 1
+#att 11
+#def 11
+#mor 13
+#hp 11
+#magicboost 53 2
+#end
+
+#newmonster 
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Machakan Spirit Dancer"
+#spr1 "./Gondwana/Dancer.tga"
+#spr2 "./Gondwana/Dancer2.tga"
+#descr "The Shamans of Gondwana perform elaborate dances that allow them to enter a powerful trance state. These dances can last for many hours and are accompanied by specially trained Spirit Dancers. These women perform special rhythmic songs and dances to aid the Shaman in reaching the spirit world. Spirit Dancers will automatically cast the Chorus Slave spell before combat, ready to lend their strength to the shamans and are otherwise inactive during the battle. They will dance until they collapse, exhausted and will then leave the communion. Dancers have some rudimentary knowledge of magic, however they cannot perform magical research or cast magical rituals."
+#gcost 50
+#rpcost 1
+#researchbonus -10
+#masterrit -1
+#mr 12
+#onebattlespell 1125 -- Chorus Slave
+#magicskill 6 1
+#spellsinger
+#female
+#poorleader
+#weapon 397 -- Kick
+#end
+
+----- Pretenders
+
+
+-- sites
+#selectsite 60
+#gems 6 4
+#gems 4 1
+#gems 0 4
+#end
+
+-- Nations
+
+#selectnation 53 -- MA Machaka
+#addreccom "Machakan Spirit Dancer"
+#nationinc 14
+#end
+
+
+-- spells
+
+#newspell
+#copyspell 20
+#name "small area decay"
+#aoe 5
+#end
+
+#newspell
+#copyspell 564
+#name "Banefire of Machaka"
+#restricted 53 -- Machaka
+#aoe 3
+#nextspell "small area decay"
+#end
+
+#newspell
+#copyspell 601 -- Poison Touch
+#name "Spider Bites"
+#descr "The caster points at a target who immediately feels tiny bites all over their body. The target will be poisoned by the phantasmal spiders. Armour provides some defence from the bites."
+#school 2
+#researchlevel 1
+#precision 100
+#aoe 0
+#range 35
+#fatiguecost 20
+#sound 85 -- Snake attack
+#restricted 53 -- MA Machaka
+#end
+
+#newspell
+#copyspell 641 -- Swarm
+#name "Spider Swarm"
+#descr "The caster summons and transforms several spiders. The enlarged spiders aren't very dangerous, however their poisonous bites can overwhelm those they attack."
+#casttime 54
+#researchlevel 1
+#path 1 5
+#pathlevel 1 1
+#damage 2223
+#nreff 2002
+#spec 0
+#fatiguecost 40
+#restricted 53 -- MA Machaka
+#end
+
+#newitem
+#copyitem 30
+#spr "./MagicEnhanced/EEIMSmith.tga"
+#name "Hammer of the Machakan Smith"
+#descr "Like a hammer but magicker"
+#mainpath 6
+#mainlevel 3
+#secondarypath 0
+#secondarylevel 1
+#restricted 53 -- Machaka
+#constlevel 6
+#fixforgebonus 0
+#forgebonus 25
+#end
+
+
+#newitem
+#copyitem 311 -- Crystal Matrix
+#spr "./MagicEnhanced/EEIGaiaCom.tga"
+#name "Machakan Berries of Gaia"
+#descr "Berries of Gaia with sacred lion urine enchantment"
+#restricted 53 -- Machaka
+#constlevel 4
+#mainpath 6
+#mainlevel 3
+#secondarypath -1
+#mr 1
+#hp 7
+#end
+
+#newitem
+#copyitem 276 -- amulet of air
+#copyspr 326
+#name "Machakan Ring of Regeneration"
+#descr "A ring made from some unnamable beast from the plains of Machaka"
+#constlevel 4
+#mainpath 6
+#mainlevel 2
+#regeneration 10
+#mr 1
+#mapspeed 3
+#run
+#restricted 53 -- Machaka
+#end
+
+#newitem
+#copyitem 289
+#copyspr 337
+#name "Machakan Lightless Lantern"
+#descr "A lantern that doesn't light the plains on fire"
+#restricted 53 -- Machaka
+#constlevel 0
+#mainpath 0
+#mainlevel 1
+#researchbonus 14
+#tainted 3
+#darkvision 100
+#itemcost1 -20
+#end
+
+#newitem
+#copyitem 211
+#copyspr 211
+#name "Machakan Lion Pelt"
+#descr "Pelt from the lion that urinated on the berries"
+#fireres 8
+#coldres 8
+#shockres 8
+#restricted 53 -- Machaka
+#end
+
+#newitem
+#name "Machakan Flower Charm"
+#spr "./MagicEnhanced/EEIFlowerCharm.tga"
+#descr "Give two girls flowers and they will mindlessly follow you."
+#constlevel 4
+#shockres 8
+#reinvigoration 2
+#restricted 53 -- Machaka
+#type 8
+#mainpath 6
+#mainlevel 2
+#secondarypath 4
+#secondarylevel 1
+#batstartsum2 5442 -- Nymph of Gaia
+#end
+
+#newitem
+#copyitem 276 -- amulet of air
+#copyspr 253
+#name "Machakan Boots"
+#descr "Floating earth boots that let you kick arrows out of the sky most of the time"
+#type 7
+#mainpath 3
+#restricted 53 -- Machaka
+#magicboost 3 1
+#constlevel 4
+#float
+#reform 33
+#end
+
+
+
+
+-- Events
+
+#newevent -- Gold for MAchaka
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#exactgold 1100
+#msg "Spend it all in one place."
+#nolog
+#end
+
+#newevent -- Gems for MAchaka
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#3d6vis 5
+#3d6vis 5
+#3d6vis 5
+#3d6vis 5
+#3d6vis 5
+#1d6vis 5
+#msg "Sparkly!"
+#nolog
+#end
+
+#newevent -- Conscription 1 of 7 for Machaka -- Comanders and archer
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#com 892 -- Witch Doctor
+#2com 891 -- Sorceress
+#2com 891 -- Sorceress
+#com 897 -- Voice of the Lord
+#1unit 879 -- Machaka Archer
+#msg "Commanders and one dude with a bow"
+#nolog
+#end
+
+#newevent -- Conscription 2 of 7 for Machaka 1-15 hoplites
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#1unit 882 -- 1 Machaka Hoplites
+#1unit 882 -- 2
+#1unit 882 -- 3
+#1unit 882 -- 4
+#1unit 882 -- 5
+#1unit 882 -- 6
+#1unit 882 -- 7
+#1unit 882 -- 8
+#1unit 882 -- 9
+#1unit 882 -- 10
+#1unit 882 -- 11
+#1unit 882 -- 12
+#1unit 882 -- 13
+#1unit 882 -- 14
+#1unit 882 -- 15
+#msg "Hoplites"
+#nolog
+#end
+
+#newevent -- Conscription 3 of 7 for Machaka 16-30 hoplites
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#1unit 882 -- 1 Machaka Hoplites
+#1unit 882 -- 2
+#1unit 882 -- 3
+#1unit 882 -- 4
+#1unit 882 -- 5
+#1unit 882 -- 6
+#1unit 882 -- 7
+#1unit 882 -- 8
+#1unit 882 -- 9
+#1unit 882 -- 10
+#1unit 882 -- 11
+#1unit 882 -- 12
+#1unit 882 -- 13
+#1unit 882 -- 14
+#1unit 882 -- 15
+#msg "More Hoplites"
+#nolog
+#end
+
+#newevent -- Conscription 4 of 7 for Machaka 31-45 hoplites
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#1unit 882 -- 1 Machaka Hoplites
+#1unit 882 -- 2
+#1unit 882 -- 3
+#1unit 882 -- 4
+#1unit 882 -- 5
+#1unit 882 -- 6
+#1unit 882 -- 7
+#1unit 882 -- 8
+#1unit 882 -- 9
+#1unit 882 -- 10
+#1unit 882 -- 11
+#1unit 882 -- 12
+#1unit 882 -- 13
+#1unit 882 -- 14
+#1unit 882 -- 15
+#msg "Hoplites"
+#nolog
+#end
+
+#newevent -- Conscription 5 of 7 for Machaka 46-60 hoplites
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#1unit 882 -- 1 Machaka Hoplites
+#1unit 882 -- 2
+#1unit 882 -- 3
+#1unit 882 -- 4
+#1unit 882 -- 5
+#1unit 882 -- 6
+#1unit 882 -- 7
+#1unit 882 -- 8
+#1unit 882 -- 9
+#1unit 882 -- 10
+#1unit 882 -- 11
+#1unit 882 -- 12
+#1unit 882 -- 13
+#1unit 882 -- 14
+#1unit 882 -- 15
+#msg "More Hoplites"
+#nolog
+#end
+
+#newevent -- Conscription 6 of 7 for Machaka 61-75 hoplites
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#1unit 882 -- 1 Machaka Hoplites
+#1unit 882 -- 2
+#1unit 882 -- 3
+#1unit 882 -- 4
+#1unit 882 -- 5
+#1unit 882 -- 6
+#1unit 882 -- 7
+#1unit 882 -- 8
+#1unit 882 -- 9
+#1unit 882 -- 10
+#1unit 882 -- 11
+#1unit 882 -- 12
+#1unit 882 -- 13
+#1unit 882 -- 14
+#1unit 882 -- 15
+#msg "Hoplites"
+#nolog
+#end
+
+#newevent -- Conscription 7 of 7 for Machaka 76-90 hoplites
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#1unit 882 -- 1 Machaka Hoplites
+#1unit 882 -- 2
+#1unit 882 -- 3
+#1unit 882 -- 4
+#1unit 882 -- 5
+#1unit 882 -- 6
+#1unit 882 -- 7
+#1unit 882 -- 8
+#1unit 882 -- 9
+#1unit 882 -- 10
+#1unit 882 -- 11
+#1unit 882 -- 12
+#1unit 882 -- 13
+#1unit 882 -- 14
+#1unit 882 -- 15
+#msg "More Hoplites"
+#nolog
+#end
+
+
+------------- This section to spawn 1hp immobile amphibious commanders for Machaka/Gondwana for logistics
+
+#newmonster
+#name "Machakan Bureaucrat"
+#copyspr 2293
+#gcost 0
+#mapmove 0
+#itemslots 1
+#hp 1
+#def 0
+#att 0
+#str 0
+#illusion
+#nametype 126
+#patrolbonus -1
+#mor 50
+#noleader
+#neednoteat
+#amphibian
+#end
+
+#newmonster
+#name "Gondwanan Bureaucrat"
+#copyspr 2293
+#gcost 0
+#mapmove 0
+#itemslots 1
+#hp 1
+#def 0
+#att 0
+#str 0
+#illusion
+#nametype 126
+#patrolbonus -1
+#mor 50
+#noleader
+#neednoteat
+#amphibian
+#end
+
+#newevent -- Disciple spawn
+#req_fornation 53
+#rarity 5
+#nation 168
+#com "Gondwanan Bureaucrat" 
+#req_nomonster "Gondwanan Bureaucrat" 
+#notext
+#nolog
+#end
+
+#newevent -- Disciple spawn
+#req_fornation 53
+#rarity 5
+#nation 53
+#com "Machakan Bureaucrat" 
+#req_nomonster "Machakan Bureaucrat" 
+#notext
+#nolog
+#end
+
+#newevent -- Disciple spawn
+#req_fornation 168
+#rarity 5
+#nation 53
+#req_nomonster "Machakan Bureaucrat" 
+#com "Machakan Bureaucrat" 
+#notext
+#nolog
+#end
+
+#newevent -- Disciple spawn
+#req_fornation 168
+#rarity 5
+#nation 168
+#req_nomonster "Gondwanan Bureaucrat" 
+#com "Gondwanan Bureaucrat" 
+#notext
+#nolog
+#end
+
+
 
 
 
