@@ -13210,1180 +13210,1180 @@ Leonardo is not a greedy man and cares little for material wealth, being only in
 -------  Gondwana Units
 
 
-#newmonster 4150
-#copystats 2298 -- Machaka Militia
-#name "Militia"
-#spr1 "./Gondwana/Militia.tga"
-#spr2 "./Gondwana/Militia2.tga"
-#descr "Each Oba can command the villages and towns under their control to send men in times of need, however not all are trained warriors. These militia are armed with spears and wear only tanned hides for armor."
-#rpcost 3
-#armor 10 -- Leather Hauberk
-#armor 120 -- Leather Cap
-#end
+-- #newmonster 4150
+-- #copystats 2298 -- Machaka Militia
+-- #name "Militia"
+-- #spr1 "./Gondwana/Militia.tga"
+-- #spr2 "./Gondwana/Militia2.tga"
+-- #descr "Each Oba can command the villages and towns under their control to send men in times of need, however not all are trained warriors. These militia are armed with spears and wear only tanned hides for armor."
+-- #rpcost 3
+-- #armor 10 -- Leather Hauberk
+-- #armor 120 -- Leather Cap
+-- #end
 
-#newmonster 4151
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#name "War Drummer"
-#spr1 "./Gondwana/Drummer.tga"
-#spr2 "./Gondwana/Drummer2.tga"
-#descr "In Gondwana war drums are used in battle to coordinate troops and raise morale. The presence of a war drum will help to maintain fighting spirit amongst the warriors."
-#gcost 20
-#ap 12
-#standard 1
-#weapon 252 -- Club
-#armor 10 -- Leather Hauberk
-#armor 120 -- Leather Cap
-#end
+-- #newmonster 4151
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #name "War Drummer"
+-- #spr1 "./Gondwana/Drummer.tga"
+-- #spr2 "./Gondwana/Drummer2.tga"
+-- #descr "In Gondwana war drums are used in battle to coordinate troops and raise morale. The presence of a war drum will help to maintain fighting spirit amongst the warriors."
+-- #gcost 20
+-- #ap 12
+-- #standard 1
+-- #weapon 252 -- Club
+-- #armor 10 -- Leather Hauberk
+-- #armor 120 -- Leather Cap
+-- #end
 
-#newmonster 4152
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#name "Archer"
-#spr1 "./Gondwana/Archer.tga"
-#spr2 "./Gondwana/Archer2.tga"
-#descr "The bow is a common weapon amongst hunters and is used extensively in warfare. Poisonous plants are gathered and their venom used to coat arrows in times of war."
-#rpcost 9
-#weapon 594 -- Poison Bow
-#weapon 9 -- Dagger
-#armor 10 -- Leather Hauberk
-#armor 120 -- Leather Cap
-#end
+-- #newmonster 4152
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #name "Archer"
+-- #spr1 "./Gondwana/Archer.tga"
+-- #spr2 "./Gondwana/Archer2.tga"
+-- #descr "The bow is a common weapon amongst hunters and is used extensively in warfare. Poisonous plants are gathered and their venom used to coat arrows in times of war."
+-- #rpcost 9
+-- #weapon 594 -- Poison Bow
+-- #weapon 9 -- Dagger
+-- #armor 10 -- Leather Hauberk
+-- #armor 120 -- Leather Cap
+-- #end
 
-#newmonster 4153
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#name "Iyokuo Skirmisher"
-#spr1 "./Gondwana/IyokuoSkirm.tga"
-#spr2 "./Gondwana/IyokuoSkirm2.tga"
-#descr "The Iyokuo are warriors drawn from local villages and towns. They must provide their own weapons and armor, however they earn plunder and other spoils of war. The youngest warriors wield spears and hurl assegai in battle and function as light infantry."
-#rpcost 9
-#weapon 1 -- Spear
-#weapon 21 -- Javelin
-#armor 10 -- Leather Hauberk
-#armor 120 -- Leather Cap
-#armor 2 -- Shield
-#skirmisher 1
-#end
+-- #newmonster 4153
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #name "Iyokuo Skirmisher"
+-- #spr1 "./Gondwana/IyokuoSkirm.tga"
+-- #spr2 "./Gondwana/IyokuoSkirm2.tga"
+-- #descr "The Iyokuo are warriors drawn from local villages and towns. They must provide their own weapons and armor, however they earn plunder and other spoils of war. The youngest warriors wield spears and hurl assegai in battle and function as light infantry."
+-- #rpcost 9
+-- #weapon 1 -- Spear
+-- #weapon 21 -- Javelin
+-- #armor 10 -- Leather Hauberk
+-- #armor 120 -- Leather Cap
+-- #armor 2 -- Shield
+-- #skirmisher 1
+-- #end
 
-#newmonster 4154
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#name "Iyokuo"
-#spr1 "./Gondwana/Iyokuo.tga"
-#spr2 "./Gondwana/Iyokuo2.tga"
-#descr "The Iyokuo are warriors drawn from local villages and towns. They must provide their own weapons and armor, however they earn plunder and other spoils of war. Seasoned warriors use spears and shields to form a battle line and most have obtained some armor."
-#rpcost 9
-#weapon 1 -- Spear
-#weapon 21 -- Javelin
-#armor 511 -- Llamelar Leather
-#armor 135 -- Bronze Cap
-#armor 2 -- Shield
-#end
+-- #newmonster 4154
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #name "Iyokuo"
+-- #spr1 "./Gondwana/Iyokuo.tga"
+-- #spr2 "./Gondwana/Iyokuo2.tga"
+-- #descr "The Iyokuo are warriors drawn from local villages and towns. They must provide their own weapons and armor, however they earn plunder and other spoils of war. Seasoned warriors use spears and shields to form a battle line and most have obtained some armor."
+-- #rpcost 9
+-- #weapon 1 -- Spear
+-- #weapon 21 -- Javelin
+-- #armor 511 -- Llamelar Leather
+-- #armor 135 -- Bronze Cap
+-- #armor 2 -- Shield
+-- #end
 
-#newmonster 4155
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#name "Iyokuo Longspear"
-#spr1 "./Gondwana/IyokuoLong.tga"
-#spr2 "./Gondwana/IyokuoLong2.tga"
-#descr "The Iyokuo are warriors drawn from local villages and towns. They must provide their own weapons and armor, however they earn plunder and other spoils of war. Seasoned warriors use spears and shields to form a battle line and most have obtained some armor."
-#rpcost 9
-#weapon 315 -- Machaka Spear
-#armor 511 -- Llamelar Leather
-#armor 135 -- Bronze Cap
-#armor 2 -- Shield
-#end
+-- #newmonster 4155
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #name "Iyokuo Longspear"
+-- #spr1 "./Gondwana/IyokuoLong.tga"
+-- #spr2 "./Gondwana/IyokuoLong2.tga"
+-- #descr "The Iyokuo are warriors drawn from local villages and towns. They must provide their own weapons and armor, however they earn plunder and other spoils of war. Seasoned warriors use spears and shields to form a battle line and most have obtained some armor."
+-- #rpcost 9
+-- #weapon 315 -- Machaka Spear
+-- #armor 511 -- Llamelar Leather
+-- #armor 135 -- Bronze Cap
+-- #armor 2 -- Shield
+-- #end
 
-#newmonster 4156
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#name "Iyokuo Veteran"
-#spr1 "./Gondwana/IyokuoCopper.tga"
-#spr2 "./Gondwana/IyokuoCopper2.tga"
-#descr "The Iyokuo are warriors drawn from local villages and towns. They must provide their own weapons and armor, however they earn plunder and other spoils of war. The most experienced Iyokuo wear armor of bronze and have fought in many campaigns for their Oba."
-#gcost 12
-#rpcost 12
-#att 11
-#def 11
-#mor 11
-#weapon 1 -- Spear
-#weapon 21 -- Javelin
-#armor 136 -- Bronze Scale Hauberk
-#armor 135 -- Bronze Cap
-#armor 2 -- Shield
-#end
+-- #newmonster 4156
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #name "Iyokuo Veteran"
+-- #spr1 "./Gondwana/IyokuoCopper.tga"
+-- #spr2 "./Gondwana/IyokuoCopper2.tga"
+-- #descr "The Iyokuo are warriors drawn from local villages and towns. They must provide their own weapons and armor, however they earn plunder and other spoils of war. The most experienced Iyokuo wear armor of bronze and have fought in many campaigns for their Oba."
+-- #gcost 12
+-- #rpcost 12
+-- #att 11
+-- #def 11
+-- #mor 11
+-- #weapon 1 -- Spear
+-- #weapon 21 -- Javelin
+-- #armor 136 -- Bronze Scale Hauberk
+-- #armor 135 -- Bronze Cap
+-- #armor 2 -- Shield
+-- #end
 
-#newmonster 4157
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#name "Iyokuo Veteran Longspear"
-#spr1 "./Gondwana/IyokuoCopperLong.tga"
-#spr2 "./Gondwana/IyokuoCopperLong2.tga"
-#descr "The Iyokuo are warriors drawn from local villages and towns. They must provide their own weapons and armor, however they earn plunder and other spoils of war. The most experienced Iyokuo wear armor of bronze and have fought in many campaigns for their Oba."
-#gcost 12
-#rpcost 12
-#att 11
-#def 11
-#mor 11
-#weapon 315 -- Machaka Spear
-#armor 136 -- Bronze Scale Hauberk
-#armor 135 -- Bronze Cap
-#armor 2 -- Shield
-#end
+-- #newmonster 4157
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #name "Iyokuo Veteran Longspear"
+-- #spr1 "./Gondwana/IyokuoCopperLong.tga"
+-- #spr2 "./Gondwana/IyokuoCopperLong2.tga"
+-- #descr "The Iyokuo are warriors drawn from local villages and towns. They must provide their own weapons and armor, however they earn plunder and other spoils of war. The most experienced Iyokuo wear armor of bronze and have fought in many campaigns for their Oba."
+-- #gcost 12
+-- #rpcost 12
+-- #att 11
+-- #def 11
+-- #mor 11
+-- #weapon 315 -- Machaka Spear
+-- #armor 136 -- Bronze Scale Hauberk
+-- #armor 135 -- Bronze Cap
+-- #armor 2 -- Shield
+-- #end
 
-#newmonster 4158
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#name "Isienmwenro"
-#spr1 "./Gondwana/Isienmwenro.tga"
-#spr2 "./Gondwana/Isienmwenro2.tga"
-#descr "The Isienmwenro are elite warriors responsible directly to the Oba and equipped from his personal weapons store. Each town has its own regiment of Isienmwenro, highly trained and clad in iron plate forged by the Machakan refugees. They function as a strike force in battle and enforce the will of the Oba in peace time. When a sentence of death is applied to a criminal an Isienmwenro must carry it out."
-#gcost 13
-#rpcost 18
-#hp 11
-#att 12
-#def 12
-#mor 13
-#patrolbonus 2
-#weapon 8 -- Broad Sword
-#armor 14 -- Plate Hauberk
-#armor 20 -- Iron Cap
-#armor 2 -- Shield
-#end
+-- #newmonster 4158
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #name "Isienmwenro"
+-- #spr1 "./Gondwana/Isienmwenro.tga"
+-- #spr2 "./Gondwana/Isienmwenro2.tga"
+-- #descr "The Isienmwenro are elite warriors responsible directly to the Oba and equipped from his personal weapons store. Each town has its own regiment of Isienmwenro, highly trained and clad in iron plate forged by the Machakan refugees. They function as a strike force in battle and enforce the will of the Oba in peace time. When a sentence of death is applied to a criminal an Isienmwenro must carry it out."
+-- #gcost 13
+-- #rpcost 18
+-- #hp 11
+-- #att 12
+-- #def 12
+-- #mor 13
+-- #patrolbonus 2
+-- #weapon 8 -- Broad Sword
+-- #armor 14 -- Plate Hauberk
+-- #armor 20 -- Iron Cap
+-- #armor 2 -- Shield
+-- #end
 
-#newmonster 4159
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#name "Razorhorn Rider"
-#spr1 "./Gondwana/ElkRider.tga"
-#spr2 "./Gondwana/ElkRider2.tga"
-#descr "The people of Gondwana do not use horses. Instead, giant beasts that roam the plains are tamed and taught to carry riders. The Razorhorns are larger than a horse and with wickedly sharp antlers. In battle they are hard to control and their size and temperament prevent them from fighting in close formations. If the rider is slain the beast will continue to gore and trample enemies, however after the battle it will escape."
-#gcost 40
-#rpcost 36
-#ressize 2
-#size 4
-#hp 12
-#att 10
-#def 12
-#mor 11
-#ap 24
-#enc 4
-#prec 8
-#mapmove 22
-#weapon 357 -- Light Lance
-#weapon 354 -- Antlers
-#weapon 615 -- Hoof
-#armor 10 -- Leather Hauberk
-#armor 20 -- Iron Cap
-#armor 2 -- Shield
-#undisciplined
-#mounted
-#xploss 100
-#secondtmpshape 4160
-#end
+-- #newmonster 4159
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #name "Razorhorn Rider"
+-- #spr1 "./Gondwana/ElkRider.tga"
+-- #spr2 "./Gondwana/ElkRider2.tga"
+-- #descr "The people of Gondwana do not use horses. Instead, giant beasts that roam the plains are tamed and taught to carry riders. The Razorhorns are larger than a horse and with wickedly sharp antlers. In battle they are hard to control and their size and temperament prevent them from fighting in close formations. If the rider is slain the beast will continue to gore and trample enemies, however after the battle it will escape."
+-- #gcost 40
+-- #rpcost 36
+-- #ressize 2
+-- #size 4
+-- #hp 12
+-- #att 10
+-- #def 12
+-- #mor 11
+-- #ap 24
+-- #enc 4
+-- #prec 8
+-- #mapmove 22
+-- #weapon 357 -- Light Lance
+-- #weapon 354 -- Antlers
+-- #weapon 615 -- Hoof
+-- #armor 10 -- Leather Hauberk
+-- #armor 20 -- Iron Cap
+-- #armor 2 -- Shield
+-- #undisciplined
+-- #mounted
+-- #xploss 100
+-- #secondtmpshape 4160
+-- #end
 
-#newmonster 4160
-#copystats 1084 -- Moose
-#transformation 0
-#name "Razorhorn"
-#spr1 "./Gondwana/Elk.tga"
-#spr2 "./Gondwana/Elk2.tga"
-#descr "The people of Gondwana do not use horses. Instead, giant beasts that roam the plains are tamed and taught to carry riders. Razorhorns are antelopes larger than a horse and with wickedly curved and sharp antlers. In battle they are hard to control and their size and temperament prevent them from fighting in close formations. If the rider is slain the beast will continue to gore and trample enemies, however after the battle it will escape."
-#end
+-- #newmonster 4160
+-- #copystats 1084 -- Moose
+-- #transformation 0
+-- #name "Razorhorn"
+-- #spr1 "./Gondwana/Elk.tga"
+-- #spr2 "./Gondwana/Elk2.tga"
+-- #descr "The people of Gondwana do not use horses. Instead, giant beasts that roam the plains are tamed and taught to carry riders. Razorhorns are antelopes larger than a horse and with wickedly curved and sharp antlers. In battle they are hard to control and their size and temperament prevent them from fighting in close formations. If the rider is slain the beast will continue to gore and trample enemies, however after the battle it will escape."
+-- #end
 
-#newmonster 4161
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#name "Iyoba"
-#spr1 "./Gondwana/QueensOwn.tga"
-#spr2 "./Gondwana/QueensOwn2.tga"
-#descr "The Iyoba, or Queen's Guard is a special regiment stationed at the capital and dedicated to the protection of the Royal family. Only the most elite warriors are accepted into the Guard. They often act as bodyguards for members of the Royal family on dangerous business. In times of war the Iyoba can be called upon as elite warriors. Before battle they coat their swords with a combination of poison and ground pepper to paralyze enemies with pain."
-#gcost 15
-#rpcost 22
-#hp 12
-#str 11
-#att 13
-#def 13
-#mor 13
-#bodyguard 2
-#weapon 1865 -- Poison Sword
-#armor 14 -- Plate Hauberk
-#armor 20 -- Iron Cap
-#armor 2 -- Shield
-#end
+-- #newmonster 4161
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #name "Iyoba"
+-- #spr1 "./Gondwana/QueensOwn.tga"
+-- #spr2 "./Gondwana/QueensOwn2.tga"
+-- #descr "The Iyoba, or Queen's Guard is a special regiment stationed at the capital and dedicated to the protection of the Royal family. Only the most elite warriors are accepted into the Guard. They often act as bodyguards for members of the Royal family on dangerous business. In times of war the Iyoba can be called upon as elite warriors. Before battle they coat their swords with a combination of poison and ground pepper to paralyze enemies with pain."
+-- #gcost 15
+-- #rpcost 22
+-- #hp 12
+-- #str 11
+-- #att 13
+-- #def 13
+-- #mor 13
+-- #bodyguard 2
+-- #weapon 1865 -- Poison Sword
+-- #armor 14 -- Plate Hauberk
+-- #armor 20 -- Iron Cap
+-- #armor 2 -- Shield
+-- #end
 
-#newmonster 4162
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#name "Ekaiwe"
-#spr1 "./Gondwana/TerrorBirdRider.tga"
-#spr2 "./Gondwana/TerrorBirdRider2.tga"
-#descr "In the capital exists a special regiment of Isienmwenro known as the Ekaiwe. These are the cream of the warriors specially trained to ride gigantic predatory birds known as Terror Birds. Terror Birds roam the plains of Gondwana preying on anything they can kill with their powerful beaks and sharp claws. They are strong in N'um and are sacred to the people of Gondwana. Should the rider be slain the bird will continue to peck and claw at enemies. After battle the bird can be brought back to the capital where a new rider will replace the old one."
-#mountedhumanoid
-#gcost 75
-#rpcost 46
-#ressize 2
-#hp 12
-#str 11
-#size 4
-#att 12
-#def 13
-#mor 13
-#mr 11
-#ap 24
-#enc 4
-#prec 8
-#mapmove 22
-#weapon 357 -- Light Lance
-#weapon 1680 -- Beak
-#weapon 1866 -- Bird kick
-#armor 14 -- Plate Hauberk
-#armor 20 -- Iron Cap
-#armor 2 -- Shield
-#holy
-#mounted
-#xploss 100
-#cleanshape
-#secondshape 4163
-#end
+-- #newmonster 4162
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #name "Ekaiwe"
+-- #spr1 "./Gondwana/TerrorBirdRider.tga"
+-- #spr2 "./Gondwana/TerrorBirdRider2.tga"
+-- #descr "In the capital exists a special regiment of Isienmwenro known as the Ekaiwe. These are the cream of the warriors specially trained to ride gigantic predatory birds known as Terror Birds. Terror Birds roam the plains of Gondwana preying on anything they can kill with their powerful beaks and sharp claws. They are strong in N'um and are sacred to the people of Gondwana. Should the rider be slain the bird will continue to peck and claw at enemies. After battle the bird can be brought back to the capital where a new rider will replace the old one."
+-- #mountedhumanoid
+-- #gcost 75
+-- #rpcost 46
+-- #ressize 2
+-- #hp 12
+-- #str 11
+-- #size 4
+-- #att 12
+-- #def 13
+-- #mor 13
+-- #mr 11
+-- #ap 24
+-- #enc 4
+-- #prec 8
+-- #mapmove 22
+-- #weapon 357 -- Light Lance
+-- #weapon 1680 -- Beak
+-- #weapon 1866 -- Bird kick
+-- #armor 14 -- Plate Hauberk
+-- #armor 20 -- Iron Cap
+-- #armor 2 -- Shield
+-- #holy
+-- #mounted
+-- #xploss 100
+-- #cleanshape
+-- #secondshape 4163
+-- #end
 
-#newmonster 4163
-#copystats 2000 -- Gibbor
-#clearweapons
-#cleararmor
-#name "Terror Bird"
-#spr1 "./Gondwana/TerrorBird.tga"
-#spr2 "./Gondwana/TerrorBird2.tga"
-#descr "Terror Birds are gigantic predatory birds that roam the plains of Gondwana preying on anything they can kill with their powerful beaks and sharp claws. They are strong in N'um and are sacred to the people of Gondwana. Should the rider be slain the bird will continue to peck and claw at enemies. After battle the bird can be brought back to the capital where a new rider will replace the old one."
-#lizard
-#gcost 0
-#ap 24
-#prot 10
-#prec 8
-#def 13
-#str 20
-#mr 9
-#mapmove 22
-#animal
-#supplybonus 0
-#fireres 0
-#neednoteat
-#weapon 404 -- Beak
-#weapon 29 -- Claw
-#maxage 100
-#xploss 100
-#homeshape 4162
-#nametype 144
-#end
+-- #newmonster 4163
+-- #copystats 2000 -- Gibbor
+-- #clearweapons
+-- #cleararmor
+-- #name "Terror Bird"
+-- #spr1 "./Gondwana/TerrorBird.tga"
+-- #spr2 "./Gondwana/TerrorBird2.tga"
+-- #descr "Terror Birds are gigantic predatory birds that roam the plains of Gondwana preying on anything they can kill with their powerful beaks and sharp claws. They are strong in N'um and are sacred to the people of Gondwana. Should the rider be slain the bird will continue to peck and claw at enemies. After battle the bird can be brought back to the capital where a new rider will replace the old one."
+-- #lizard
+-- #gcost 0
+-- #ap 24
+-- #prot 10
+-- #prec 8
+-- #def 13
+-- #str 20
+-- #mr 9
+-- #mapmove 22
+-- #animal
+-- #supplybonus 0
+-- #fireres 0
+-- #neednoteat
+-- #weapon 404 -- Beak
+-- #weapon 29 -- Claw
+-- #maxage 100
+-- #xploss 100
+-- #homeshape 4162
+-- #nametype 144
+-- #end
 
-#newmonster 4164
-#copystats 2307 -- Machaka Elephant
-#clearweapons
-#name "Thunder Beast"
-#spr1 "./Gondwana/ThunderBeastUnit.tga"
-#spr2 "./Gondwana/ThunderBeastUnit2.tga"
-#descr "The Thunder Beasts are the largest creatures that stride the plains of Gondwana, named for the terrifying sound caused as their feet impact the earth. These creatures have little to fear from any predator, however a few are captured as newborns and raised in captivity by the Obas for use in times of war. These huge creatures are strong in N'um, the sacred force that manifests only in the largest and most holy of beings.  The sight of a Thunder Beast will fill enemies with fear. Their sheer size allows them to trample through enemy lines with ease, however if panicked they may end up trampling friends and enemies alike." 
-#quadruped
-#gcost 250
-#rpcost 56
-#hp 130
-#prot 14
-#mr 7
-#mor 11
-#ap 14
-#str 26
-#def 6
-#fear 5
-#holy
-#slowrec
-#reclimit 1
-#weapon 397 -- Kick
-#end
+-- #newmonster 4164
+-- #copystats 2307 -- Machaka Elephant
+-- #clearweapons
+-- #name "Thunder Beast"
+-- #spr1 "./Gondwana/ThunderBeastUnit.tga"
+-- #spr2 "./Gondwana/ThunderBeastUnit2.tga"
+-- #descr "The Thunder Beasts are the largest creatures that stride the plains of Gondwana, named for the terrifying sound caused as their feet impact the earth. These creatures have little to fear from any predator, however a few are captured as newborns and raised in captivity by the Obas for use in times of war. These huge creatures are strong in N'um, the sacred force that manifests only in the largest and most holy of beings.  The sight of a Thunder Beast will fill enemies with fear. Their sheer size allows them to trample through enemy lines with ease, however if panicked they may end up trampling friends and enemies alike." 
+-- #quadruped
+-- #gcost 250
+-- #rpcost 56
+-- #hp 130
+-- #prot 14
+-- #mr 7
+-- #mor 11
+-- #ap 14
+-- #str 26
+-- #def 6
+-- #fear 5
+-- #holy
+-- #slowrec
+-- #reclimit 1
+-- #weapon 397 -- Kick
+-- #end
 
---- COMMANDERS
+-- --- COMMANDERS
 
-#newmonster 4165
-#copystats 2288 -- Machaka Scout
-#copyspr 878 -- Militia
-#clearweapons
-#name "Scout"
-#descr "Scouts are trained to pass unseen through enemy territory and to travel efficiently even in mountainous and forested terrain. Their reports on enemy army movements and the resources in enemy lands are invaluable to the Oba in planning a succesful campaign."
-#weapon 1 -- Spear
-#end
+-- #newmonster 4165
+-- #copystats 2288 -- Machaka Scout
+-- #copyspr 878 -- Militia
+-- #clearweapons
+-- #name "Scout"
+-- #descr "Scouts are trained to pass unseen through enemy territory and to travel efficiently even in mountainous and forested terrain. Their reports on enemy army movements and the resources in enemy lands are invaluable to the Oba in planning a succesful campaign."
+-- #weapon 1 -- Spear
+-- #end
 
-#newmonster 4166
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#name "Okakuo"
-#spr1 "./Gondwana/Okakuo.tga"
-#spr2 "./Gondwana/Okakuo2.tga"
-#descr "An Okakuo is the head of a local village regiment and can lead troops in battle. They do not have much authority outside their village and report to the Ezomos."
-#gcost 10010
-#att 11
-#def 11
-#mor 11
-#weapon 8 -- Broad Sword
-#armor 136 -- Bronze Scale Hauberk
-#armor 135 -- Bronze Cap
-#end
+-- #newmonster 4166
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #name "Okakuo"
+-- #spr1 "./Gondwana/Okakuo.tga"
+-- #spr2 "./Gondwana/Okakuo2.tga"
+-- #descr "An Okakuo is the head of a local village regiment and can lead troops in battle. They do not have much authority outside their village and report to the Ezomos."
+-- #gcost 10010
+-- #att 11
+-- #def 11
+-- #mor 11
+-- #weapon 8 -- Broad Sword
+-- #armor 136 -- Bronze Scale Hauberk
+-- #armor 135 -- Bronze Cap
+-- #end
 
-#newmonster 4167
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#name "Ezomo"
-#spr1 "./Gondwana/Ezomo.tga"
-#spr2 "./Gondwana/Ezomo2.tga"
-#descr "An Ezomo is the commander of an Isienmwenro regiment and is given authority over the local Okakuos. Gifted with iron armour from the arsenal of the Obas they handle local trouble and exercise the authority of their Oba."
-#gcost 10010
-#att 12
-#def 12
-#mor 12
-#goodleader
-#weapon 8 -- Broad Sword
-#armor 14 -- Plate Hauberk
-#armor 20 -- Iron Cap
-#end
+-- #newmonster 4167
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #name "Ezomo"
+-- #spr1 "./Gondwana/Ezomo.tga"
+-- #spr2 "./Gondwana/Ezomo2.tga"
+-- #descr "An Ezomo is the commander of an Isienmwenro regiment and is given authority over the local Okakuos. Gifted with iron armour from the arsenal of the Obas they handle local trouble and exercise the authority of their Oba."
+-- #gcost 10010
+-- #att 12
+-- #def 12
+-- #mor 12
+-- #goodleader
+-- #weapon 8 -- Broad Sword
+-- #armor 14 -- Plate Hauberk
+-- #armor 20 -- Iron Cap
+-- #end
 
-#newmonster 4168
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#name "Priest"
-#spr1 "./Gondwana/Priest.tga"
-#spr2 "./Gondwana/Priest2.tga"
-#descr "The priests of Gondwana teach that sacred energy, N'um, is present in certain sacred beings. Larger beings have more N'um and are venerated by the people of Gondwana as close to the True God, the source of N'um. Each village has several priests that lead the faithful in prayer and worship."
-#gcost 10010
-#mr 11
-#weapon 92 -- Fist
-#armor 135 -- Bronze Cap
-#magicskill 8 1
-#poorleader
-#holy
-#end
+-- #newmonster 4168
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #name "Priest"
+-- #spr1 "./Gondwana/Priest.tga"
+-- #spr2 "./Gondwana/Priest2.tga"
+-- #descr "The priests of Gondwana teach that sacred energy, N'um, is present in certain sacred beings. Larger beings have more N'um and are venerated by the people of Gondwana as close to the True God, the source of N'um. Each village has several priests that lead the faithful in prayer and worship."
+-- #gcost 10010
+-- #mr 11
+-- #weapon 92 -- Fist
+-- #armor 135 -- Bronze Cap
+-- #magicskill 8 1
+-- #poorleader
+-- #holy
+-- #end
 
-#newmonster 4169
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Spirit Dancer"
-#spr1 "./Gondwana/Dancer.tga"
-#spr2 "./Gondwana/Dancer2.tga"
-#descr "The Shamans of Gondwana perform elaborate dances that allow them to enter a powerful trance state. These dances can last for many hours and are accompanied by specially trained Spirit Dancers. These women perform special rhythmic songs and dances to aid the Shaman in reaching the spirit world. Spirit Dancers will automatically cast the Chorus Slave spell before combat, ready to lend their strength to the shamans and are otherwise inactive during the battle. They will dance until they collapse, exhausted and will then leave the communion. Dancers have some rudimentary knowledge of magic, however they cannot perform magical research or cast magical rituals."
-#gcost 50
-#rpcost 1
-#researchbonus -10
-#masterrit -1
-#mr 12
-#onebattlespell 1125 -- Chorus Slave
-#magicskill 6 1
-#spellsinger
-#female
-#poorleader
-#weapon 397 -- Kick
-#end
+-- #newmonster 4169
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Spirit Dancer"
+-- #spr1 "./Gondwana/Dancer.tga"
+-- #spr2 "./Gondwana/Dancer2.tga"
+-- #descr "The Shamans of Gondwana perform elaborate dances that allow them to enter a powerful trance state. These dances can last for many hours and are accompanied by specially trained Spirit Dancers. These women perform special rhythmic songs and dances to aid the Shaman in reaching the spirit world. Spirit Dancers will automatically cast the Chorus Slave spell before combat, ready to lend their strength to the shamans and are otherwise inactive during the battle. They will dance until they collapse, exhausted and will then leave the communion. Dancers have some rudimentary knowledge of magic, however they cannot perform magical research or cast magical rituals."
+-- #gcost 50
+-- #rpcost 1
+-- #researchbonus -10
+-- #masterrit -1
+-- #mr 12
+-- #onebattlespell 1125 -- Chorus Slave
+-- #magicskill 6 1
+-- #spellsinger
+-- #female
+-- #poorleader
+-- #weapon 397 -- Kick
+-- #end
 
-#newmonster 4170
-#copystats 892 -- Witch Doctor
-#clearweapons
-#cleararmor
-#name "Witch Doctor"
-#spr1 "./Gondwana/WDoctor.tga"
-#spr2 "./Gondwana/WDoctor2.tga"
-#descr "Witch doctors are reclusive shamans that shun contact with others. They live in the small villages of Gondwana where they heal the sick or afflict those that displease them with fever. Witch doctors shun contact with other mages and never reveal any magic secrets willingly. This makes them very poor magical researchers. The shamans of Gondwana perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting."
-#spellsinger
-#weapon 151 -- Wand
-#armor 187 -- Mask
-#end
+-- #newmonster 4170
+-- #copystats 892 -- Witch Doctor
+-- #clearweapons
+-- #cleararmor
+-- #name "Witch Doctor"
+-- #spr1 "./Gondwana/WDoctor.tga"
+-- #spr2 "./Gondwana/WDoctor2.tga"
+-- #descr "Witch doctors are reclusive shamans that shun contact with others. They live in the small villages of Gondwana where they heal the sick or afflict those that displease them with fever. Witch doctors shun contact with other mages and never reveal any magic secrets willingly. This makes them very poor magical researchers. The shamans of Gondwana perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting."
+-- #spellsinger
+-- #weapon 151 -- Wand
+-- #armor 187 -- Mask
+-- #end
 
-#newmonster 4171
-#copystats 892 -- Witch Doctor
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Lion Shaman"
-#spr1 "./Gondwana/LionMage.tga"
-#spr2 "./Gondwana/LionMage2.tga"
-#descr "Lion Shamans wear the hide of great beasts and use these to take animal form. Through meditation and ingesting highly magical plants they can transform their body into that of a beast. Lion Shamans can assume the form of a great lion, or a fearsome creature with the qualities of man and beast. The Shamans of Gondwana perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting."
-#gcost 140
-#rpcost 4
-#mor 13
-#mr 14
-#weapon 9 -- Dagger
-#armor 44 -- Furs
-#magicskill 5 1
-#magicskill 6 1
-#custommagic 12672 100 -- 100% FADN
-#researchbonus 0
-#masterrit 1
-#spellsinger
-#shapechange 4172
-#end
+-- #newmonster 4171
+-- #copystats 892 -- Witch Doctor
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Lion Shaman"
+-- #spr1 "./Gondwana/LionMage.tga"
+-- #spr2 "./Gondwana/LionMage2.tga"
+-- #descr "Lion Shamans wear the hide of great beasts and use these to take animal form. Through meditation and ingesting highly magical plants they can transform their body into that of a beast. Lion Shamans can assume the form of a great lion, or a fearsome creature with the qualities of man and beast. The Shamans of Gondwana perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting."
+-- #gcost 140
+-- #rpcost 4
+-- #mor 13
+-- #mr 14
+-- #weapon 9 -- Dagger
+-- #armor 44 -- Furs
+-- #magicskill 5 1
+-- #magicskill 6 1
+-- #custommagic 12672 100 -- 100% FADN
+-- #researchbonus 0
+-- #masterrit 1
+-- #spellsinger
+-- #shapechange 4172
+-- #end
 
-#newmonster 4172
-#copystats 892 -- Witch Doctor
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Lion Shaman"
-#spr1 "./Gondwana/LionMan.tga"
-#spr2 "./Gondwana/LionMan2.tga"
-#descr "Lion Shamans wear the hide of great beasts and use these to take animal form. Through meditation and ingesting highly magical plants they can transform their body into that of a beast. Lion Shamans can assume the form of a great lion, or a fearsome creature with the qualities of man and beast. The Shamans of Gondwana perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting."
-#gcost 140
-#rpcost 4
-#size 3
-#hp 24
-#str 16
-#att 12
-#def 12
-#prot 7
-#ap 18
-#mor 13
-#mr 14
-#darkvision 50
-#weapon 29 -- Claw
-#weapon 29 -- Claw
-#weapon 20 -- Bite
-#armor 44 -- Furs
-#researchbonus 0
-#magicskill 5 1
-#magicskill 6 1
-#custommagic 12672 100 -- 100% FADN
-#shapechange 4173
-#end
+-- #newmonster 4172
+-- #copystats 892 -- Witch Doctor
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Lion Shaman"
+-- #spr1 "./Gondwana/LionMan.tga"
+-- #spr2 "./Gondwana/LionMan2.tga"
+-- #descr "Lion Shamans wear the hide of great beasts and use these to take animal form. Through meditation and ingesting highly magical plants they can transform their body into that of a beast. Lion Shamans can assume the form of a great lion, or a fearsome creature with the qualities of man and beast. The Shamans of Gondwana perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting."
+-- #gcost 140
+-- #rpcost 4
+-- #size 3
+-- #hp 24
+-- #str 16
+-- #att 12
+-- #def 12
+-- #prot 7
+-- #ap 18
+-- #mor 13
+-- #mr 14
+-- #darkvision 50
+-- #weapon 29 -- Claw
+-- #weapon 29 -- Claw
+-- #weapon 20 -- Bite
+-- #armor 44 -- Furs
+-- #researchbonus 0
+-- #magicskill 5 1
+-- #magicskill 6 1
+-- #custommagic 12672 100 -- 100% FADN
+-- #shapechange 4173
+-- #end
 
-#newmonster 4173
-#copystats 628 -- Great Lion
-#copyspr 628 -- Great Lion
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Lion Shaman"
-#descr "Lion Shamans wear the hide of great beasts and use these to take animal form. Through meditation and ingesting highly magical plants they can transform their body into that of a beast. Lion Shamans can assume the form of a great lion, or a fearsome creature with the qualities of man and beast. The Shamans of Gondwana perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting."
-#quadruped
-#gcost 140
-#rpcost 4
-#transformation 0
-#mor 13
-#mr 14
-#stealthy 0
-#magicskill 5 1
-#magicskill 6 1
-#custommagic 12672 100 -- 100% FADN
-#shapechange 4171
-#end
+-- #newmonster 4173
+-- #copystats 628 -- Great Lion
+-- #copyspr 628 -- Great Lion
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Lion Shaman"
+-- #descr "Lion Shamans wear the hide of great beasts and use these to take animal form. Through meditation and ingesting highly magical plants they can transform their body into that of a beast. Lion Shamans can assume the form of a great lion, or a fearsome creature with the qualities of man and beast. The Shamans of Gondwana perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting."
+-- #quadruped
+-- #gcost 140
+-- #rpcost 4
+-- #transformation 0
+-- #mor 13
+-- #mr 14
+-- #stealthy 0
+-- #magicskill 5 1
+-- #magicskill 6 1
+-- #custommagic 12672 100 -- 100% FADN
+-- #shapechange 4171
+-- #end
 
-#newmonster 4174
-#copystats 892 -- Witch Doctor
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Shaman"
-#spr1 "./Gondwana/Shaman.tga"
-#spr2 "./Gondwana/Shaman2.tga"
-#descr "A shaman is a mage that contacts the spirit world to perform magic. The shamans of Gondwana perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting. These dances can last for many hours and are accompanied by specially trained Spirit Dancers. Each shaman crafts a mask that grants them a closer affinity with the spirit world when worn, and crafting a mask is an important step in the training of a young shaman. Shamans are able to communicate with spirits of the air, the dead and the wild and guide the nation in spiritual matters."
-#gcost 130
-#rpcost 2
-#mr 14
-#researchbonus 0
-#spellsinger
-#weapon 7 -- Quarterstaff
-#armor 187 -- Mask
-#masterrit 1
-#magicskill 6 1
-#custommagic 12672 100 -- 100% FADN
-#custommagic 4480 100 -- 100% FAD
-#end
+-- #newmonster 4174
+-- #copystats 892 -- Witch Doctor
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Shaman"
+-- #spr1 "./Gondwana/Shaman.tga"
+-- #spr2 "./Gondwana/Shaman2.tga"
+-- #descr "A shaman is a mage that contacts the spirit world to perform magic. The shamans of Gondwana perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting. These dances can last for many hours and are accompanied by specially trained Spirit Dancers. Each shaman crafts a mask that grants them a closer affinity with the spirit world when worn, and crafting a mask is an important step in the training of a young shaman. Shamans are able to communicate with spirits of the air, the dead and the wild and guide the nation in spiritual matters."
+-- #gcost 130
+-- #rpcost 2
+-- #mr 14
+-- #researchbonus 0
+-- #spellsinger
+-- #weapon 7 -- Quarterstaff
+-- #armor 187 -- Mask
+-- #masterrit 1
+-- #magicskill 6 1
+-- #custommagic 12672 100 -- 100% FADN
+-- #custommagic 4480 100 -- 100% FAD
+-- #end
 
-#newmonster 4175
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#name "Ekaiwe Commander"
-#spr1 "./Gondwana/TerrorBirdRider.tga"
-#spr2 "./Gondwana/TerrorBirdRider2.tga"
-#descr "In the capital exists a special regiment of Isienmwenro known as the Ekaiwe. These are the cream of the warriors specially trained to ride gigantic predatory birds known as Terror Birds. Terror Birds roam the plains of Gondwana preying on anything they can kill with their powerful beaks and sharp claws. They are strong in N'um and are sacred to the people of Gondwana. The commanders of the Ekaiwe are hand picked for their loyalty to the Oba and have some priestly powers. Should the rider be slain the bird will continue to peck and claw at enemies."
-#mountedhumanoid
-#gcost 10040
-#rpcost 1
-#size 4
-#hp 13
-#str 12
-#att 13
-#def 13
-#mor 14
-#mr 12
-#ap 24
-#prec 8
-#mapmove 22
-#weapon 357 -- Light Lance
-#weapon 1680 -- Beak
-#weapon 1866 -- Bird kick
-#armor 14 -- Plate Hauberk
-#armor 120 -- Leather Cap
-#armor 2 -- Shield
-#magicskill 8 1
-#holy
-#mounted
-#goodleader
-#secondtmpshape 4163
-#end
+-- #newmonster 4175
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #name "Ekaiwe Commander"
+-- #spr1 "./Gondwana/TerrorBirdRider.tga"
+-- #spr2 "./Gondwana/TerrorBirdRider2.tga"
+-- #descr "In the capital exists a special regiment of Isienmwenro known as the Ekaiwe. These are the cream of the warriors specially trained to ride gigantic predatory birds known as Terror Birds. Terror Birds roam the plains of Gondwana preying on anything they can kill with their powerful beaks and sharp claws. They are strong in N'um and are sacred to the people of Gondwana. The commanders of the Ekaiwe are hand picked for their loyalty to the Oba and have some priestly powers. Should the rider be slain the bird will continue to peck and claw at enemies."
+-- #mountedhumanoid
+-- #gcost 10040
+-- #rpcost 1
+-- #size 4
+-- #hp 13
+-- #str 12
+-- #att 13
+-- #def 13
+-- #mor 14
+-- #mr 12
+-- #ap 24
+-- #prec 8
+-- #mapmove 22
+-- #weapon 357 -- Light Lance
+-- #weapon 1680 -- Beak
+-- #weapon 1866 -- Bird kick
+-- #armor 14 -- Plate Hauberk
+-- #armor 120 -- Leather Cap
+-- #armor 2 -- Shield
+-- #magicskill 8 1
+-- #holy
+-- #mounted
+-- #goodleader
+-- #secondtmpshape 4163
+-- #end
 
-#newmonster 4176
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Babalawo"
-#spr1 "./Gondwana/ElderShaman.tga"
-#spr2 "./Gondwana/ElderShaman2.tga"
-#descr "The Babalawo are a sect of shamanic priests that reside in the capital and serve the Obas. Through divination they are able to advise the Obas on future events and are highly valued for their gifts. Like all shamans of Gondwana they perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting. The masks they wear are strong in N'um and grant special priestly powers to the Babalawo."
-#gcost 180
-#rpcost 4
-#mr 16
-#mor 14
-#researchbonus 2
-#nobadevents 10
-#spellsinger
-#holy
-#poorleader
-#weapon 151 -- Wand
-#armor 187 -- Mask
-#masterrit 1
-#magicskill 1 1
-#magicskill 5 1
-#magicskill 6 1
-#magicskill 8 1
-#custommagic 12672 100 -- 100% FADN
-#custommagic 12672 10 -- 10% FADN
-#end
+-- #newmonster 4176
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Babalawo"
+-- #spr1 "./Gondwana/ElderShaman.tga"
+-- #spr2 "./Gondwana/ElderShaman2.tga"
+-- #descr "The Babalawo are a sect of shamanic priests that reside in the capital and serve the Obas. Through divination they are able to advise the Obas on future events and are highly valued for their gifts. Like all shamans of Gondwana they perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting. The masks they wear are strong in N'um and grant special priestly powers to the Babalawo."
+-- #gcost 180
+-- #rpcost 4
+-- #mr 16
+-- #mor 14
+-- #researchbonus 2
+-- #nobadevents 10
+-- #spellsinger
+-- #holy
+-- #poorleader
+-- #weapon 151 -- Wand
+-- #armor 187 -- Mask
+-- #masterrit 1
+-- #magicskill 1 1
+-- #magicskill 5 1
+-- #magicskill 6 1
+-- #magicskill 8 1
+-- #custommagic 12672 100 -- 100% FADN
+-- #custommagic 12672 10 -- 10% FADN
+-- #end
 
-#newmonster 4177
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Queen"
-#spr1 "./Gondwana/Queen.tga"
-#spr2 "./Gondwana/Queen2.tga"
-#descr "The Queens of Gondwana rule alongside the Obas. As the figureheads of the nation they are strong in N'um. Whilst the Obas spend their time mediating and planning campaigns in times of war, the Queens often spend their time learning magical skills. These skills allow them to guide their nation and mediate in magical matters. Like all shamans of Gondwana they perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting."
-#gcost 150
-#rpcost 2
-#mr 15
-#mor 15
-#spellsinger
-#holy
-#goodleader
-#female
-#weapon 151 -- Wand
-#startage 40
-#masterrit 1
-#magicskill 6 2
-#magicskill 8 2
-#custommagic 12672 100 -- 100% FADN
-#custommagic 12672 10 -- 10% FADN
-#end
+-- #newmonster 4177
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Queen"
+-- #spr1 "./Gondwana/Queen.tga"
+-- #spr2 "./Gondwana/Queen2.tga"
+-- #descr "The Queens of Gondwana rule alongside the Obas. As the figureheads of the nation they are strong in N'um. Whilst the Obas spend their time mediating and planning campaigns in times of war, the Queens often spend their time learning magical skills. These skills allow them to guide their nation and mediate in magical matters. Like all shamans of Gondwana they perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting."
+-- #gcost 150
+-- #rpcost 2
+-- #mr 15
+-- #mor 15
+-- #spellsinger
+-- #holy
+-- #goodleader
+-- #female
+-- #weapon 151 -- Wand
+-- #startage 40
+-- #masterrit 1
+-- #magicskill 6 2
+-- #magicskill 8 2
+-- #custommagic 12672 100 -- 100% FADN
+-- #custommagic 12672 10 -- 10% FADN
+-- #end
 
-#newmonster 4178
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Oba"
-#spr1 "./Gondwana/Oba.tga"
-#spr2 "./Gondwana/Oba2.tga"
-#descr "The Obas are warrior kings of Gondwana and rule over their subjects by Divine right. As the figureheads of the nation they are a focus for N'um and lead the populace in religious ceremonies. The Obas spend their time mediating and planning campaigns in times of war. The position is hereditary and they are trained from birth in the art of politics and war, however many also sponsor great festivals and artworks in their cities. Since the ending of the enchantment sealing Gondwana off from the world the Obas have turned their attentions to the new world. Each Oba carries an Eben, a ceremonial obsidian-studded sword-club that denotes their rank."
-#gcost 10010
-#rpcost 2
-#mr 14
-#mor 16
-#startage 40
-#holy
-#expertleader
-#weapon 451 -- Club Sword
-#magicskill 8 3
-#end
+-- #newmonster 4178
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Oba"
+-- #spr1 "./Gondwana/Oba.tga"
+-- #spr2 "./Gondwana/Oba2.tga"
+-- #descr "The Obas are warrior kings of Gondwana and rule over their subjects by Divine right. As the figureheads of the nation they are a focus for N'um and lead the populace in religious ceremonies. The Obas spend their time mediating and planning campaigns in times of war. The position is hereditary and they are trained from birth in the art of politics and war, however many also sponsor great festivals and artworks in their cities. Since the ending of the enchantment sealing Gondwana off from the world the Obas have turned their attentions to the new world. Each Oba carries an Eben, a ceremonial obsidian-studded sword-club that denotes their rank."
+-- #gcost 10010
+-- #rpcost 2
+-- #mr 14
+-- #mor 16
+-- #startage 40
+-- #holy
+-- #expertleader
+-- #weapon 451 -- Club Sword
+-- #magicskill 8 3
+-- #end
 
-#newmonster 4179
-#copystats 2307 -- Machaka Elephant
-#clearweapons
-#name "Ogiso"
-#spr1 "./Gondwana/ThunderBeastCom.tga"
-#spr2 "./Gondwana/ThunderBeastCom2.tga"
-#descr "The most powerful Obas are known as Ogiso. These mighty lords take to the battlefield atop a great Thunder Beast, accompanied by their most powerful shamans and advisors. From this vantage point they can assess the battle and command their forces with ease, whilst their Shamans cast unhindered by distractions on the ground. The sight of a Thunder Beast will fill enemies with fear. Their sheer size allows them to trample through enemy lines with ease, however if panicked they may end up trampling friends and enemies alike." 
-#quadruped
-#gcost 450
-#rpcost 6
-#hp 130
-#prot 14
-#mr 16
-#mor 12
-#ap 14
-#str 26
-#def 6
-#fear 5
-#enc 1
-#magicskill 0 1
-#magicskill 1 1
-#magicskill 5 1
-#magicskill 6 1
-#magicskill 8 3
-#bonusspells 1
-#combatcaster 100
-#expertleader
-#inspirational 1
-#spellsinger
-#holy
-#slowrec
-#weapon 397 -- Kick
-#end
+-- #newmonster 4179
+-- #copystats 2307 -- Machaka Elephant
+-- #clearweapons
+-- #name "Ogiso"
+-- #spr1 "./Gondwana/ThunderBeastCom.tga"
+-- #spr2 "./Gondwana/ThunderBeastCom2.tga"
+-- #descr "The most powerful Obas are known as Ogiso. These mighty lords take to the battlefield atop a great Thunder Beast, accompanied by their most powerful shamans and advisors. From this vantage point they can assess the battle and command their forces with ease, whilst their Shamans cast unhindered by distractions on the ground. The sight of a Thunder Beast will fill enemies with fear. Their sheer size allows them to trample through enemy lines with ease, however if panicked they may end up trampling friends and enemies alike." 
+-- #quadruped
+-- #gcost 450
+-- #rpcost 6
+-- #hp 130
+-- #prot 14
+-- #mr 16
+-- #mor 12
+-- #ap 14
+-- #str 26
+-- #def 6
+-- #fear 5
+-- #enc 1
+-- #magicskill 0 1
+-- #magicskill 1 1
+-- #magicskill 5 1
+-- #magicskill 6 1
+-- #magicskill 8 3
+-- #bonusspells 1
+-- #combatcaster 100
+-- #expertleader
+-- #inspirational 1
+-- #spellsinger
+-- #holy
+-- #slowrec
+-- #weapon 397 -- Kick
+-- #end
 
 --- SUMMONS
 
-#newmonster 4181
-#copystats 2000 -- Gibbor
-#clearweapons
-#cleararmor
-#name "Terror Bird"
-#spr1 "./Gondwana/TerrorBird.tga"
-#spr2 "./Gondwana/TerrorBird2.tga"
-#descr "Terror Birds are gigantic predatory birds that roam the plains of Gondwana preying on anything they can kill with their powerful beaks and sharp claws. They are strong in N'um and are sacred to the people of Gondwana. Some are trained as mounts for the Ekaiwe, however even untrained the creatures are formidable due to their size and ferocity."
-#lizard
-#gcost 0
-#ap 24
-#prot 10
-#prec 8
-#def 13
-#str 20
-#mr 9
-#mapmove 22
-#animal
-#supplybonus 0
-#fireres 0
-#neednoteat
-#undisciplined
-#weapon 404 -- Beak
-#weapon 29 -- Claw
-#maxage 100
-#nametype 144
-#end
+-- #newmonster 4181
+-- #copystats 2000 -- Gibbor
+-- #clearweapons
+-- #cleararmor
+-- #name "Terror Bird"
+-- #spr1 "./Gondwana/TerrorBird.tga"
+-- #spr2 "./Gondwana/TerrorBird2.tga"
+-- #descr "Terror Birds are gigantic predatory birds that roam the plains of Gondwana preying on anything they can kill with their powerful beaks and sharp claws. They are strong in N'um and are sacred to the people of Gondwana. Some are trained as mounts for the Ekaiwe, however even untrained the creatures are formidable due to their size and ferocity."
+-- #lizard
+-- #gcost 0
+-- #ap 24
+-- #prot 10
+-- #prec 8
+-- #def 13
+-- #str 20
+-- #mr 9
+-- #mapmove 22
+-- #animal
+-- #supplybonus 0
+-- #fireres 0
+-- #neednoteat
+-- #undisciplined
+-- #weapon 404 -- Beak
+-- #weapon 29 -- Claw
+-- #maxage 100
+-- #nametype 144
+-- #end
 
-#newmonster 4182
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Rockshell"
-#spr1 "./Gondwana/Glypto.tga"
-#spr2 "./Gondwana/Glypto2.tga"
-#descr "Rockshells are large creatures covered in a bony shell said to be as hard as stone. They roam the plains of Gondwana relying on their thick armor plates and wicked tail spikes to protect them from predators. The people of Gondwana occasionally make use of them as beasts of burden, or in times of war they are ensorcelled by the Shamans to act as living battering rams. A Rockshell will count as twenty normal men when attempting to break the walls of a fortress."
-#quadruped
-#gcost 0
-#size 3
-#hp 35
-#str 16
-#prot 20
-#mr 8
-#mor 12
-#def 6
-#prec 5
-#enc 2
-#startage 20
-#maxage 40
-#weapon 547 -- Buff
-#weapon 1867 -- Tail Spikes
-#animal
-#undisciplined
-#slashres
-#siegebonus 20
-#end
+-- #newmonster 4182
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Rockshell"
+-- #spr1 "./Gondwana/Glypto.tga"
+-- #spr2 "./Gondwana/Glypto2.tga"
+-- #descr "Rockshells are large creatures covered in a bony shell said to be as hard as stone. They roam the plains of Gondwana relying on their thick armor plates and wicked tail spikes to protect them from predators. The people of Gondwana occasionally make use of them as beasts of burden, or in times of war they are ensorcelled by the Shamans to act as living battering rams. A Rockshell will count as twenty normal men when attempting to break the walls of a fortress."
+-- #quadruped
+-- #gcost 0
+-- #size 3
+-- #hp 35
+-- #str 16
+-- #prot 20
+-- #mr 8
+-- #mor 12
+-- #def 6
+-- #prec 5
+-- #enc 2
+-- #startage 20
+-- #maxage 40
+-- #weapon 547 -- Buff
+-- #weapon 1867 -- Tail Spikes
+-- #animal
+-- #undisciplined
+-- #slashres
+-- #siegebonus 20
+-- #end
 
-#newmonster 4183
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Sabre-Tooth"
-#spr1 "./Gondwana/STooth.tga"
-#spr2 "./Gondwana/STooth2.tga"
-#descr "Sabre-Tooths appear similar to lions and tigers that inhabit other lands, with the exception of their huge slashing teeth. These allow Sabre-Tooths to prey upon the gigantic creatures that call Gondwana home. Prowling the savannah, these creatures hunt in packs and bring down their prey with deadly efficiency. In times of war they are summoned and compelled to serve the shamans of Gondwana."
-#quadruped
-#gcost 0
-#size 3
-#hp 24
-#str 16
-#prot 5
-#mr 5
-#mor 13
-#att 13
-#def 11
-#prec 5
-#enc 3
-#ap 20
-#mapmove 22
-#startage 20
-#maxage 40
-#weapon 319 -- AP Bite
-#weapon 29 -- Claw
-#animal
-#undisciplined
-#darkvision 50
-#end
+-- #newmonster 4183
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Sabre-Tooth"
+-- #spr1 "./Gondwana/STooth.tga"
+-- #spr2 "./Gondwana/STooth2.tga"
+-- #descr "Sabre-Tooths appear similar to lions and tigers that inhabit other lands, with the exception of their huge slashing teeth. These allow Sabre-Tooths to prey upon the gigantic creatures that call Gondwana home. Prowling the savannah, these creatures hunt in packs and bring down their prey with deadly efficiency. In times of war they are summoned and compelled to serve the shamans of Gondwana."
+-- #quadruped
+-- #gcost 0
+-- #size 3
+-- #hp 24
+-- #str 16
+-- #prot 5
+-- #mr 5
+-- #mor 13
+-- #att 13
+-- #def 11
+-- #prec 5
+-- #enc 3
+-- #ap 20
+-- #mapmove 22
+-- #startage 20
+-- #maxage 40
+-- #weapon 319 -- AP Bite
+-- #weapon 29 -- Claw
+-- #animal
+-- #undisciplined
+-- #darkvision 50
+-- #end
 
-#newmonster 4184
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Quaggaraffe"
-#spr1 "./Gondwana/Quaggaraffe.tga"
-#spr2 "./Gondwana/Quaggaraffe2.tga"
-#descr "Quaggaraffes feed from the tops of tall trees, using their long legs and neck to reach the highest branches. When threatened they lash out with a kick that can split a mans skull, and a headbutt backed by their powerful neck. These huge creatures are strong in N'um, the sacred force that manifests only in the largest and most holy of beings."
-#quadruped
-#gcost 0
-#size 5
-#hp 44
-#str 18
-#prot 8
-#mr 8
-#mor 13
-#att 11
-#def 11
-#prec 5
-#enc 2
-#ap 24
-#mapmove 24
-#startage 20
-#maxage 40
-#weapon 300 -- Head Butt
-#weapon 397 -- Kick
-#animal
-#holy
-#end
+-- #newmonster 4184
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Quaggaraffe"
+-- #spr1 "./Gondwana/Quaggaraffe.tga"
+-- #spr2 "./Gondwana/Quaggaraffe2.tga"
+-- #descr "Quaggaraffes feed from the tops of tall trees, using their long legs and neck to reach the highest branches. When threatened they lash out with a kick that can split a mans skull, and a headbutt backed by their powerful neck. These huge creatures are strong in N'um, the sacred force that manifests only in the largest and most holy of beings."
+-- #quadruped
+-- #gcost 0
+-- #size 5
+-- #hp 44
+-- #str 18
+-- #prot 8
+-- #mr 8
+-- #mor 13
+-- #att 11
+-- #def 11
+-- #prec 5
+-- #enc 2
+-- #ap 24
+-- #mapmove 24
+-- #startage 20
+-- #maxage 40
+-- #weapon 300 -- Head Butt
+-- #weapon 397 -- Kick
+-- #animal
+-- #holy
+-- #end
 
-#newmonster 4185
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Tree Breaker"
-#spr1 "./Gondwana/Chalicotherium.tga"
-#spr2 "./Gondwana/Chalicotherium2.tga"
-#descr "Tree Breakers are named for their ability to uproot and tear down the largest trees to get at the tender roots and leaves. These titanic beasts are tremendously strong, and their massive claws can tear through plate armor with ease. When threatened they can enter a blind rage, smashing and crushing everything in their path. Tree Breakers are strong in N'um, the sacred force that manifests only in the largest and most holy of beings."
-#humanoid
-#gcost 0
-#size 6
-#hp 70
-#str 22
-#prot 15
-#mr 9
-#mor 14
-#att 13
-#def 10
-#prec 5
-#enc 2
-#ap 16
-#mapmove 20
-#startage 20
-#maxage 40
-#weapon 29 -- Claw
-#weapon 29 -- Claw
-#weapon 1868 --Stomp
-#animal
-#berserk 2
-#holy
-#end
+-- #newmonster 4185
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Tree Breaker"
+-- #spr1 "./Gondwana/Chalicotherium.tga"
+-- #spr2 "./Gondwana/Chalicotherium2.tga"
+-- #descr "Tree Breakers are named for their ability to uproot and tear down the largest trees to get at the tender roots and leaves. These titanic beasts are tremendously strong, and their massive claws can tear through plate armor with ease. When threatened they can enter a blind rage, smashing and crushing everything in their path. Tree Breakers are strong in N'um, the sacred force that manifests only in the largest and most holy of beings."
+-- #humanoid
+-- #gcost 0
+-- #size 6
+-- #hp 70
+-- #str 22
+-- #prot 15
+-- #mr 9
+-- #mor 14
+-- #att 13
+-- #def 10
+-- #prec 5
+-- #enc 2
+-- #ap 16
+-- #mapmove 20
+-- #startage 20
+-- #maxage 40
+-- #weapon 29 -- Claw
+-- #weapon 29 -- Claw
+-- #weapon 1868 --Stomp
+-- #animal
+-- #berserk 2
+-- #holy
+-- #end
 
-#newmonster 4186
-#copystats 2307 -- Machaka Elephant
-#clearweapons
-#name "Earthshaker"
-#spr1 "./Gondwana/ArmorBeast.tga"
-#spr2 "./Gondwana/ArmorBeast2.tga"
-#descr "Earthshakers are huge creatures related to the Thunder Beasts, however they are covered in a thick leathery hide that protects them from harm. These creatures have little to fear from any predator and are the most fearsome creatures on the plains of Gondwana. These huge creatures are strong in N'um, the sacred force that manifests only in the largest and most holy of beings. The sight of an Earthshaker will fill enemies with fear. Their sheer size allows them to trample through enemy lines with ease, however if panicked they may end up trampling friends and enemies alike." 
-#quadruped
-#gcost 0
-#hp 115
-#prot 18
-#mr 9
-#mor 12
-#ap 14
-#str 24
-#def 6
-#fear 5
-#holy
-#weapon 397 -- Kick
-#end
+-- #newmonster 4186
+-- #copystats 2307 -- Machaka Elephant
+-- #clearweapons
+-- #name "Earthshaker"
+-- #spr1 "./Gondwana/ArmorBeast.tga"
+-- #spr2 "./Gondwana/ArmorBeast2.tga"
+-- #descr "Earthshakers are huge creatures related to the Thunder Beasts, however they are covered in a thick leathery hide that protects them from harm. These creatures have little to fear from any predator and are the most fearsome creatures on the plains of Gondwana. These huge creatures are strong in N'um, the sacred force that manifests only in the largest and most holy of beings. The sight of an Earthshaker will fill enemies with fear. Their sheer size allows them to trample through enemy lines with ease, however if panicked they may end up trampling friends and enemies alike." 
+-- #quadruped
+-- #gcost 0
+-- #hp 115
+-- #prot 18
+-- #mr 9
+-- #mor 12
+-- #ap 14
+-- #str 24
+-- #def 6
+-- #fear 5
+-- #holy
+-- #weapon 397 -- Kick
+-- #end
 
-#newmonster 4187
-#copystats 434 -- Black Servant
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Dark Spirit"
-#spr1 "./Gondwana/DarkSpirit.tga"
-#spr2 "./Gondwana/DarkSpirit2.tga"
-#descr "Dark Spirits are evil spirits of the dead that plague the people of Gondwana. They appear when certain taboos are broken, or when magic is performed without the proper offerings being made to placate them. Their arrows are believed to be the cause of misfortune, sickness and death. They are especially attracted to trance dances and will cluster in the shadows, waiting for any weakness in the shaman that will allow them to manifest. Some shamans can bind and force these spirits to serve, however this is a dangerous endeavour. Dark Spirits carry bows made of shadow that inflict a terrible wasting disease on their targets, and they can drain the life force of the living."
-#hp 12
-#prec 10
-#weapon 438 -- Plague Bow
-#weapon 63 -- Life Drain
-#end
+-- #newmonster 4187
+-- #copystats 434 -- Black Servant
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Dark Spirit"
+-- #spr1 "./Gondwana/DarkSpirit.tga"
+-- #spr2 "./Gondwana/DarkSpirit2.tga"
+-- #descr "Dark Spirits are evil spirits of the dead that plague the people of Gondwana. They appear when certain taboos are broken, or when magic is performed without the proper offerings being made to placate them. Their arrows are believed to be the cause of misfortune, sickness and death. They are especially attracted to trance dances and will cluster in the shadows, waiting for any weakness in the shaman that will allow them to manifest. Some shamans can bind and force these spirits to serve, however this is a dangerous endeavour. Dark Spirits carry bows made of shadow that inflict a terrible wasting disease on their targets, and they can drain the life force of the living."
+-- #hp 12
+-- #prec 10
+-- #weapon 438 -- Plague Bow
+-- #weapon 63 -- Life Drain
+-- #end
 
-#newmonster 4190
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#clearmagic
-#name "God-Beast of the Forest"
-#spr1 "./Gondwana/GodChalico.tga"
-#spr2 "./Gondwana/GodChalico2.tga"
-#descr "Born at the dawn of time the God-Beast represents an earlier era, when monsters and giants roamed the world. It lived amongst the deep forests at the dawn of time, ruling over lesser beasts and men that offered it worship. When the previous Pantokrator rose to power he imprisoned and banished all that threatened his creation and the monstrous creature was banished to a shrouded land from whence it could not escape. The people of Gondwana worship the God-Beasts as the source of N'um and the most powerful of all creatures. Now, with the Pantokrators prison weakening the God-Beast of the Forest will emerge to claim the world as its own."
-#humanoid
-#gcost 250
-#size 6
-#hp 130
-#str 24
-#prot 14
-#mr 18
-#mor 30
-#att 13
-#def 10
-#prec 10
-#enc 1
-#ap 16
-#mapmove 20
-#startage 1000
-#maxage 4000
-#fear 5
-#weapon 29 -- Claw
-#weapon 29 -- Claw
-#magicskill 2 1
-#magicskill 3 1
-#magicskill 6 1
-#diseaseres 100
-#itemslots 276614 -- Crown, 2 hands, feet, 2 misc
-#heal
-#forestsurvival
-#startdom 3
-#homerealm 0
-#pathcost 80
-#end
+-- #newmonster 4190
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "God-Beast of the Forest"
+-- #spr1 "./Gondwana/GodChalico.tga"
+-- #spr2 "./Gondwana/GodChalico2.tga"
+-- #descr "Born at the dawn of time the God-Beast represents an earlier era, when monsters and giants roamed the world. It lived amongst the deep forests at the dawn of time, ruling over lesser beasts and men that offered it worship. When the previous Pantokrator rose to power he imprisoned and banished all that threatened his creation and the monstrous creature was banished to a shrouded land from whence it could not escape. The people of Gondwana worship the God-Beasts as the source of N'um and the most powerful of all creatures. Now, with the Pantokrators prison weakening the God-Beast of the Forest will emerge to claim the world as its own."
+-- #humanoid
+-- #gcost 250
+-- #size 6
+-- #hp 130
+-- #str 24
+-- #prot 14
+-- #mr 18
+-- #mor 30
+-- #att 13
+-- #def 10
+-- #prec 10
+-- #enc 1
+-- #ap 16
+-- #mapmove 20
+-- #startage 1000
+-- #maxage 4000
+-- #fear 5
+-- #weapon 29 -- Claw
+-- #weapon 29 -- Claw
+-- #magicskill 2 1
+-- #magicskill 3 1
+-- #magicskill 6 1
+-- #diseaseres 100
+-- #itemslots 276614 -- Crown, 2 hands, feet, 2 misc
+-- #heal
+-- #forestsurvival
+-- #startdom 3
+-- #homerealm 0
+-- #pathcost 80
+-- #end
 
-#newmonster 4191
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#clearmagic
-#name "God-Beast of the Plains"
-#spr1 "./Gondwana/GodNocerous.tga"
-#spr2 "./Gondwana/GodNocerous2.tga"
-#descr "Born at the dawn of time the God-Beast represents an earlier era, when monsters and giants roamed the world. It has roamed the plains since the earliest days, ruling over lesser creatures and men that offered it worship. When the previous Pantokrator rose to power he imprisoned and banished all that threatened his creation and the monstrous creature was banished to a shrouded land from whence it could not escape. The people of Gondwana worship the God-Beasts as the source of N'um and the most powerful of all creatures. Now, with the Pantokrators prison weakening the God-Beast of the Plains will emerge to claim the world as its own."
-#quadruped
-#gcost 210
-#size 6
-#hp 165
-#str 26
-#prot 18
-#mr 18
-#mor 30
-#att 13
-#def 10
-#prec 10
-#enc 1
-#ap 18
-#mapmove 22
-#startage 1000
-#maxage 4000
-#weapon 399 -- Gore
-#trample
-#fear 5
-#magicskill 0 1
-#magicskill 1 1
-#magicskill 6 1
-#berserk 4
-#diseaseres 100
-#heal
-#startdom 3
-#homerealm 0
-#pathcost 80
-#end
+-- #newmonster 4191
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "God-Beast of the Plains"
+-- #spr1 "./Gondwana/GodNocerous.tga"
+-- #spr2 "./Gondwana/GodNocerous2.tga"
+-- #descr "Born at the dawn of time the God-Beast represents an earlier era, when monsters and giants roamed the world. It has roamed the plains since the earliest days, ruling over lesser creatures and men that offered it worship. When the previous Pantokrator rose to power he imprisoned and banished all that threatened his creation and the monstrous creature was banished to a shrouded land from whence it could not escape. The people of Gondwana worship the God-Beasts as the source of N'um and the most powerful of all creatures. Now, with the Pantokrators prison weakening the God-Beast of the Plains will emerge to claim the world as its own."
+-- #quadruped
+-- #gcost 210
+-- #size 6
+-- #hp 165
+-- #str 26
+-- #prot 18
+-- #mr 18
+-- #mor 30
+-- #att 13
+-- #def 10
+-- #prec 10
+-- #enc 1
+-- #ap 18
+-- #mapmove 22
+-- #startage 1000
+-- #maxage 4000
+-- #weapon 399 -- Gore
+-- #trample
+-- #fear 5
+-- #magicskill 0 1
+-- #magicskill 1 1
+-- #magicskill 6 1
+-- #berserk 4
+-- #diseaseres 100
+-- #heal
+-- #startdom 3
+-- #homerealm 0
+-- #pathcost 80
+-- #end
 
-#newmonster 4192
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#clearmagic
-#name "God-Beast of the Mountains"
-#spr1 "./Gondwana/GodSloth.tga"
-#spr2 "./Gondwana/GodSloth2.tga"
-#descr "Born at the dawn of time the God-Beast represents an earlier era, when monsters and giants roamed the world. It has lurked in the coldest mountains for eons, preying on lesser creatures and worshipped by primitive mountain tribes. When the previous Pantokrator rose to power he imprisoned and banished all that threatened his creation and the monstrous creature was banished to a shrouded land from whence it could not escape. The people of Gondwana worship the God-Beasts as the source of N'um and the most powerful of all creatures. Now, with the Pantokrators prison weakening the God-Beast of the Mountains will emerge to claim the world as its own."
-#quadruped
-#gcost 220
-#size 6
-#hp 145
-#str 24
-#prot 16
-#mr 18
-#mor 30
-#att 13
-#def 10
-#prec 10
-#enc 1
-#ap 16
-#mapmove 20
-#startage 1000
-#maxage 4000
-#fear 5
-#weapon 29 -- Claw
-#weapon 29 -- Claw
-#weapon 20 -- Bite
-#magicskill 2 1
-#magicskill 3 1
-#magicskill 5 1
-#coldres 20
-#diseaseres 100
-#heal
-#mountainsurvival
-#startdom 3
-#homerealm 0
-#pathcost 80
-#end
+-- #newmonster 4192
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "God-Beast of the Mountains"
+-- #spr1 "./Gondwana/GodSloth.tga"
+-- #spr2 "./Gondwana/GodSloth2.tga"
+-- #descr "Born at the dawn of time the God-Beast represents an earlier era, when monsters and giants roamed the world. It has lurked in the coldest mountains for eons, preying on lesser creatures and worshipped by primitive mountain tribes. When the previous Pantokrator rose to power he imprisoned and banished all that threatened his creation and the monstrous creature was banished to a shrouded land from whence it could not escape. The people of Gondwana worship the God-Beasts as the source of N'um and the most powerful of all creatures. Now, with the Pantokrators prison weakening the God-Beast of the Mountains will emerge to claim the world as its own."
+-- #quadruped
+-- #gcost 220
+-- #size 6
+-- #hp 145
+-- #str 24
+-- #prot 16
+-- #mr 18
+-- #mor 30
+-- #att 13
+-- #def 10
+-- #prec 10
+-- #enc 1
+-- #ap 16
+-- #mapmove 20
+-- #startage 1000
+-- #maxage 4000
+-- #fear 5
+-- #weapon 29 -- Claw
+-- #weapon 29 -- Claw
+-- #weapon 20 -- Bite
+-- #magicskill 2 1
+-- #magicskill 3 1
+-- #magicskill 5 1
+-- #coldres 20
+-- #diseaseres 100
+-- #heal
+-- #mountainsurvival
+-- #startdom 3
+-- #homerealm 0
+-- #pathcost 80
+-- #end
 
-#newmonster 4193
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#clearmagic
-#name "God-Beast of the Hunt"
-#spr1 "./Gondwana/GodSTooth.tga"
-#spr2 "./Gondwana/GodSTooth2.tga"
-#descr "Born at the dawn of time the God-Beast represents an earlier era, when monsters and giants roamed the world. This great beast has hunted Gods and titanic creatures alike, until the Pantokrator himself feared for his existing. When the previous Pantokrator rose to power he imprisoned and banished all that threatened his creation and the monstrous creature was banished to a shrouded land from whence it could not escape. The people of Gondwana worship the God-Beasts as the source of N'um and the most powerful of all creatures. Now, with the Pantokrators prison weakening the God-Beast of the Hunt will emerge to claim the world as its own."
-#quadruped
-#gcost 210
-#size 6
-#hp 155
-#str 25
-#prot 18
-#mr 18
-#mor 30
-#att 13
-#def 10
-#prec 10
-#enc 1
-#ap 18
-#mapmove 20
-#startage 1000
-#maxage 4000
-#fear 5
-#diseaseres 100
-#heal
-#weapon 29 -- Claw
-#weapon 29 -- Claw
-#weapon 319 -- AP Bite
-#magicskill 5 1
-#magicskill 6 1
-#magicskill 7 1
-#darkvision 50
-#startdom 3
-#homerealm 0
-#pathcost 80
-#end
+-- #newmonster 4193
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "God-Beast of the Hunt"
+-- #spr1 "./Gondwana/GodSTooth.tga"
+-- #spr2 "./Gondwana/GodSTooth2.tga"
+-- #descr "Born at the dawn of time the God-Beast represents an earlier era, when monsters and giants roamed the world. This great beast has hunted Gods and titanic creatures alike, until the Pantokrator himself feared for his existing. When the previous Pantokrator rose to power he imprisoned and banished all that threatened his creation and the monstrous creature was banished to a shrouded land from whence it could not escape. The people of Gondwana worship the God-Beasts as the source of N'um and the most powerful of all creatures. Now, with the Pantokrators prison weakening the God-Beast of the Hunt will emerge to claim the world as its own."
+-- #quadruped
+-- #gcost 210
+-- #size 6
+-- #hp 155
+-- #str 25
+-- #prot 18
+-- #mr 18
+-- #mor 30
+-- #att 13
+-- #def 10
+-- #prec 10
+-- #enc 1
+-- #ap 18
+-- #mapmove 20
+-- #startage 1000
+-- #maxage 4000
+-- #fear 5
+-- #diseaseres 100
+-- #heal
+-- #weapon 29 -- Claw
+-- #weapon 29 -- Claw
+-- #weapon 319 -- AP Bite
+-- #magicskill 5 1
+-- #magicskill 6 1
+-- #magicskill 7 1
+-- #darkvision 50
+-- #startdom 3
+-- #homerealm 0
+-- #pathcost 80
+-- #end
 
-#newmonster 4194
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Great Queen"
-#spr1 "./Gondwana/QueenMother.tga"
-#spr2 "./Gondwana/QueenMother2.tga"
-#descr "The Great Queen is an ancient queen of Gondwana. She has learnt much of magic to extend her lifespan and has now claimed the mantle of Godhood. She can perform ritual dances to increase the power of her spellcasting, and she is a master of many paths of magic."
-#humanoid
-#gcost 110
-#size 2
-#mr 18
-#mor 30
-#att 11
-#def 11
-#startage 700
-#maxage 500
-#masterrit 1
-#spellsinger
-#goodleader
-#female
-#weapon 9 -- Dagger
-#magicskill 1 1
-#startdom 1
-#pathcost 10
-#homerealm 0
-#end
+-- #newmonster 4194
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Great Queen"
+-- #spr1 "./Gondwana/QueenMother.tga"
+-- #spr2 "./Gondwana/QueenMother2.tga"
+-- #descr "The Great Queen is an ancient queen of Gondwana. She has learnt much of magic to extend her lifespan and has now claimed the mantle of Godhood. She can perform ritual dances to increase the power of her spellcasting, and she is a master of many paths of magic."
+-- #humanoid
+-- #gcost 110
+-- #size 2
+-- #mr 18
+-- #mor 30
+-- #att 11
+-- #def 11
+-- #startage 700
+-- #maxage 500
+-- #masterrit 1
+-- #spellsinger
+-- #goodleader
+-- #female
+-- #weapon 9 -- Dagger
+-- #magicskill 1 1
+-- #startdom 1
+-- #pathcost 10
+-- #homerealm 0
+-- #end
 
-#newmonster 4199
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Eldest Babalawo"
-#spr1 "./Gondwana/EldestShaman.tga"
-#spr2 "./Gondwana/EldestShaman2.tga"
-#descr "The Eldest Babalawo is a great Shaman of Gondwana that has claimed the mantle of Godhood. He is a master of ritual magic and can increase his spellcasting power through trance dances. He can predict the future and can use this to avoid bad events in the province. The Eldest Babalawo has learned many paths of magic through his long study and is an expert at magical research."
-#humanoid
-#gcost 120
-#size 2
-#mr 18
-#hp 13
-#mor 30
-#att 12
-#def 12
-#prec 12
-#startage 200
-#maxage 500
-#masterrit 1
-#nobadevents 50
-#researchbonus 10
-#spellsinger
-#goodleader
-#weapon 9 -- Dagger
-#magicskill 5 1
-#startdom 1
-#pathcost 10
-#homerealm 0
-#end
+-- #newmonster 4199
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Eldest Babalawo"
+-- #spr1 "./Gondwana/EldestShaman.tga"
+-- #spr2 "./Gondwana/EldestShaman2.tga"
+-- #descr "The Eldest Babalawo is a great Shaman of Gondwana that has claimed the mantle of Godhood. He is a master of ritual magic and can increase his spellcasting power through trance dances. He can predict the future and can use this to avoid bad events in the province. The Eldest Babalawo has learned many paths of magic through his long study and is an expert at magical research."
+-- #humanoid
+-- #gcost 120
+-- #size 2
+-- #mr 18
+-- #hp 13
+-- #mor 30
+-- #att 12
+-- #def 12
+-- #prec 12
+-- #startage 200
+-- #maxage 500
+-- #masterrit 1
+-- #nobadevents 50
+-- #researchbonus 10
+-- #spellsinger
+-- #goodleader
+-- #weapon 9 -- Dagger
+-- #magicskill 5 1
+-- #startdom 1
+-- #pathcost 10
+-- #homerealm 0
+-- #end
 
----- HEROES
+-- ---- HEROES
 
-#newmonster 4195
-#copystats 2300 -- Machaka Warrior
-#copyspr 894 -- Black Sorcerer
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Descendant of a Dead God"
-#descr "Orobiru is the last surviving Black Sorcerer of Machaka. Born in the God Mountain he carries the bloodline of a dead God and divine power runs through his veins. Long ago Irami zealots arrived at Machaka and heard the tales of God Mountain. They declared this blasphemous against their God and began a crusade of cleansing. Soon the ancient empire was no more, God Mountain was desecrated and the lightless chamber lit with the flames of the Imams. Orobiru escaped the destruction and with other refugees found his way to the hidden land of Gondwana. Here Orobiru has risen to a position of power through aiding the Obas with his considerable skills. Now he has pledged his service to a new God as he returns once more to the outside world. "
-#fixedname "Orobiru"
-#unique
-#humanoid
-#gcost 0
-#mr 17
-#mor 17
-#att 12
-#def 12
-#hp 13
-#prec 12
-#enc 3
-#startage 200
-#maxage 500
-#weapon 42 -- Bane Blade
-#heal
-#forestsurvival
-#poorleader
-#diseaseres 50
-#shapechange 4196
-#magicskill 0 3
-#magicskill 3 2
-#magicskill 5 3
-#end
+-- #newmonster 4195
+-- #copystats 2300 -- Machaka Warrior
+-- #copyspr 894 -- Black Sorcerer
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Descendant of a Dead God"
+-- #descr "Orobiru is the last surviving Black Sorcerer of Machaka. Born in the God Mountain he carries the bloodline of a dead God and divine power runs through his veins. Long ago Irami zealots arrived at Machaka and heard the tales of God Mountain. They declared this blasphemous against their God and began a crusade of cleansing. Soon the ancient empire was no more, God Mountain was desecrated and the lightless chamber lit with the flames of the Imams. Orobiru escaped the destruction and with other refugees found his way to the hidden land of Gondwana. Here Orobiru has risen to a position of power through aiding the Obas with his considerable skills. Now he has pledged his service to a new God as he returns once more to the outside world. "
+-- #fixedname "Orobiru"
+-- #unique
+-- #humanoid
+-- #gcost 0
+-- #mr 17
+-- #mor 17
+-- #att 12
+-- #def 12
+-- #hp 13
+-- #prec 12
+-- #enc 3
+-- #startage 200
+-- #maxage 500
+-- #weapon 42 -- Bane Blade
+-- #heal
+-- #forestsurvival
+-- #poorleader
+-- #diseaseres 50
+-- #shapechange 4196
+-- #magicskill 0 3
+-- #magicskill 3 2
+-- #magicskill 5 3
+-- #end
 
-#newmonster 4196
-#copystats 884 -- Great Spider
-#copyspr 899 -- Hunter Spider
-#clearmagic
-#name "Descendant of a Dead God"
-#descr "Orobiru is the last surviving Black Sorcerer of Machaka. Born in the God Mountain he carries the bloodline of a dead God and divine power runs through his veins. Long ago Irami zealots arrived at Machaka and heard the tales of God Mountain. They declared this blasphemous against their God and began a crusade of cleansing. Soon the ancient empire was no more, God Mountain was desecrated and the lightless chamber lit with the flames of the Imams. Orobiru escaped the destruction and with other refugees found his way to the hidden land of Gondwana. Here Orobiru has risen to a position of power through aiding the Obas with his considerable skills. Now he has pledged his service to a new God as he returns once more to the outside world."
-#fixedname "Orobiru"
-#unique
-#quadruped
-#gcost 0
-#transformation 0
-#size 6
-#hp 55
-#prot 16
-#mr 17
-#mor 17
-#prec 12
-#enc 1
-#ap 22
-#mapmove 20
-#startage 200
-#maxage 500
-#diseaseres 100
-#heal
-#poorleader
-#diseaseres 50
-#shapechange 4195
-#end
+-- #newmonster 4196
+-- #copystats 884 -- Great Spider
+-- #copyspr 899 -- Hunter Spider
+-- #clearmagic
+-- #name "Descendant of a Dead God"
+-- #descr "Orobiru is the last surviving Black Sorcerer of Machaka. Born in the God Mountain he carries the bloodline of a dead God and divine power runs through his veins. Long ago Irami zealots arrived at Machaka and heard the tales of God Mountain. They declared this blasphemous against their God and began a crusade of cleansing. Soon the ancient empire was no more, God Mountain was desecrated and the lightless chamber lit with the flames of the Imams. Orobiru escaped the destruction and with other refugees found his way to the hidden land of Gondwana. Here Orobiru has risen to a position of power through aiding the Obas with his considerable skills. Now he has pledged his service to a new God as he returns once more to the outside world."
+-- #fixedname "Orobiru"
+-- #unique
+-- #quadruped
+-- #gcost 0
+-- #transformation 0
+-- #size 6
+-- #hp 55
+-- #prot 16
+-- #mr 17
+-- #mor 17
+-- #prec 12
+-- #enc 1
+-- #ap 22
+-- #mapmove 20
+-- #startage 200
+-- #maxage 500
+-- #diseaseres 100
+-- #heal
+-- #poorleader
+-- #diseaseres 50
+-- #shapechange 4195
+-- #end
 
-#newmonster 4197
-#copystats 2300 -- Machaka Warrior
-#copyspr 2293 -- Bouda
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Forgemaster"
-#descr "Ohen is a master artificer that is known for crafting the finest weapons and armor in Gondwana. After the destruction of Machaka by the Irami zealots Ohen and the other remaining inhabitants fled into the safety of the God Forest. After long months, during which many were lost to starvation, disease and the horrors that lurked in the deep forest, they finally found a place of sanctuary. A land of rolling plains and giant beasts hidden away from the world. Welcomed by the rulers of this new land for the skills and knowledge they brought they now call Gondwana their home. Amongst the secrets they carried was that of working iron plate, once used to clad the hoplites of Machaka. Now the Machakan refugees forge weapons and armor for the Obas to equip their armies. Ohen is reknowned as the finest of the metalworkers and his skills are highly sought after."
-#fixedname "Ohen"
-#unique
-#humanoid
-#gcost 0
-#mr 16
-#mor 15
-#att 11
-#def 11
-#prec 11
-#poorleader
-#weapon 13 -- Hammer
-#fixforgebonus 2
-#mastersmith 1
-#resources 30
-#magicskill 0 2
-#magicskill 1 1
-#magicskill 3 2
-#end
+-- #newmonster 4197
+-- #copystats 2300 -- Machaka Warrior
+-- #copyspr 2293 -- Bouda
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Forgemaster"
+-- #descr "Ohen is a master artificer that is known for crafting the finest weapons and armor in Gondwana. After the destruction of Machaka by the Irami zealots Ohen and the other remaining inhabitants fled into the safety of the God Forest. After long months, during which many were lost to starvation, disease and the horrors that lurked in the deep forest, they finally found a place of sanctuary. A land of rolling plains and giant beasts hidden away from the world. Welcomed by the rulers of this new land for the skills and knowledge they brought they now call Gondwana their home. Amongst the secrets they carried was that of working iron plate, once used to clad the hoplites of Machaka. Now the Machakan refugees forge weapons and armor for the Obas to equip their armies. Ohen is reknowned as the finest of the metalworkers and his skills are highly sought after."
+-- #fixedname "Ohen"
+-- #unique
+-- #humanoid
+-- #gcost 0
+-- #mr 16
+-- #mor 15
+-- #att 11
+-- #def 11
+-- #prec 11
+-- #poorleader
+-- #weapon 13 -- Hammer
+-- #fixforgebonus 2
+-- #mastersmith 1
+-- #resources 30
+-- #magicskill 0 2
+-- #magicskill 1 1
+-- #magicskill 3 2
+-- #end
 
-#newmonster 4198
-#copystats 2300 -- Machaka Warrior
-#clearweapons
-#cleararmor
-#clearmagic
-#name "Warrior Queen Mother"
-#spr1 "./Gondwana/QueenMother.tga"
-#spr2 "./Gondwana/QueenMother2.tga"
-#descr "Idia is a beloved and feared warrior queen known for her political counsel, skill in warfare and her shamanic powers. She was the mother to a powerful Oba and throughout his reign guided and advised him through many succesful military campaigns. Upon his death his two sons began to squabble and it seemed that endless civil war would tear the kingdom apart. Idia however raised an army in support of one of her grandsons and smashed the forces of his brother, ending the conflict and returning the land to peace. Now she has stirred once more to aid in the battle for Ascension."
-#fixedname "Idia"
-#unique
-#humanoid
-#gcost 0
-#size 2
-#mr 16
-#mor 18
-#att 12
-#def 12
-#startage 66
-#masterrit 1
-#spellsinger
-#expertleader
-#female
-#inspirational 1
-#weapon 9 -- Dagger
-#magicskill 1 3
-#magicskill 6 3
-#magicskill 8 3
-#end
+-- #newmonster 4198
+-- #copystats 2300 -- Machaka Warrior
+-- #clearweapons
+-- #cleararmor
+-- #clearmagic
+-- #name "Warrior Queen Mother"
+-- #spr1 "./Gondwana/QueenMother.tga"
+-- #spr2 "./Gondwana/QueenMother2.tga"
+-- #descr "Idia is a beloved and feared warrior queen known for her political counsel, skill in warfare and her shamanic powers. She was the mother to a powerful Oba and throughout his reign guided and advised him through many succesful military campaigns. Upon his death his two sons began to squabble and it seemed that endless civil war would tear the kingdom apart. Idia however raised an army in support of one of her grandsons and smashed the forces of his brother, ending the conflict and returning the land to peace. Now she has stirred once more to aid in the battle for Ascension."
+-- #fixedname "Idia"
+-- #unique
+-- #humanoid
+-- #gcost 0
+-- #size 2
+-- #mr 16
+-- #mor 18
+-- #att 12
+-- #def 12
+-- #startage 66
+-- #masterrit 1
+-- #spellsinger
+-- #expertleader
+-- #female
+-- #inspirational 1
+-- #weapon 9 -- Dagger
+-- #magicskill 1 3
+-- #magicskill 6 3
+-- #magicskill 8 3
+-- #end
 
 
 -------  SAWAIIKI
@@ -59481,122 +59481,122 @@ Priests: Average"
 ----- GONDWANA
 
 
-#selectnation 168
-#name "Gondwana"
-#epithet "The Shrouded Land"
-#era 3
-#descr "Gondwana is a land of dry savannah and dense jungle home to gigantic beasts from the distant past. Long ago the Pantokrator hid this land from the world using a great enchantment, however now the spell is fading. Refugees fleeing the ruins of Machaka found their way to the Shrouded Land and have brought the secret of ironworking to the Obas, rulers of Gondwana. Now a new God is awakening, one that will lead the nation back to a world that has forgotten them. The armies of Gondwana use bronze and iron weapons, with the creatures of the plains used as mounts and beasts of war."
-#brief "A nation of bronze and iron armed humans that ride gigantic beasts. Shamans use ritual chants to perform powerful magic."
-#summary "Race: Humans, Gigantic beasts.
-Military: Light and Medium infantry, Sacred Cavalry and Thunder Beasts. 
-Magic: Fire, Air, Nature, Death. Spellsingers and Spirit Dancers, Shamans can perform more powerful rituals.
-Priests: Average"
-#color 0.4 0.05 0.1
-#secondarycolor 0.85 0.75 0.20
-#flag  "./Gondwana/Flag.tga"
-#startsite "Gondwana Plains"
-#startsite "Benin Palace"
-#startsite "Great Temple"
+-- #selectnation 168
+-- #name "Gondwana"
+-- #epithet "The Shrouded Land"
+-- #era 3
+-- #descr "Gondwana is a land of dry savannah and dense jungle home to gigantic beasts from the distant past. Long ago the Pantokrator hid this land from the world using a great enchantment, however now the spell is fading. Refugees fleeing the ruins of Machaka found their way to the Shrouded Land and have brought the secret of ironworking to the Obas, rulers of Gondwana. Now a new God is awakening, one that will lead the nation back to a world that has forgotten them. The armies of Gondwana use bronze and iron weapons, with the creatures of the plains used as mounts and beasts of war."
+-- #brief "A nation of bronze and iron armed humans that ride gigantic beasts. Shamans use ritual chants to perform powerful magic."
+-- #summary "Race: Humans, Gigantic beasts.
+-- Military: Light and Medium infantry, Sacred Cavalry and Thunder Beasts. 
+-- Magic: Fire, Air, Nature, Death. Spellsingers and Spirit Dancers, Shamans can perform more powerful rituals.
+-- Priests: Average"
+-- #color 0.4 0.05 0.1
+-- #secondarycolor 0.85 0.75 0.20
+-- #flag  "./Gondwana/Flag.tga"
+-- #startsite "Gondwana Plains"
+-- #startsite "Benin Palace"
+-- #startsite "Great Temple"
 
-#addreccom 4165 -- Scout
-#addreccom 4166 -- Okakuo
-#addreccom 4167 -- Ezomo
-#addreccom 4168 -- Priest
-#addreccom 4169 -- Spirit Dancer
-#addreccom 4170 -- Witch Doctor
-#addreccom 4171 -- Lion Shaman
-#addreccom 4174 -- Shaman
+-- #addreccom 4165 -- Scout
+-- #addreccom 4166 -- Okakuo
+-- #addreccom 4167 -- Ezomo
+-- #addreccom 4168 -- Priest
+-- #addreccom 4169 -- Spirit Dancer
+-- #addreccom 4170 -- Witch Doctor
+-- #addreccom 4171 -- Lion Shaman
+-- #addreccom 4174 -- Shaman
 
-#addrecunit 4150 -- Militia
-#addrecunit 4151 -- Drummer
-#addrecunit 4152 -- Archer
-#addrecunit 4153 -- Iyo
-#addrecunit 4154 -- Iyo
-#addrecunit 4155 -- Iyo Long
-#addrecunit 4156 -- Iyo Veteran
-#addrecunit 4157 -- Iyo Vet Long
-#addrecunit 4158 -- Isien
-#addrecunit 4159 -- Razorhorn
-
-
-#defcom1 4166-- Okakuo
-#defcom2  4167
-#defunit1 4153
-#defunit1b 4152 -- Archer
-#defmult1 10
-#defmult1b 10
-#defunit2 4156
-#defunit2b 4152 -- Archer
-#defmult2 10
-#defmult2b 10
-
-#wallcom 4166 -- Okakuo
-#wallunit 4152 -- Archer
-
-#startcom 4166 -- Okakuo
-#startscout 4165 -- Scout
-#startunittype1 4157 -- Vet Long
-#startunitnbrs1 15
-#startunittype2 4152 -- Archer
-#startunitnbrs2 10
+-- #addrecunit 4150 -- Militia
+-- #addrecunit 4151 -- Drummer
+-- #addrecunit 4152 -- Archer
+-- #addrecunit 4153 -- Iyo
+-- #addrecunit 4154 -- Iyo
+-- #addrecunit 4155 -- Iyo Long
+-- #addrecunit 4156 -- Iyo Veteran
+-- #addrecunit 4157 -- Iyo Vet Long
+-- #addrecunit 4158 -- Isien
+-- #addrecunit 4159 -- Razorhorn
 
 
-#homerealm 7 -- Africa
-#templepic 5
-#fortera 2
+-- #defcom1 4166-- Okakuo
+-- #defcom2  4167
+-- #defunit1 4153
+-- #defunit1b 4152 -- Archer
+-- #defmult1 10
+-- #defmult1b 10
+-- #defunit2 4156
+-- #defunit2b 4152 -- Archer
+-- #defmult2 10
+-- #defmult2b 10
 
-#idealcold -2
+-- #wallcom 4166 -- Okakuo
+-- #wallunit 4152 -- Archer
 
-#addgod 4190
-#cheapgod20 4190
-#addgod 4191
-#cheapgod20 4191
-#addgod 4192
-#cheapgod20 4192
-#addgod 4193
-#cheapgod20 4193
-#addgod 657 -- Monolith
-#addgod 4988 -- Statue of Sun and Rain
-#addgod 4989 -- Idol of the Sun
-#addgod 4992 -- Plague Idol
-#addgod 4993 -- Divine Egg
-#addgod 4998 -- Statue of the Silent God
-#addgod 5000 -- Foul Statue
-#addgod 5014 -- Ancestral Barrow
-#addgod 4997 -- Spirit of Bones
+-- #startcom 4166 -- Okakuo
+-- #startscout 4165 -- Scout
+-- #startunittype1 4157 -- Vet Long
+-- #startunitnbrs1 15
+-- #startunittype2 4152 -- Archer
+-- #startunitnbrs2 10
 
-#addgod 606 -- Great Mother
-#addgod 180 -- Demilich
-#addgod 5053 -- Green Man
-#addgod 1346 -- Colossal Fetish
 
-#addgod 2791 -- Earth Serpent
-#addgod 2785 -- Solar Eagle
-#addgod 872 -- Ghost King
-#addgod 179 -- Master Lich
-#addgod 2789 -- Raven of the Underworld
-#addgod 4937 -- Night Hunter
-#addgod 5025 -- Worm Lord
-#addgod 246 -- Freak Lord
-#addgod 4194 -- Queen Mother
-#addgod 4199 -- Eldest Babalawo
+-- #homerealm 7 -- Africa
+-- #templepic 5
+-- #fortera 2
 
-#delgod 384
-#delgod 385
-#delgod 386
-#delgod 387
-#delgod 388
-#delgod 2445
-#delgod 2446
-#delgod 2464
-#delgod 4981
-#delgod 5089
+-- #idealcold -2
 
-#hero1 4195 -- Oriburu
-#hero2 4197 -- Ohen
-#hero3 4198 -- Idia
+-- #addgod 4190
+-- #cheapgod20 4190
+-- #addgod 4191
+-- #cheapgod20 4191
+-- #addgod 4192
+-- #cheapgod20 4192
+-- #addgod 4193
+-- #cheapgod20 4193
+-- #addgod 657 -- Monolith
+-- #addgod 4988 -- Statue of Sun and Rain
+-- #addgod 4989 -- Idol of the Sun
+-- #addgod 4992 -- Plague Idol
+-- #addgod 4993 -- Divine Egg
+-- #addgod 4998 -- Statue of the Silent God
+-- #addgod 5000 -- Foul Statue
+-- #addgod 5014 -- Ancestral Barrow
+-- #addgod 4997 -- Spirit of Bones
 
-#end
+-- #addgod 606 -- Great Mother
+-- #addgod 180 -- Demilich
+-- #addgod 5053 -- Green Man
+-- #addgod 1346 -- Colossal Fetish
+
+-- #addgod 2791 -- Earth Serpent
+-- #addgod 2785 -- Solar Eagle
+-- #addgod 872 -- Ghost King
+-- #addgod 179 -- Master Lich
+-- #addgod 2789 -- Raven of the Underworld
+-- #addgod 4937 -- Night Hunter
+-- #addgod 5025 -- Worm Lord
+-- #addgod 246 -- Freak Lord
+-- #addgod 4194 -- Queen Mother
+-- #addgod 4199 -- Eldest Babalawo
+
+-- #delgod 384
+-- #delgod 385
+-- #delgod 386
+-- #delgod 387
+-- #delgod 388
+-- #delgod 2445
+-- #delgod 2446
+-- #delgod 2464
+-- #delgod 4981
+-- #delgod 5089
+
+-- #hero1 4195 -- Oriburu
+-- #hero2 4197 -- Ohen
+-- #hero3 4198 -- Idia
+
+-- #end
 
 
 
@@ -103369,7 +103369,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #newweapon 1807
 #copyweapon 64
 #name "Cursed Word"
-#secondaryeffectalways 364
+#secondaryeffect 364
 #end
 
 #newweapon 1806
@@ -103484,8 +103484,8 @@ Priests: Average, can perform blood sacrifices"
 #end
 
 #selectsite 58
-#res 125
-#resources 115
+#res 225
+#resources 225
 #gems 5 5
 #end
 
@@ -103558,6 +103558,8 @@ Priests: Weak"
 #gold 210
 #gems 5 6
 #gems 3 3
+#resources 100
+#res 100
 #end
 
 #selectmonster 1316 -- Dai
@@ -103581,7 +103583,6 @@ Priests: Weak"
 #poisonres 30
 #poisoncloud 5
 #magicboost 53 2
-#magicboost 8 2
 #masterrit -9
 #mastersmith -9
 #researchbonus -99
@@ -103592,7 +103593,6 @@ Priests: Weak"
 #poisonres 50
 #poisoncloud 5
 #magicboost 53 2
-#magicboost 8 2
 #masterrit -9
 #mastersmith -9
 #researchbonus -99
@@ -103617,7 +103617,7 @@ Priests: Weak"
 #selectmonster 1312
 #gcost 9
 #poisoncloud 4
-#poisonres 20
+#poisonres 25
 #rcost 21
 #end
 
@@ -103647,6 +103647,2838 @@ Priests: Weak"
 #restricted 27
 #end
 
+
+-- ================
+-- == MA Ermor   == Nation ID 44
+-- ================
+
+
+#selectmonster 259 -- Lictor
+#clearspec
+#undead
+#coldres 25
+#poisonres 25
+#cold 3
+#undead
+#spiritsight
+#end
+
+#newmonster
+#copystats 4992
+#copyspr 4992
+#name "Ermorian Idol"
+#descr "Using this if you aren't Ermor is CHEATING."
+#gcost 80
+#startdom 10
+#hp 180
+#autohealer 5
+#spreaddom 4
+#forgebonus 50
+#itemslots 61568
+#end
+-- Events for pop and sites
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_targmnr "Ermorian Idol"
+#req_targgod 1
+#nation -2
+#msg "People"
+#incpop 200
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_freesites 1
+#req_nositenbr 68
+#req_targmnr "Ermorian Idol"
+#req_targgod 1
+#nation -2
+#msg "Copper Mine"
+#addsite 68
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_freesites 1
+#req_nositenbr 506
+#req_targmnr "Ermorian Idol"
+#req_targgod 1
+#nation -2
+#msg "Superior Iron Mine"
+#addsite 506
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#req_fornation 44
+#req_pregame 1
+#nation 44
+#msg "Game Start Incomes"
+#incpop 3000
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#4d6vis 5
+#2d6vis 5
+#exactgold 1100
+--#notext
+#nolog
+#end
+
+#selectsite 24 -- Sepulchre
+#res 100
+#resources 100
+#gems 0 2
+#gems 1 2
+#gems 2 2
+#gems 3 2
+#gems 4 2
+#gems 5 16
+#gems 6 2
+#gems 7 4
+#gold 210
+#end
+
+-- Crystalized Faith
+#newevent
+#rarity 5
+#req_pop0ok
+#req_domowner 44
+#nation -2
+#req_domchance 4
+#msg "Ermorian Faith has crystalized into Death Gems!"
+#1d3vis 5
+#nolog
+#end
+
+#newspell
+#copyspell 709 -- Utterdark
+#researchlevel 8
+#restricted 44
+#end
+
+#newitem
+#copyitem 337 -- Lightless
+#constlevel 2
+#restricted 44
+#end
+
+#selectsite 158 -- Campus Sceleris
+#name "Campus Sceleris II"
+#gems 5 6
+#end
+
+#selectnation 44
+#uwbuild 1
+#startsite "Campus Sceleris II"
+#end
+
+#selectspell "Anathema"
+#restricted 44
+#end
+#selectspell "Apostasy"
+#restricted 44
+#end
+#selectspell "Chill of the Grave"
+#restricted 44
+#end
+#selectspell "Resilience of the Shadelands"
+#restricted 44
+#end
+#selectspell "Chill of the Grave"
+#restricted 44
+#end
+
+
+
+------------------------------------------------------ EA Vanheim
+------------------------------------------------------ EA Vanheim
+------------------------------------------------------ EA Vanheim
+------------------------------------------------------ EA Vanheim
+
+#selectnation 60
+#name "New Vanheim"
+#era 2
+#brief "Vanheim is a human nation ruled by Vanir, ancient enemies of the Jotun giants. Vanir can sail across the oceans and hide themselves with illusions. They mostly use infantry, but utilize many unique troops, including flying Valkyries, human berserkers and skinshifters. Their Dwarven smiths are powerful Earth mages."
+#descr "Vanheim is a land of misty moors and bitter forests. Humans compose most of the population, but the rulers of the land belong to a tall and innately magical race known as the Vanir. The Vanir once fought the giants of Jotunheim, but with the coming of man, they have turned their attention elsewhere. Now only a precious few of the Vanir remain and humans are no longer slaves.
+Humans compose the basic infantry units of Vanheim. The Vanir have blessed some loyal humans with superior fighting skills and the ability to enter a state of wild rage or wolven shape. The Vanir are masters of illusion who fight while mounted on exceptionally fast horses. Female Vanir are called Valkyries and have the ability to fly. This ability was a gift from a dead god who used them as messengers of death. During those days, blood was sacrificed. The old ways have not been used in ages, but still the oldest of the Vanir remember how to sate nature with blood. The Vanir are very skilled sailors and can sail the oceans."
+#summary "Race: Ocean sailing, trace income across oceans, flying troops, illusions, prefers Cold scale +1
+Military: Heavy infantry, skinshifters, Valkyries, Vanir
+Magic: Air, Earth, Blood, some Fire and Death
+Priests: Average, can perform blood sacrifices"
+#end
+
+-- Weapons --
+
+-- armors --
+
+-- misc item
+#newitem
+#copyitem 123
+#copyspr 123
+--#name "Vanheim Hammer"
+#constlevel 2
+#restricted 20
+#end
+
+#newitem
+#copyitem 164
+#copyspr 164
+--#name "Vanheim Shield"
+#constlevel 2
+#restricted 20
+#end
+
+#newitem
+#copyitem 244
+#copyspr 244
+--#name "Unstylish Vanheim Suit"
+#constlevel 2
+#restricted 20
+#end
+
+#newitem
+#copyitem 918
+#copyspr 918
+--#name "Vanheim hat"
+#constlevel 2
+#restricted 20
+#end
+
+#newitem
+#copyitem 980
+#copyspr 980
+--#name "Vanheim Shoes"
+#constlevel 2
+#restricted 20
+#end
+
+#newitem
+#copyitem 448
+#copyspr 448
+--#name "Vanheim Thing"
+#constlevel 2
+#restricted 20
+#end
+-- units --
+
+#selectmonster 1513 -- Vanhere
+#gcost 40
+#undead
+#noriverpass
+#regeneration 21
+#flying
+#coldres 15
+#poisonres 15
+#fireres -5
+#uwdamage 100
+#enc 0
+#heal
+#end
+
+#selectmonster 1508 -- Huskarl
+#gcost 25
+#undead
+#coldres 15
+#poisonres 15
+#enc 0
+#neednoteat
+#pooramphibian
+#clearweapons
+#weapon 42 -- baneblade
+#weapon 21 -- Javelin
+#spiritsight
+#att 13
+#prec 13
+#def 18
+#end
+
+-- RECRITABLE COMMANDERS -- 
+#selectmonster 323 -- Dwarven Smith
+#gcost 140
+#amphibian
+#custommagic 27648 100
+#custommagic 7296 60
+#end
+
+#selectmonster 263 -- Vanherse
+#gcost 140
+#amphibian
+#spy
+#end
+
+#selectmonster 264 -- vanjarl
+#gcost 275
+#commaster
+#amphibian
+#end
+
+#selectmonster 948 -- Vanadrott
+#gcost 410
+#amphibian
+#end
+
+
+
+
+----- Pretenders
+
+
+
+
+-- sites
+#selectsite 115
+#res 225
+#gold 200
+#end
+
+
+-- Nations
+#selectnation 20 -- EA Vanheim
+#era 2
+#addrecunit 1513 -- "Vanhere"
+#startsite "The Flooded City"
+#startsite "The Obsidian Cavern"
+#addreccom 2748
+#addreccom 2750
+#addreccom 2751
+#addreccom 2753
+#killcappop -100
+#end
+
+
+
+-- spells
+#selectspell "Gift of the First Soul"
+#restricted 20
+#end
+
+#selectspell "Break the First Soul"
+#restricted 20
+#end
+
+#selectspell "The Obsidian Butterfly"
+#restricted 20
+#end
+
+#selectspell "Contact Onaqui"
+#restricted 20
+#end
+
+#selectspell "Create Mud Man"
+#restricted 20
+#end
+
+
+#selectspell "Bind Beast Bats"
+#restricted 20
+#end
+
+
+-- Events
+
+#newevent
+#rarity 5
+#req_fornation 20 -- EA Vanheim
+#req_pregame 1
+#nation -2
+#msg "Gold"
+#gold 1100
+#nolog
+#end
+
+#newevent
+#req_fornation 20 -- EA Vanheim
+#magicitem 9
+#msg "Atlas of Creation [Atlas of Creation]"
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#nation -2
+#req_capital 1
+#end
+
+#newevent
+#req_fornation 20 -- EA Vanheim
+#magicitem 9
+#msg "Seal of Solomon [Seal of Solomon]"
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#nation -2
+#req_capital 1
+#end
+
+#newevent
+#req_fornation 20 -- EA Vanheim
+#magicitem 9
+#msg "The Sword of Many Colors [The Sword of Many Colors]"
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#nation -2
+#req_capital 1
+#end
+
+#newevent
+#req_fornation 20 -- EA Vanheim
+#magicitem 9
+#msg "Flower Charm [Flower Charm]"
+#rarity 5
+#nation -2
+#req_owncapital 1
+#end
+
+#newevent
+#req_fornation 20 -- EA Vanheim
+#magicitem 9
+#msg "A lantern for blind people [Lightless Lantern]"
+#rarity 5
+#nation -2
+#req_owncapital 1
+#end
+
+-- #newevent -- Vanheiman cap pop game start
+-- #rarity 5
+-- #req_pregame 5
+-- #req_maxturn 1
+-- #req_unique 1
+-- #req_fornation 20
+-- #nation -2
+-- #req_capital 1
+-- #incpop 3000
+-- #msg "30,000ish people"
+-- #nolog
+-- #end
+
+
+
+------------------------------------------------------ MA Marignon
+------------------------------------------------------ MA Marignon
+------------------------------------------------------ MA Marignon
+------------------------------------------------------ MA Marignon --- Added monster number 8801 for pretender
+-- Weapons --
+
+-- armors --
+
+-- misc item
+
+#newitem
+#copyitem 337
+#copyspr 337
+#name "Marignese Lightless Lantern"
+#descr "A broken lantern"
+#restricted 50 -- Marignon
+#constlevel 4
+#end
+
+-- units --
+
+
+
+
+-- RECRITABLE COMMANDERS -- 
+#selectmonster 224 -- Witch Hunter
+#commaster
+#end
+
+#selectmonster 225 -- initiate 
+#comslave
+#end
+
+#selectmonster 1369 -- angel of fury
+#onebattlespell "Blessing"
+#end
+
+#selectmonster 135 -- knights of the chalice
+#gcost 50
+#rcost 45
+#fireshield 8
+#eyeloss
+#end
+
+----- Pretenders
+
+#newmonster 8801
+#copystats 280 -- Seithkona
+#clearmagic
+#clearweapons
+#spr1 "./ExtraPretenders/3Maiden.tga"
+#spr2 "./ExtraPretenders/3Maiden2.tga"
+#name "Maid Marignon"
+#descr "In ages past a great Goddess was born in which the power of femininity was embodied in one being. She could bear new life, heal the sick and see future events using divination. Soon after her creation the Pantokrator grew fearful and decided to divide the Goddess into three parts, to more safely contain her power. Each aspect of the Goddess was imprisoned separately to prevent their combined strength from overcoming his bonds. Now, with the Pantokrator gone the shackles are weakening and the Triple Goddess will soon return to guide her daughters once more. The Goddess now resides in three bodies, the Maiden, the Mother and the Crone. The Maiden is the promise of new beginnings and will cause living things to bloom and ripen. She skilled in the primal magic of Fire and Air. The Mother is the power of life and can heal sickness and disease. She is skilled in the hearty magic of Blood and Water. The Crone is the wisdom of age and can predict future events with great accuracy. She is skilled in the arcane magic of Astral and Death."
+#humanoid
+#gcost 150
+#mr 18
+#mor 30
+#goodleader
+#spiritsight
+#heal
+#diseaseres 100
+#weapon 7 -- Quarterstaff
+#magicskill 3 1
+#magicskill 6 1
+#magicboost 0 2
+#magicboost 1 2
+#magicboost 2 -10
+#magicboost 4 -10
+#magicboost 5 -10
+#magicboost 7 -10
+#nobadevents 0
+#supplybonus 30
+#researchbonus -5
+#triplegod 5
+#triple3mon
+#triplegodmag 2
+#startdom 3
+#pathcost 10
+#homerealm 2 -- Celtic
+#end
+
+#newmonster 8802
+#copystats 280 -- Seithkona
+#clearmagic
+#clearweapons
+#spr1 "./ExtraPretenders/3Mother.tga"
+#spr2 "./ExtraPretenders/3Mother2.tga"
+#name "Mother"
+#descr "In ages past a great Goddess was born in which the power of femininity was embodied in one being. She could bear new life, heal the sick and see future events using divination. Soon after her creation the Pantokrator grew fearful and decided to divide the Goddess into three parts, to more safely contain her power. Each aspect of the Goddess was imprisoned separately to prevent their combined strength from overcoming his bonds. Now, with the Pantokrator gone the shackles are weakening and the Triple Goddess will soon return to guide her daughters once more. The Goddess now resides in three bodies, the Maiden, the Mother and the Crone. The Maiden is the promise of new beginnings and will cause living things to bloom and ripen. She skilled in the primal magic of Fire and Air. The Mother is the power of life and can heal sickness and disease. She is skilled in the hearty magic of Blood and Water. The Crone is the wisdom of age and can predict future events with great accuracy. She is skilled in the arcane magic of Astral and Death."
+#humanoid
+#gcost 150
+#mr 18
+#mor 30
+#goodleader
+#spiritsight
+#heal
+#diseaseres 100
+#weapon 7 -- Quarterstaff
+#magicskill 3 1
+#magicskill 6 1
+#magicboost 0 -10
+#magicboost 1 -10
+#magicboost 2 2
+#magicboost 4 -10
+#magicboost 5 -10
+#magicboost 7 2
+#triplegod 5
+#researchbonus -5
+#autodishealer 1
+#nobadevents 0
+#triplegodmag 2
+#startdom 1
+#pathcost 10
+#end
+
+#newmonster 8803
+#copystats 280 -- Seithkona
+#clearmagic
+#clearweapons
+#spr1 "./ExtraPretenders/3Crone.tga"
+#spr2 "./ExtraPretenders/3Crone2.tga"
+#name "Crone"
+#descr "In ages past a great Goddess was born in which the power of femininity was embodied in one being. She could bear new life, heal the sick and see future events using divination. Soon after her creation the Pantokrator grew fearful and decided to divide the Goddess into three parts, to more safely contain her power. Each aspect of the Goddess was imprisoned separately to prevent their combined strength from overcoming his bonds. Now, with the Pantokrator gone the shackles are weakening and the Triple Goddess will soon return to guide her daughters once more. The Goddess now resides in three bodies, the Maiden, the Mother and the Crone. The Maiden is the promise of new beginnings and will cause living things to bloom and ripen. She skilled in the primal magic of Fire and Air. The Mother is the power of life and can heal sickness and disease. She is skilled in the hearty magic of Blood and Water. The Crone is the wisdom of age and can predict future events with great accuracy. She is skilled in the arcane magic of Astral and Death."
+#humanoid
+#gcost 150
+#mr 18
+#mor 30
+#str 7
+#att 7
+#def 7
+#mapmove 10
+#goodleader
+#spiritsight
+#heal
+#diseaseres 100
+#weapon 7 -- Quarterstaff
+#magicskill 3 1
+#magicskill 6 1
+#magicboost 0 -10
+#magicboost 1 -10
+#magicboost 2 -10
+#magicboost 4 2
+#magicboost 5 2
+#magicboost 6 -1
+#magicboost 7 -10
+#nobadevents 25
+#triplegod 5
+#researchbonus -5
+#triplegodmag 2
+#startdom 1
+#pathcost 10
+#end
+
+-- sites
+#selectsite 13 -- The house of fiery justice
+#res 100
+#end
+
+-- Nations
+#selectnation 50 -- MA Marignon
+
+#addgod 8801 -- "Maid Marignon"
+#startsite "The Smouldercone"
+#startsite "Temple of the All-Consuming Flame"
+#waterblessbonus 2
+#killcappop -100
+#end
+
+-- spells
+#selectspell "Liquid Flames of Rhuax"
+#restricted 50 -- Marignon
+#end
+#selectspell "Rhuax Legacy"
+#restricted 50 -- Marignon
+#end
+#selectspell "Heatwave"
+#restricted 50 -- Marignon
+#end
+
+-- Events
+#newevent -- 3 PD/turn
+#req_fornation 50 -- MA Marignon
+#rarity 5
+#req_maxdef 40
+#defence 3
+#notext
+#nolog
+#end
+
+#newevent -- 25 PD
+#req_fornation 50 -- MA Marignon
+#rarity 5
+#req_maxdef 10
+#defence 22
+#notext
+#nolog
+#end
+
+#newevent -- Fort maker
+#rarity 5
+#req_fort 0
+#req_fornation 50 -- MA Marignon
+#req_mindef 45
+#fort 1
+#msg "A fort is constructed"
+--#notext
+#nolog
+#end
+
+#newevent -- Unrest reducer
+#req_fornation 50 -- MA Marignon
+#rarity 5
+#req_mindef 45
+#unrest -133
+#decscale 0
+#notext
+#nolog
+#end
+
+#newevent -- Conscription 1 of 2 for Marignon
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 50 -- Marignon
+#nation -2
+#req_capital 1
+#2com 224 -- Witch hunters
+#2com 224 -- Witch hunters
+#2com 224 -- Witch hunters
+#2com 224 -- Witch hunters
+#2com 224 -- Witch hunters
+#msg "Where are the witches?"
+#nolog
+#end
+
+#newevent -- Conscription 2 of 2 for Marignon
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 50 -- Marignon
+#nation -2
+#req_capital 1
+#5com 1369 -- Angel of fury
+#com 440 -- Palawin
+#msg "Righteous Fury."
+#nolog
+#end
+
+#newevent -- Conscription 2 of 2 for Marignon
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 50 -- Marignon
+#nation -2
+#req_capital 1
+#msg "SquidSlayers Arrive."
+#com 2825
+#10d6units 3020
+#nolog
+#end
+#newevent -- Conscription 2 of 2 for Marignon
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 50 -- Marignon
+#nation -2
+#req_capital 1
+#msg "SquidSlayers Arrive."
+#com 2825
+#10d6units 3020
+#nolog
+#end
+#newevent -- Conscription 2 of 2 for Marignon
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 50 -- Marignon
+#nation -2
+#req_capital 1
+#msg "SquidSlayers Arrive."
+#com 2825
+#10d6units 3020
+#nolog
+#end
+
+-- #newevent -- Marignese cap pop game start
+-- #rarity 5
+-- #req_pregame 5
+-- #req_maxturn 1
+-- #req_unique 1
+-- #req_fornation 50
+-- #nation -2
+-- #req_capital 1
+-- #incpop 3000
+-- #msg "30,000ish people"
+-- #nolog
+-- #end
+
+
+--------------- MA MACHAKA
+--------------- MA MACHAKA
+--------------- MA MACHAKA
+--------------- MA MACHAKA
+
+#selectmonster 1346 -- Fetish
+#descr "For Machaka Only."
+#gcost 174
+
+#end
+
+
+#selectmonster 891 -- Sorceress
+#gcost 85
+#fixforgebonus 2
+#fastcast 25
+#researchbonus -2
+#startage 1
+#older 0
+#addrandomage 0
+#prec 14
+#mr 15
+#allrange 2
+#reinvigoration 1
+#att 11
+#def 12
+#mor 13
+#hp 10
+#end
+
+#selectmonster 892 -- witch doctor 
+#gcost 80
+#researchbonus -99
+#mastersmith -9
+#masterrit -9
+#fastcast 25
+#startage 1
+#older 0
+#addrandomage 0
+#allrange 2
+#prec 14
+#mr 14
+#reinvigoration 1
+#att 11
+#def 11
+#mor 13
+#hp 11
+#magicboost 53 2
+#end
+
+#selectmonster 893 -- Sorcerer
+#gcost 195
+#fixforgebonus 2
+#fastcast 25
+#researchbonus -2
+#startage 1
+#older 0
+#addrandomage 0
+#allrange 2
+#prec 14
+#mr 15
+#reinvigoration 1
+#att 11
+#def 11
+#mor 13
+#hp 11
+
+#end
+
+#selectmonster 894 -- Black Sorcerer 
+#gcost 210
+#researchbonus -99
+#mastersmith -9
+#masterrit -9
+#fastcast 25
+#startage 1
+#older 0
+#addrandomage 0
+#allrange 2
+#prec 14
+#mr 17
+#reinvigoration 1
+#att 11
+#def 11
+#mor 13
+#hp 11
+#magicboost 53 2
+#end
+
+#newmonster 
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Machakan Spirit Dancer"
+#spr1 "./Gondwana/Dancer.tga"
+#spr2 "./Gondwana/Dancer2.tga"
+#descr "The Shamans of Gondwana perform elaborate dances that allow them to enter a powerful trance state. These dances can last for many hours and are accompanied by specially trained Spirit Dancers. These women perform special rhythmic songs and dances to aid the Shaman in reaching the spirit world. Spirit Dancers will automatically cast the Chorus Slave spell before combat, ready to lend their strength to the shamans and are otherwise inactive during the battle. They will dance until they collapse, exhausted and will then leave the communion. Dancers have some rudimentary knowledge of magic, however they cannot perform magical research or cast magical rituals."
+#gcost 50
+#rpcost 1
+#researchbonus -10
+#masterrit -1
+#mr 12
+#onebattlespell 1125 -- Chorus Slave
+#magicskill 6 1
+#spellsinger
+#female
+#poorleader
+#weapon 397 -- Kick
+#end
+
+----- Pretenders
+
+
+-- sites
+#selectsite 60
+#gems 6 4
+#gems 4 1
+#gems 0 4
+#end
+
+-- Nations
+
+#selectnation 53 -- MA Machaka
+#addreccom "Machakan Spirit Dancer"
+#nationinc 14
+#end
+
+
+-- spells
+
+#newspell
+#copyspell 20
+#name "small area decay"
+#aoe 5
+#end
+
+#newspell
+#copyspell 564
+#name "Banefire of Machaka"
+#restricted 53 -- Machaka
+#aoe 3
+#nextspell "small area decay"
+#end
+
+#newspell
+#copyspell 601 -- Poison Touch
+#name "Spider Bites"
+#descr "The caster points at a target who immediately feels tiny bites all over their body. The target will be poisoned by the phantasmal spiders. Armour provides some defence from the bites."
+#school 2
+#researchlevel 1
+#precision 100
+#aoe 0
+#range 35
+#fatiguecost 20
+#sound 85 -- Snake attack
+#restricted 53 -- MA Machaka
+#end
+
+#newspell
+#copyspell 641 -- Swarm
+#name "Spider Swarm"
+#descr "The caster summons and transforms several spiders. The enlarged spiders aren't very dangerous, however their poisonous bites can overwhelm those they attack."
+#casttime 54
+#researchlevel 1
+#path 1 5
+#pathlevel 1 1
+#damage 2223
+#nreff 2002
+#spec 0
+#fatiguecost 40
+#restricted 53 -- MA Machaka
+#end
+
+#newitem
+#copyitem 30
+#spr "./MagicEnhanced/EEIMSmith.tga"
+#name "Hammer of the Machakan Smith"
+#descr "Like a hammer but magicker"
+#mainpath 6
+#mainlevel 3
+#secondarypath 0
+#secondarylevel 1
+#restricted 53 -- Machaka
+#constlevel 6
+#fixforgebonus 0
+#forgebonus 25
+#end
+
+
+#newitem
+#copyitem 311 -- Crystal Matrix
+#spr "./MagicEnhanced/EEIGaiaCom.tga"
+#name "Machakan Berries of Gaia"
+#descr "Berries of Gaia with sacred lion urine enchantment"
+#restricted 53 -- Machaka
+#constlevel 4
+#mainpath 6
+#mainlevel 3
+#secondarypath -1
+#mr 1
+#hp 7
+#end
+
+#newitem
+#copyitem 276 -- amulet of air
+#copyspr 326
+#name "Machakan Ring of Regeneration"
+#descr "A ring made from some unnamable beast from the plains of Machaka"
+#constlevel 4
+#mainpath 6
+#mainlevel 2
+#regeneration 10
+#mr 1
+#mapspeed 3
+#run
+#restricted 53 -- Machaka
+#end
+
+#newitem
+#copyitem 289
+#copyspr 337
+#name "Machakan Lightless Lantern"
+#descr "A lantern that doesn't light the plains on fire"
+#restricted 53 -- Machaka
+#constlevel 0
+#mainpath 0
+#mainlevel 1
+#researchbonus 14
+#tainted 3
+#darkvision 100
+#itemcost1 -20
+#end
+
+#newitem
+#copyitem 211
+#copyspr 211
+#name "Machakan Lion Pelt"
+#descr "Pelt from the lion that urinated on the berries"
+#fireres 8
+#coldres 8
+#shockres 8
+#restricted 53 -- Machaka
+#end
+
+#newitem
+#name "Machakan Flower Charm"
+#spr "./MagicEnhanced/EEIFlowerCharm.tga"
+#descr "Give two girls flowers and they will mindlessly follow you."
+#constlevel 4
+#shockres 8
+#reinvigoration 2
+#restricted 53 -- Machaka
+#type 8
+#mainpath 6
+#mainlevel 2
+#secondarypath 4
+#secondarylevel 1
+#batstartsum2 5442 -- Nymph of Gaia
+#end
+
+#newitem
+#copyitem 276 -- amulet of air
+#copyspr 253
+#name "Machakan Boots"
+#descr "Floating earth boots that let you kick arrows out of the sky most of the time"
+#type 7
+#mainpath 3
+#restricted 53 -- Machaka
+#magicboost 3 1
+#constlevel 4
+#float
+#reform 33
+#end
+
+
+
+
+-- Events
+
+#newevent -- Gold for MAchaka
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#exactgold 1100
+#msg "Spend it all in one place."
+#nolog
+#end
+
+#newevent -- Gems for MAchaka
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#3d6vis 5
+#3d6vis 5
+#3d6vis 5
+#3d6vis 5
+#3d6vis 5
+#1d6vis 5
+#msg "Sparkly!"
+#nolog
+#end
+
+#newevent -- Conscription 1 of 7 for Machaka -- Comanders and archer
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#com 892 -- Witch Doctor
+#2com 891 -- Sorceress
+#2com 891 -- Sorceress
+#com 897 -- Voice of the Lord
+#1unit 879 -- Machaka Archer
+#msg "Commanders and one dude with a bow"
+#nolog
+#end
+
+#newevent -- Conscription 2 of 7 for Machaka 1-15 hoplites
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#1unit 882 -- 1 Machaka Hoplites
+#1unit 882 -- 2
+#1unit 882 -- 3
+#1unit 882 -- 4
+#1unit 882 -- 5
+#1unit 882 -- 6
+#1unit 882 -- 7
+#1unit 882 -- 8
+#1unit 882 -- 9
+#1unit 882 -- 10
+#1unit 882 -- 11
+#1unit 882 -- 12
+#1unit 882 -- 13
+#1unit 882 -- 14
+#1unit 882 -- 15
+#msg "Hoplites"
+#nolog
+#end
+
+#newevent -- Conscription 3 of 7 for Machaka 16-30 hoplites
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#1unit 882 -- 1 Machaka Hoplites
+#1unit 882 -- 2
+#1unit 882 -- 3
+#1unit 882 -- 4
+#1unit 882 -- 5
+#1unit 882 -- 6
+#1unit 882 -- 7
+#1unit 882 -- 8
+#1unit 882 -- 9
+#1unit 882 -- 10
+#1unit 882 -- 11
+#1unit 882 -- 12
+#1unit 882 -- 13
+#1unit 882 -- 14
+#1unit 882 -- 15
+#msg "More Hoplites"
+#nolog
+#end
+
+#newevent -- Conscription 4 of 7 for Machaka 31-45 hoplites
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#1unit 882 -- 1 Machaka Hoplites
+#1unit 882 -- 2
+#1unit 882 -- 3
+#1unit 882 -- 4
+#1unit 882 -- 5
+#1unit 882 -- 6
+#1unit 882 -- 7
+#1unit 882 -- 8
+#1unit 882 -- 9
+#1unit 882 -- 10
+#1unit 882 -- 11
+#1unit 882 -- 12
+#1unit 882 -- 13
+#1unit 882 -- 14
+#1unit 882 -- 15
+#msg "Hoplites"
+#nolog
+#end
+
+#newevent -- Conscription 5 of 7 for Machaka 46-60 hoplites
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#1unit 882 -- 1 Machaka Hoplites
+#1unit 882 -- 2
+#1unit 882 -- 3
+#1unit 882 -- 4
+#1unit 882 -- 5
+#1unit 882 -- 6
+#1unit 882 -- 7
+#1unit 882 -- 8
+#1unit 882 -- 9
+#1unit 882 -- 10
+#1unit 882 -- 11
+#1unit 882 -- 12
+#1unit 882 -- 13
+#1unit 882 -- 14
+#1unit 882 -- 15
+#msg "More Hoplites"
+#nolog
+#end
+
+#newevent -- Conscription 6 of 7 for Machaka 61-75 hoplites
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#1unit 882 -- 1 Machaka Hoplites
+#1unit 882 -- 2
+#1unit 882 -- 3
+#1unit 882 -- 4
+#1unit 882 -- 5
+#1unit 882 -- 6
+#1unit 882 -- 7
+#1unit 882 -- 8
+#1unit 882 -- 9
+#1unit 882 -- 10
+#1unit 882 -- 11
+#1unit 882 -- 12
+#1unit 882 -- 13
+#1unit 882 -- 14
+#1unit 882 -- 15
+#msg "Hoplites"
+#nolog
+#end
+
+#newevent -- Conscription 7 of 7 for Machaka 76-90 hoplites
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 53
+#nation -2
+#req_capital 1
+#1unit 882 -- 1 Machaka Hoplites
+#1unit 882 -- 2
+#1unit 882 -- 3
+#1unit 882 -- 4
+#1unit 882 -- 5
+#1unit 882 -- 6
+#1unit 882 -- 7
+#1unit 882 -- 8
+#1unit 882 -- 9
+#1unit 882 -- 10
+#1unit 882 -- 11
+#1unit 882 -- 12
+#1unit 882 -- 13
+#1unit 882 -- 14
+#1unit 882 -- 15
+#msg "More Hoplites"
+#nolog
+#end
+
+
+------------- This section to spawn 1hp immobile amphibious commanders for Machaka/Gondwana for logistics
+
+#newmonster
+#name "Machakan Bureaucrat"
+#copyspr 2293
+#gcost 0
+#mapmove 0
+#itemslots 1
+#hp 1
+#def 0
+#att 0
+#str 0
+#illusion
+#nametype 126
+#patrolbonus -1
+#mor 50
+#noleader
+#neednoteat
+#amphibian
+#end
+
+#newmonster
+#name "Gondwanan Bureaucrat"
+#copyspr 2293
+#gcost 0
+#mapmove 0
+#itemslots 1
+#hp 1
+#def 0
+#att 0
+#str 0
+#illusion
+#nametype 126
+#patrolbonus -1
+#mor 50
+#noleader
+#neednoteat
+#amphibian
+#end
+
+#newevent -- Disciple spawn
+#req_fornation 53
+#rarity 5
+#nation 168
+#com "Gondwanan Bureaucrat" 
+#req_nomonster "Gondwanan Bureaucrat" 
+#notext
+#nolog
+#end
+
+#newevent -- Disciple spawn
+#req_fornation 53
+#rarity 5
+#nation 53
+#com "Machakan Bureaucrat" 
+#req_nomonster "Machakan Bureaucrat" 
+#notext
+#nolog
+#end
+
+#newevent -- Disciple spawn
+#req_fornation 168
+#rarity 5
+#nation 53
+#req_nomonster "Machakan Bureaucrat" 
+#com "Machakan Bureaucrat" 
+#notext
+#nolog
+#end
+
+#newevent -- Disciple spawn
+#req_fornation 168
+#rarity 5
+#nation 168
+#req_nomonster "Gondwanan Bureaucrat" 
+#com "Gondwanan Bureaucrat" 
+#notext
+#nolog
+#end
+
+---------------------------------  GONDWANA
+---------------------------------  GONDWANA
+---------------------------------  GONDWANA
+---------------------------------  GONDWANA
+
+-------  Gondwana Units (IDs 4150-4199, 7001-7002 for Gondwanan Worm Lord
+#newmonster 4150
+#copystats 2298 -- Machaka Militia
+#name "Militia"
+#spr1 "./Gondwana/Militia.tga"
+#spr2 "./Gondwana/Militia2.tga"
+#descr "Each Oba can command the villages and towns under their control to send men in times of need, however not all are trained warriors. These militia are armed with spears and wear only tanned hides for armor."
+#rpcost 3
+#armor 10 -- Leather Hauberk
+#armor 120 -- Leather Cap
+#end
+
+#newmonster 4151
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#name "War Drummer"
+#spr1 "./Gondwana/Drummer.tga"
+#spr2 "./Gondwana/Drummer2.tga"
+#descr "In Gondwana war drums are used in battle to coordinate troops and raise morale. The presence of a war drum will help to maintain fighting spirit amongst the warriors."
+#gcost 20
+#ap 12
+#standard 1
+#weapon 252 -- Club
+#armor 10 -- Leather Hauberk
+#armor 120 -- Leather Cap
+#end
+
+#newmonster 4152
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#name "Archer"
+#spr1 "./Gondwana/Archer.tga"
+#spr2 "./Gondwana/Archer2.tga"
+#descr "The bow is a common weapon amongst hunters and is used extensively in warfare. Poisonous plants are gathered and their venom used to coat arrows in times of war."
+#rpcost 9
+#weapon 594 -- Poison Bow
+#weapon 9 -- Dagger
+#armor 10 -- Leather Hauberk
+#armor 120 -- Leather Cap
+#end
+
+#newmonster 4153
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#name "Iyokuo Skirmisher"
+#spr1 "./Gondwana/IyokuoSkirm.tga"
+#spr2 "./Gondwana/IyokuoSkirm2.tga"
+#descr "The Iyokuo are warriors drawn from local villages and towns. They must provide their own weapons and armor, however they earn plunder and other spoils of war. The youngest warriors wield spears and hurl assegai in battle and function as light infantry."
+#rpcost 9
+#weapon 1 -- Spear
+#weapon 21 -- Javelin
+#armor 10 -- Leather Hauberk
+#armor 120 -- Leather Cap
+#armor 2 -- Shield
+#skirmisher 1
+#end
+
+#newmonster 4154
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#name "Iyokuo"
+#spr1 "./Gondwana/Iyokuo.tga"
+#spr2 "./Gondwana/Iyokuo2.tga"
+#descr "The Iyokuo are warriors drawn from local villages and towns. They must provide their own weapons and armor, however they earn plunder and other spoils of war. Seasoned warriors use spears and shields to form a battle line and most have obtained some armor."
+#rpcost 9
+#weapon 1 -- Spear
+#weapon 21 -- Javelin
+#armor 511 -- Llamelar Leather
+#armor 135 -- Bronze Cap
+#armor 2 -- Shield
+#end
+
+#newmonster 4155
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#name "Iyokuo Longspear"
+#spr1 "./Gondwana/IyokuoLong.tga"
+#spr2 "./Gondwana/IyokuoLong2.tga"
+#descr "The Iyokuo are warriors drawn from local villages and towns. They must provide their own weapons and armor, however they earn plunder and other spoils of war. Seasoned warriors use spears and shields to form a battle line and most have obtained some armor."
+#rpcost 9
+#weapon 315 -- Machaka Spear
+#armor 511 -- Llamelar Leather
+#armor 135 -- Bronze Cap
+#armor 2 -- Shield
+#end
+
+#newmonster 4156
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#name "Iyokuo Veteran"
+#spr1 "./Gondwana/IyokuoCopper.tga"
+#spr2 "./Gondwana/IyokuoCopper2.tga"
+#descr "The Iyokuo are warriors drawn from local villages and towns. They must provide their own weapons and armor, however they earn plunder and other spoils of war. The most experienced Iyokuo wear armor of bronze and have fought in many campaigns for their Oba."
+#gcost 12
+#rpcost 12
+#att 11
+#def 11
+#mor 11
+#weapon 1 -- Spear
+#weapon 21 -- Javelin
+#armor 136 -- Bronze Scale Hauberk
+#armor 135 -- Bronze Cap
+#armor 2 -- Shield
+#end
+
+#newmonster 4157
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#name "Iyokuo Veteran Longspear"
+#spr1 "./Gondwana/IyokuoCopperLong.tga"
+#spr2 "./Gondwana/IyokuoCopperLong2.tga"
+#descr "The Iyokuo are warriors drawn from local villages and towns. They must provide their own weapons and armor, however they earn plunder and other spoils of war. The most experienced Iyokuo wear armor of bronze and have fought in many campaigns for their Oba."
+#gcost 12
+#rpcost 12
+#att 11
+#def 11
+#mor 11
+#weapon 315 -- Machaka Spear
+#armor 136 -- Bronze Scale Hauberk
+#armor 135 -- Bronze Cap
+#armor 2 -- Shield
+#end
+
+#newmonster 4158
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#name "Isienmwenro"
+#spr1 "./Gondwana/Isienmwenro.tga"
+#spr2 "./Gondwana/Isienmwenro2.tga"
+#descr "The Isienmwenro are elite warriors responsible directly to the Oba and equipped from his personal weapons store. Each town has its own regiment of Isienmwenro, highly trained and clad in iron plate forged by the Machakan refugees. They function as a strike force in battle and enforce the will of the Oba in peace time. When a sentence of death is applied to a criminal an Isienmwenro must carry it out."
+#gcost 13
+#rpcost 18
+#hp 11
+#att 12
+#def 12
+#mor 13
+#patrolbonus 2
+#weapon 8 -- Broad Sword
+#armor 14 -- Plate Hauberk
+#armor 20 -- Iron Cap
+#armor 2 -- Shield
+#end
+
+#newmonster 4159
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#name "Razorhorn Rider"
+#spr1 "./Gondwana/ElkRider.tga"
+#spr2 "./Gondwana/ElkRider2.tga"
+#descr "The people of Gondwana do not use horses. Instead, giant beasts that roam the plains are tamed and taught to carry riders. The Razorhorns are larger than a horse and with wickedly sharp antlers. In battle they are hard to control and their size and temperament prevent them from fighting in close formations. If the rider is slain the beast will continue to gore and trample enemies, however after the battle it will escape."
+#gcost 40
+#rpcost 36
+#ressize 2
+#size 4
+#hp 12
+#att 10
+#def 12
+#mor 11
+#ap 24
+#enc 4
+#prec 8
+#mapmove 22
+#weapon 357 -- Light Lance
+#weapon 354 -- Antlers
+#weapon 615 -- Hoof
+#armor 10 -- Leather Hauberk
+#armor 20 -- Iron Cap
+#armor 2 -- Shield
+#undisciplined
+#mounted
+#xploss 100
+#secondtmpshape 4160
+#end
+
+#newmonster 4160
+#copystats 1084 -- Moose
+#transformation 0
+#name "Razorhorn"
+#spr1 "./Gondwana/Elk.tga"
+#spr2 "./Gondwana/Elk2.tga"
+#descr "The people of Gondwana do not use horses. Instead, giant beasts that roam the plains are tamed and taught to carry riders. Razorhorns are antelopes larger than a horse and with wickedly curved and sharp antlers. In battle they are hard to control and their size and temperament prevent them from fighting in close formations. If the rider is slain the beast will continue to gore and trample enemies, however after the battle it will escape."
+#end
+
+#newmonster 4161
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#name "Iyoba"
+#spr1 "./Gondwana/QueensOwn.tga"
+#spr2 "./Gondwana/QueensOwn2.tga"
+#descr "The Iyoba, or Queen's Guard is a special regiment stationed at the capital and dedicated to the protection of the Royal family. Only the most elite warriors are accepted into the Guard. They often act as bodyguards for members of the Royal family on dangerous business. In times of war the Iyoba can be called upon as elite warriors. Before battle they coat their swords with a combination of poison and ground pepper to paralyze enemies with pain."
+#gcost 15
+#rpcost 22
+#hp 12
+#str 11
+#att 13
+#def 13
+#mor 13
+#bodyguard 2
+#weapon 1865 -- Poison Sword
+#armor 14 -- Plate Hauberk
+#armor 20 -- Iron Cap
+#armor 2 -- Shield
+#end
+
+#newmonster 4162
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#name "Ekaiwe"
+#spr1 "./Gondwana/TerrorBirdRider.tga"
+#spr2 "./Gondwana/TerrorBirdRider2.tga"
+#descr "In the capital exists a special regiment of Isienmwenro known as the Ekaiwe. These are the cream of the warriors specially trained to ride gigantic predatory birds known as Terror Birds. Terror Birds roam the plains of Gondwana preying on anything they can kill with their powerful beaks and sharp claws. They are strong in N'um and are sacred to the people of Gondwana. Should the rider be slain the bird will continue to peck and claw at enemies. After battle the bird can be brought back to the capital where a new rider will replace the old one."
+#mountedhumanoid
+#gcost 75
+#rpcost 46
+#ressize 2
+#hp 12
+#str 11
+#size 4
+#att 12
+#def 13
+#mor 13
+#mr 11
+#ap 24
+#enc 4
+#prec 8
+#mapmove 22
+#weapon 357 -- Light Lance
+#weapon 1680 -- Beak
+#weapon 1866 -- Bird kick
+#armor 14 -- Plate Hauberk
+#armor 20 -- Iron Cap
+#armor 2 -- Shield
+#holy
+#mounted
+#xploss 100
+#cleanshape
+#secondshape 4163
+#end
+
+#newmonster 4163
+#copystats 2000 -- Gibbor
+#clearweapons
+#cleararmor
+#name "Terror Bird"
+#spr1 "./Gondwana/TerrorBird.tga"
+#spr2 "./Gondwana/TerrorBird2.tga"
+#descr "Terror Birds are gigantic predatory birds that roam the plains of Gondwana preying on anything they can kill with their powerful beaks and sharp claws. They are strong in N'um and are sacred to the people of Gondwana. Should the rider be slain the bird will continue to peck and claw at enemies. After battle the bird can be brought back to the capital where a new rider will replace the old one."
+#lizard
+#gcost 0
+#ap 24
+#prot 10
+#prec 8
+#def 13
+#str 20
+#mr 9
+#mapmove 22
+#animal
+#supplybonus 0
+#fireres 0
+#neednoteat
+#weapon 404 -- Beak
+#weapon 29 -- Claw
+#maxage 100
+#xploss 100
+#homeshape 4162
+#nametype 144
+#end
+
+#newmonster 4164
+#copystats 2307 -- Machaka Elephant
+#clearweapons
+#name "Thunder Beast"
+#spr1 "./Gondwana/ThunderBeastUnit.tga"
+#spr2 "./Gondwana/ThunderBeastUnit2.tga"
+#descr "The Thunder Beasts are the largest creatures that stride the plains of Gondwana, named for the terrifying sound caused as their feet impact the earth. These creatures have little to fear from any predator, however a few are captured as newborns and raised in captivity by the Obas for use in times of war. These huge creatures are strong in N'um, the sacred force that manifests only in the largest and most holy of beings.  The sight of a Thunder Beast will fill enemies with fear. Their sheer size allows them to trample through enemy lines with ease, however if panicked they may end up trampling friends and enemies alike." 
+#quadruped
+#gcost 250
+#rpcost 56
+#hp 130
+#prot 14
+#mr 7
+#mor 11
+#ap 14
+#str 26
+#def 6
+#fear 5
+#holy
+#slowrec
+#reclimit 1
+#weapon 397 -- Kick
+#end
+
+--- COMMANDERS
+
+#newmonster 4165
+#copystats 2288 -- Machaka Scout
+#copyspr 878 -- Militia
+#clearweapons
+#name "Scout"
+#descr "Scouts are trained to pass unseen through enemy territory and to travel efficiently even in mountainous and forested terrain. Their reports on enemy army movements and the resources in enemy lands are invaluable to the Oba in planning a succesful campaign."
+#rpcost 1
+#gcost 25
+#weapon 1 -- Spear
+#end
+
+#newmonster 4166
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#name "Okakuo"
+#spr1 "./Gondwana/Okakuo.tga"
+#spr2 "./Gondwana/Okakuo2.tga"
+#descr "An Okakuo is the head of a local village regiment and can lead troops in battle. They do not have much authority outside their village and report to the Ezomos."
+#gcost 10010
+#att 11
+#def 11
+#mor 11
+#weapon 8 -- Broad Sword
+#armor 136 -- Bronze Scale Hauberk
+#armor 135 -- Bronze Cap
+#end
+
+#newmonster 4167
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#name "Ezomo"
+#spr1 "./Gondwana/Ezomo.tga"
+#spr2 "./Gondwana/Ezomo2.tga"
+#descr "An Ezomo is the commander of an Isienmwenro regiment and is given authority over the local Okakuos. Gifted with iron armour from the arsenal of the Obas they handle local trouble and exercise the authority of their Oba."
+#gcost 10010
+#att 12
+#def 12
+#mor 12
+#goodleader
+#weapon 8 -- Broad Sword
+#armor 14 -- Plate Hauberk
+#armor 20 -- Iron Cap
+#end
+
+#newmonster 4168
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#name "Priest"
+#spr1 "./Gondwana/Priest.tga"
+#spr2 "./Gondwana/Priest2.tga"
+#descr "The priests of Gondwana teach that sacred energy, N'um, is present in certain sacred beings. Larger beings have more N'um and are venerated by the people of Gondwana as close to the True God, the source of N'um. Each village has several priests that lead the faithful in prayer and worship."
+#gcost 10010
+#mr 11
+#weapon 92 -- Fist
+#armor 135 -- Bronze Cap
+#magicskill 8 1
+#poorleader
+#holy
+#end
+
+#newmonster 4169
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Spirit Dancer"
+#spr1 "./Gondwana/Dancer.tga"
+#spr2 "./Gondwana/Dancer2.tga"
+#descr "The Shamans of Gondwana perform elaborate dances that allow them to enter a powerful trance state. These dances can last for many hours and are accompanied by specially trained Spirit Dancers. These women perform special rhythmic songs and dances to aid the Shaman in reaching the spirit world. Spirit Dancers will automatically cast the Chorus Slave spell before combat, ready to lend their strength to the shamans and are otherwise inactive during the battle. They will dance until they collapse, exhausted and will then leave the communion. Dancers have some rudimentary knowledge of magic, however they cannot perform magical research or cast magical rituals."
+#gcost 50
+#rpcost 1
+#researchbonus -10
+#masterrit -1
+#mr 12
+#onebattlespell 1125 -- Chorus Slave
+#magicskill 6 1
+#spellsinger
+#female
+#poorleader
+#weapon 397 -- Kick
+#end
+
+
+#newmonster 4170
+#copystats 892 -- Witch Doctor
+#clearweapons
+#cleararmor
+#name "Witch Doctor"
+#spr1 "./Gondwana/WDoctor.tga"
+#spr2 "./Gondwana/WDoctor2.tga"
+#descr "Witch doctors are reclusive shamans that shun contact with others. They live in the small villages of Gondwana where they heal the sick or afflict those that displease them with fever. Witch doctors shun contact with other mages and never reveal any magic secrets willingly. This makes them very poor magical researchers. The shamans of Gondwana perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting."
+#spellsinger
+#weapon 151 -- Wand
+#armor 187 -- Mask
+#end
+
+#newmonster 4171
+#copystats 892 -- Witch Doctor
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Lion Shaman"
+#spr1 "./Gondwana/LionMage.tga"
+#spr2 "./Gondwana/LionMage2.tga"
+#descr "Lion Shamans wear the hide of great beasts and use these to take animal form. Through meditation and ingesting highly magical plants they can transform their body into that of a beast. Lion Shamans can assume the form of a great lion, or a fearsome creature with the qualities of man and beast. The Shamans of Gondwana perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting."
+#gcost 140
+#rpcost 4
+#mor 13
+#mr 14
+#weapon 9 -- Dagger
+#armor 44 -- Furs
+#magicskill 5 1
+#magicskill 6 1
+#custommagic 12672 100 -- 100% FADN
+#researchbonus 0
+#masterrit 1
+#spellsinger
+#shapechange 4172
+#end
+
+#newmonster 4172
+#copystats 892 -- Witch Doctor
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Lion Shaman"
+#spr1 "./Gondwana/LionMan.tga"
+#spr2 "./Gondwana/LionMan2.tga"
+#descr "Lion Shamans wear the hide of great beasts and use these to take animal form. Through meditation and ingesting highly magical plants they can transform their body into that of a beast. Lion Shamans can assume the form of a great lion, or a fearsome creature with the qualities of man and beast. The Shamans of Gondwana perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting."
+#gcost 140
+#rpcost 4
+#size 3
+#hp 24
+#str 16
+#att 12
+#def 12
+#prot 7
+#ap 18
+#mor 13
+#mr 14
+#darkvision 50
+#weapon 29 -- Claw
+#weapon 29 -- Claw
+#weapon 20 -- Bite
+#armor 44 -- Furs
+#researchbonus 0
+#magicskill 5 1
+#magicskill 6 1
+#custommagic 12672 100 -- 100% FADN
+#shapechange 4173
+#end
+
+#newmonster 4173
+#copystats 628 -- Great Lion
+#copyspr 628 -- Great Lion
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Lion Shaman"
+#descr "Lion Shamans wear the hide of great beasts and use these to take animal form. Through meditation and ingesting highly magical plants they can transform their body into that of a beast. Lion Shamans can assume the form of a great lion, or a fearsome creature with the qualities of man and beast. The Shamans of Gondwana perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting."
+#quadruped
+#gcost 140
+#rpcost 2
+#transformation 0
+#mor 13
+#mr 14
+#stealthy 0
+#magicskill 5 1
+#magicskill 6 1
+#custommagic 12672 100 -- 100% FADN
+#shapechange 4171
+#end
+
+#newmonster 4174
+#copystats 892 -- Witch Doctor
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Shaman"
+#spr1 "./Gondwana/Shaman.tga"
+#spr2 "./Gondwana/Shaman2.tga"
+#descr "A shaman is a mage that contacts the spirit world to perform magic. The shamans of Gondwana perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting. These dances can last for many hours and are accompanied by specially trained Spirit Dancers. Each shaman crafts a mask that grants them a closer affinity with the spirit world when worn, and crafting a mask is an important step in the training of a young shaman. Shamans are able to communicate with spirits of the air, the dead and the wild and guide the nation in spiritual matters."
+#gcost 130
+#rpcost 2
+#mr 14
+#researchbonus 0
+#spellsinger
+#weapon 7 -- Quarterstaff
+#armor 187 -- Mask
+#masterrit 1
+#magicskill 6 1
+#custommagic 12672 100 -- 100% FADN
+#custommagic 4480 100 -- 100% FAD
+#end
+
+#newmonster 4175
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#name "Ekaiwe Commander"
+#spr1 "./Gondwana/TerrorBirdRider.tga"
+#spr2 "./Gondwana/TerrorBirdRider2.tga"
+#descr "In the capital exists a special regiment of Isienmwenro known as the Ekaiwe. These are the cream of the warriors specially trained to ride gigantic predatory birds known as Terror Birds. Terror Birds roam the plains of Gondwana preying on anything they can kill with their powerful beaks and sharp claws. They are strong in N'um and are sacred to the people of Gondwana. The commanders of the Ekaiwe are hand picked for their loyalty to the Oba and have some priestly powers. Should the rider be slain the bird will continue to peck and claw at enemies."
+#mountedhumanoid
+#gcost 10040
+#rpcost 1
+#size 4
+#hp 13
+#str 12
+#att 13
+#def 13
+#mor 14
+#mr 12
+#ap 24
+#prec 8
+#mapmove 22
+#weapon 357 -- Light Lance
+#weapon 1680 -- Beak
+#weapon 1866 -- Bird kick
+#armor 14 -- Plate Hauberk
+#armor 120 -- Leather Cap
+#armor 2 -- Shield
+#magicskill 8 1
+#holy
+#mounted
+#goodleader
+#secondtmpshape 4163
+#end
+
+#newmonster 4176
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Babalawo"
+#spr1 "./Gondwana/ElderShaman.tga"
+#spr2 "./Gondwana/ElderShaman2.tga"
+#descr "The Babalawo are a sect of shamanic priests that reside in the capital and serve the Obas. Through divination they are able to advise the Obas on future events and are highly valued for their gifts. Like all shamans of Gondwana they perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting. The masks they wear are strong in N'um and grant special priestly powers to the Babalawo."
+#gcost 190
+#rpcost 4
+#mr 16
+#hp 20
+#prot 15
+#mapmove 0
+#ap 2
+#mor 14
+#researchbonus 2
+#nobadevents 10
+#spellsinger
+#holy
+#poorleader
+#weapon 151 -- Wand
+#armor 187 -- Mask
+#masterrit 3
+#magicskill 1 1
+#magicskill 5 1
+#magicskill 6 1
+#magicskill 8 1
+#custommagic 12672 100 -- 100% FADN
+#custommagic 12672 10 -- 10% FADN
+#regeneration 10
+#tmpairgems 1
+#tmpdeathgems 1
+#tmpnaturegems 1
+#inanimate
+#end
+
+#newmonster 4177
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Queen"
+#spr1 "./Gondwana/Queen.tga"
+#spr2 "./Gondwana/Queen2.tga"
+#descr "The Queens of Gondwana rule alongside the Obas. As the figureheads of the nation they are strong in N'um. Whilst the Obas spend their time mediating and planning campaigns in times of war, the Queens often spend their time learning magical skills. These skills allow them to guide their nation and mediate in magical matters. Like all shamans of Gondwana they perform rhythmic songs and dances that allow them to enter a powerful trance state for ritual casting."
+#gcost 150
+#rpcost 2
+#mr 15
+#mor 15
+#spellsinger
+#holy
+#goodleader
+#female
+#weapon 151 -- Wand
+#startage 40
+#masterrit 1
+#magicskill 6 2
+#magicskill 8 2
+#custommagic 12672 100 -- 100% FADN
+#custommagic 12672 10 -- 10% FADN
+#end
+
+#newmonster 4178
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Oba"
+#spr1 "./Gondwana/Oba.tga"
+#spr2 "./Gondwana/Oba2.tga"
+#descr "The Obas are warrior kings of Gondwana and rule over their subjects by Divine right. As the figureheads of the nation they are a focus for N'um and lead the populace in religious ceremonies. The Obas spend their time mediating and planning campaigns in times of war. The position is hereditary and they are trained from birth in the art of politics and war, however many also sponsor great festivals and artworks in their cities. Since the ending of the enchantment sealing Gondwana off from the world the Obas have turned their attentions to the new world. Each Oba carries an Eben, a ceremonial obsidian-studded sword-club that denotes their rank."
+#gcost 10010
+#rpcost 2
+#mr 14
+#mor 16
+#startage 40
+#holy
+#expertleader
+#weapon 451 -- Club Sword
+#magicskill 8 3
+#end
+
+#selectitem 501
+#copyitem 413
+#name "Blesser"
+#copyspr 413
+#autospell "divine blessing"
+#end
+
+
+#newmonster 4179
+#copystats 2307 -- Machaka Elephant
+#clearweapons
+#name "Ogiso"
+#spr1 "./Gondwana/ThunderBeastCom.tga"
+#spr2 "./Gondwana/ThunderBeastCom2.tga"
+#descr "The most powerful Obas are known as Ogiso. These mighty lords take to the battlefield atop a great Thunder Beast, accompanied by their most powerful shamans and advisors. From this vantage point they can assess the battle and command their forces with ease, whilst their Shamans cast unhindered by distractions on the ground. The sight of a Thunder Beast will fill enemies with fear. Their sheer size allows them to trample through enemy lines with ease, however if panicked they may end up trampling friends and enemies alike." 
+#quadruped
+#gcost 450
+#mapmove 0
+#rpcost 6
+#hp 175
+#prot 24
+#mr 17
+#mor 13
+#ap 14
+#str 26
+#att 11
+#def 7
+#fear 5
+#enc 1
+#prec 14
+#magicskill 0 1
+#magicskill 1 1
+#magicskill 5 1
+#magicskill 6 1
+#magicskill 8 3
+#custommagic 12288 100 -- N/D
+#custommagic 14848 60 -- W/S/D/N
+#bonusspells 2
+#combatcaster 100
+#expertleader
+#inspirational 1
+#spellsinger
+#holy
+#slowrec
+#weapon 397 -- Kick
+#reinvigoration 3
+#inanimate
+#end
+
+--- SUMMONS
+
+#newmonster 4181
+#copystats 2000 -- Gibbor
+#clearweapons
+#cleararmor
+#name "Terror Bird"
+#spr1 "./Gondwana/TerrorBird.tga"
+#spr2 "./Gondwana/TerrorBird2.tga"
+#descr "Terror Birds are gigantic predatory birds that roam the plains of Gondwana preying on anything they can kill with their powerful beaks and sharp claws. They are strong in N'um and are sacred to the people of Gondwana. Some are trained as mounts for the Ekaiwe, however even untrained the creatures are formidable due to their size and ferocity."
+#lizard
+#gcost 0
+#ap 24
+#prot 10
+#prec 8
+#def 13
+#str 20
+#mr 9
+#mapmove 22
+#animal
+#supplybonus 0
+#fireres 0
+#neednoteat
+#undisciplined
+#weapon 404 -- Beak
+#weapon 29 -- Claw
+#maxage 100
+#nametype 144
+#end
+
+#newmonster 4182
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Rockshell"
+#spr1 "./Gondwana/Glypto.tga"
+#spr2 "./Gondwana/Glypto2.tga"
+#descr "Rockshells are large creatures covered in a bony shell said to be as hard as stone. They roam the plains of Gondwana relying on their thick armor plates and wicked tail spikes to protect them from predators. The people of Gondwana occasionally make use of them as beasts of burden, or in times of war they are ensorcelled by the Shamans to act as living battering rams. A Rockshell will count as twenty normal men when attempting to break the walls of a fortress."
+#quadruped
+#gcost 0
+#size 3
+#hp 35
+#str 16
+#prot 20
+#mr 8
+#mor 12
+#def 6
+#prec 5
+#enc 2
+#startage 20
+#maxage 40
+#weapon 547 -- Buff
+#weapon 1867 -- Tail Spikes
+#animal
+#undisciplined
+#slashres
+#siegebonus 20
+#end
+
+#newmonster 4183
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Sabre-Tooth"
+#spr1 "./Gondwana/STooth.tga"
+#spr2 "./Gondwana/STooth2.tga"
+#descr "Sabre-Tooths appear similar to lions and tigers that inhabit other lands, with the exception of their huge slashing teeth. These allow Sabre-Tooths to prey upon the gigantic creatures that call Gondwana home. Prowling the savannah, these creatures hunt in packs and bring down their prey with deadly efficiency. In times of war they are summoned and compelled to serve the shamans of Gondwana."
+#quadruped
+#gcost 0
+#size 3
+#hp 24
+#str 16
+#prot 5
+#mr 5
+#mor 13
+#att 13
+#def 11
+#prec 5
+#enc 3
+#ap 20
+#mapmove 22
+#startage 20
+#maxage 40
+#weapon 319 -- AP Bite
+#weapon 29 -- Claw
+#animal
+#undisciplined
+#darkvision 50
+#end
+
+#newmonster 4184
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Quaggaraffe"
+#spr1 "./Gondwana/Quaggaraffe.tga"
+#spr2 "./Gondwana/Quaggaraffe2.tga"
+#descr "Quaggaraffes feed from the tops of tall trees, using their long legs and neck to reach the highest branches. When threatened they lash out with a kick that can split a mans skull, and a headbutt backed by their powerful neck. These huge creatures are strong in N'um, the sacred force that manifests only in the largest and most holy of beings."
+#quadruped
+#gcost 0
+#size 5
+#hp 44
+#str 18
+#prot 8
+#mr 8
+#mor 13
+#att 11
+#def 11
+#prec 5
+#enc 2
+#ap 24
+#mapmove 24
+#startage 20
+#maxage 40
+#weapon 300 -- Head Butt
+#weapon 397 -- Kick
+#animal
+#holy
+#end
+
+#newmonster 4185
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Tree Breaker"
+#spr1 "./Gondwana/Chalicotherium.tga"
+#spr2 "./Gondwana/Chalicotherium2.tga"
+#descr "Tree Breakers are named for their ability to uproot and tear down the largest trees to get at the tender roots and leaves. These titanic beasts are tremendously strong, and their massive claws can tear through plate armor with ease. When threatened they can enter a blind rage, smashing and crushing everything in their path. Tree Breakers are strong in N'um, the sacred force that manifests only in the largest and most holy of beings."
+#humanoid
+#gcost 0
+#size 6
+#hp 70
+#str 22
+#prot 15
+#mr 9
+#mor 14
+#att 13
+#def 10
+#prec 5
+#enc 2
+#ap 16
+#mapmove 20
+#startage 20
+#maxage 40
+#weapon 29 -- Claw
+#weapon 29 -- Claw
+#weapon 1868 --Stomp
+#animal
+#berserk 2
+#holy
+#end
+
+#newmonster 4186
+#copystats 2307 -- Machaka Elephant
+#clearweapons
+#name "Earthshaker"
+#spr1 "./Gondwana/ArmorBeast.tga"
+#spr2 "./Gondwana/ArmorBeast2.tga"
+#descr "Earthshakers are huge creatures related to the Thunder Beasts, however they are covered in a thick leathery hide that protects them from harm. These creatures have little to fear from any predator and are the most fearsome creatures on the plains of Gondwana. These huge creatures are strong in N'um, the sacred force that manifests only in the largest and most holy of beings. The sight of an Earthshaker will fill enemies with fear. Their sheer size allows them to trample through enemy lines with ease, however if panicked they may end up trampling friends and enemies alike." 
+#quadruped
+#gcost 0
+#hp 115
+#prot 18
+#mr 9
+#mor 12
+#ap 14
+#str 24
+#def 6
+#fear 5
+#holy
+#weapon 397 -- Kick
+#end
+
+#newmonster 4187
+#copystats 434 -- Black Servant
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Dark Spirit"
+#spr1 "./Gondwana/DarkSpirit.tga"
+#spr2 "./Gondwana/DarkSpirit2.tga"
+#descr "Dark Spirits are evil spirits of the dead that plague the people of Gondwana. They appear when certain taboos are broken, or when magic is performed without the proper offerings being made to placate them. Their arrows are believed to be the cause of misfortune, sickness and death. They are especially attracted to trance dances and will cluster in the shadows, waiting for any weakness in the shaman that will allow them to manifest. Some shamans can bind and force these spirits to serve, however this is a dangerous endeavour. Dark Spirits carry bows made of shadow that inflict a terrible wasting disease on their targets, and they can drain the life force of the living."
+#hp 12
+#prec 10
+#weapon 438 -- Plague Bow
+#weapon 63 -- Life Drain
+#end
+
+#newmonster 4190
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "God-Beast of the Forest"
+#spr1 "./Gondwana/GodChalico.tga"
+#spr2 "./Gondwana/GodChalico2.tga"
+#descr "Born at the dawn of time the God-Beast represents an earlier era, when monsters and giants roamed the world. It lived amongst the deep forests at the dawn of time, ruling over lesser beasts and men that offered it worship. When the previous Pantokrator rose to power he imprisoned and banished all that threatened his creation and the monstrous creature was banished to a shrouded land from whence it could not escape. The people of Gondwana worship the God-Beasts as the source of N'um and the most powerful of all creatures. Now, with the Pantokrators prison weakening the God-Beast of the Forest will emerge to claim the world as its own."
+#humanoid
+#gcost 250
+#size 6
+#hp 130
+#str 24
+#prot 14
+#mr 18
+#mor 30
+#att 13
+#def 10
+#prec 10
+#enc 1
+#ap 16
+#mapmove 20
+#startage 1000
+#maxage 4000
+#fear 5
+#weapon 29 -- Claw
+#weapon 29 -- Claw
+#magicskill 2 1
+#magicskill 3 1
+#magicskill 6 1
+#diseaseres 100
+#itemslots 276614 -- Crown, 2 hands, feet, 2 misc
+#heal
+#forestsurvival
+#startdom 3
+#homerealm 0
+#pathcost 80
+#end
+
+#newmonster 4191
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "God-Beast of the Plains"
+#spr1 "./Gondwana/GodNocerous.tga"
+#spr2 "./Gondwana/GodNocerous2.tga"
+#descr "Born at the dawn of time the God-Beast represents an earlier era, when monsters and giants roamed the world. It has roamed the plains since the earliest days, ruling over lesser creatures and men that offered it worship. When the previous Pantokrator rose to power he imprisoned and banished all that threatened his creation and the monstrous creature was banished to a shrouded land from whence it could not escape. The people of Gondwana worship the God-Beasts as the source of N'um and the most powerful of all creatures. Now, with the Pantokrators prison weakening the God-Beast of the Plains will emerge to claim the world as its own."
+#quadruped
+#gcost 210
+#size 6
+#hp 165
+#str 26
+#prot 18
+#mr 18
+#mor 30
+#att 13
+#def 10
+#prec 10
+#enc 1
+#ap 18
+#mapmove 22
+#startage 1000
+#maxage 4000
+#weapon 399 -- Gore
+#trample
+#fear 5
+#magicskill 0 1
+#magicskill 1 1
+#magicskill 6 1
+#berserk 4
+#diseaseres 100
+#heal
+#startdom 3
+#homerealm 0
+#pathcost 80
+#end
+
+#newmonster 4192
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "God-Beast of the Mountains"
+#spr1 "./Gondwana/GodSloth.tga"
+#spr2 "./Gondwana/GodSloth2.tga"
+#descr "Born at the dawn of time the God-Beast represents an earlier era, when monsters and giants roamed the world. It has lurked in the coldest mountains for eons, preying on lesser creatures and worshipped by primitive mountain tribes. When the previous Pantokrator rose to power he imprisoned and banished all that threatened his creation and the monstrous creature was banished to a shrouded land from whence it could not escape. The people of Gondwana worship the God-Beasts as the source of N'um and the most powerful of all creatures. Now, with the Pantokrators prison weakening the God-Beast of the Mountains will emerge to claim the world as its own."
+#quadruped
+#gcost 220
+#size 6
+#hp 145
+#str 24
+#prot 16
+#mr 18
+#mor 30
+#att 13
+#def 10
+#prec 10
+#enc 1
+#ap 16
+#mapmove 20
+#startage 1000
+#maxage 4000
+#fear 5
+#weapon 29 -- Claw
+#weapon 29 -- Claw
+#weapon 20 -- Bite
+#magicskill 2 1
+#magicskill 3 1
+#magicskill 5 1
+#coldres 20
+#diseaseres 100
+#heal
+#mountainsurvival
+#startdom 3
+#homerealm 0
+#pathcost 80
+#end
+
+#newmonster 4193
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "God-Beast of the Hunt"
+#spr1 "./Gondwana/GodSTooth.tga"
+#spr2 "./Gondwana/GodSTooth2.tga"
+#descr "Born at the dawn of time the God-Beast represents an earlier era, when monsters and giants roamed the world. This great beast has hunted Gods and titanic creatures alike, until the Pantokrator himself feared for his existing. When the previous Pantokrator rose to power he imprisoned and banished all that threatened his creation and the monstrous creature was banished to a shrouded land from whence it could not escape. The people of Gondwana worship the God-Beasts as the source of N'um and the most powerful of all creatures. Now, with the Pantokrators prison weakening the God-Beast of the Hunt will emerge to claim the world as its own."
+#quadruped
+#gcost 210
+#size 6
+#hp 155
+#str 25
+#prot 18
+#mr 18
+#mor 30
+#att 13
+#def 10
+#prec 10
+#enc 1
+#ap 18
+#mapmove 20
+#startage 1000
+#maxage 4000
+#fear 5
+#diseaseres 100
+#heal
+#weapon 29 -- Claw
+#weapon 29 -- Claw
+#weapon 319 -- AP Bite
+#magicskill 5 1
+#magicskill 6 1
+#magicskill 7 1
+#darkvision 50
+#startdom 3
+#homerealm 0
+#pathcost 80
+#end
+
+#newmonster 4194
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Great Queen"
+#spr1 "./Gondwana/QueenMother.tga"
+#spr2 "./Gondwana/QueenMother2.tga"
+#descr "The Great Queen is an ancient queen of Gondwana. She has learnt much of magic to extend her lifespan and has now claimed the mantle of Godhood. She can perform ritual dances to increase the power of her spellcasting, and she is a master of many paths of magic."
+#humanoid
+#gcost 110
+#size 2
+#mr 18
+#mor 30
+#att 11
+#def 11
+#startage 700
+#maxage 500
+#masterrit 1
+#spellsinger
+#goodleader
+#female
+#weapon 9 -- Dagger
+#magicskill 1 1
+#startdom 1
+#pathcost 10
+#homerealm 0
+#end
+
+#newmonster 4199
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Eldest Babalawo"
+#spr1 "./Gondwana/EldestShaman.tga"
+#spr2 "./Gondwana/EldestShaman2.tga"
+#descr "The Eldest Babalawo is a great Shaman of Gondwana that has claimed the mantle of Godhood. He is a master of ritual magic and can increase his spellcasting power through trance dances. He can predict the future and can use this to avoid bad events in the province. The Eldest Babalawo has learned many paths of magic through his long study and is an expert at magical research."
+#humanoid
+#gcost 120
+#size 2
+#mr 18
+#hp 13
+#mor 30
+#att 12
+#def 12
+#prec 12
+#startage 200
+#maxage 500
+#masterrit 1
+#nobadevents 50
+#researchbonus 10
+#spellsinger
+#goodleader
+#weapon 9 -- Dagger
+#magicskill 5 1
+#startdom 1
+#pathcost 10
+#homerealm 0
+#end
+
+---- HEROES
+
+#newmonster 4195
+#copystats 2300 -- Machaka Warrior
+#copyspr 894 -- Black Sorcerer
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Descendant of a Dead God"
+#descr "Orobiru is the last surviving Black Sorcerer of Machaka. Born in the God Mountain he carries the bloodline of a dead God and divine power runs through his veins. Long ago Irami zealots arrived at Machaka and heard the tales of God Mountain. They declared this blasphemous against their God and began a crusade of cleansing. Soon the ancient empire was no more, God Mountain was desecrated and the lightless chamber lit with the flames of the Imams. Orobiru escaped the destruction and with other refugees found his way to the hidden land of Gondwana. Here Orobiru has risen to a position of power through aiding the Obas with his considerable skills. Now he has pledged his service to a new God as he returns once more to the outside world. "
+#fixedname "Orobiru"
+#unique
+#humanoid
+#gcost 0
+#mr 17
+#mor 17
+#att 12
+#def 12
+#hp 13
+#prec 12
+#enc 3
+#startage 200
+#maxage 500
+#weapon 42 -- Bane Blade
+#heal
+#forestsurvival
+#poorleader
+#diseaseres 50
+#shapechange 4196
+#magicskill 0 3
+#magicskill 3 2
+#magicskill 5 3
+#end
+
+#newmonster 4196
+#copystats 884 -- Great Spider
+#copyspr 899 -- Hunter Spider
+#clearmagic
+#name "Descendant of a Dead God"
+#descr "Orobiru is the last surviving Black Sorcerer of Machaka. Born in the God Mountain he carries the bloodline of a dead God and divine power runs through his veins. Long ago Irami zealots arrived at Machaka and heard the tales of God Mountain. They declared this blasphemous against their God and began a crusade of cleansing. Soon the ancient empire was no more, God Mountain was desecrated and the lightless chamber lit with the flames of the Imams. Orobiru escaped the destruction and with other refugees found his way to the hidden land of Gondwana. Here Orobiru has risen to a position of power through aiding the Obas with his considerable skills. Now he has pledged his service to a new God as he returns once more to the outside world."
+#fixedname "Orobiru"
+#unique
+#quadruped
+#gcost 0
+#transformation 0
+#size 6
+#hp 55
+#prot 16
+#mr 17
+#mor 17
+#prec 12
+#enc 1
+#ap 22
+#mapmove 20
+#startage 200
+#maxage 500
+#diseaseres 100
+#heal
+#poorleader
+#diseaseres 50
+#shapechange 4195
+#end
+
+#newmonster 4197
+#copystats 2300 -- Machaka Warrior
+#copyspr 2293 -- Bouda
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Forgemaster"
+#descr "Ohen is a master artificer that is known for crafting the finest weapons and armor in Gondwana. After the destruction of Machaka by the Irami zealots Ohen and the other remaining inhabitants fled into the safety of the God Forest. After long months, during which many were lost to starvation, disease and the horrors that lurked in the deep forest, they finally found a place of sanctuary. A land of rolling plains and giant beasts hidden away from the world. Welcomed by the rulers of this new land for the skills and knowledge they brought they now call Gondwana their home. Amongst the secrets they carried was that of working iron plate, once used to clad the hoplites of Machaka. Now the Machakan refugees forge weapons and armor for the Obas to equip their armies. Ohen is reknowned as the finest of the metalworkers and his skills are highly sought after."
+#fixedname "Ohen"
+#unique
+#humanoid
+#gcost 0
+#mr 16
+#mor 15
+#att 11
+#def 11
+#prec 11
+#poorleader
+#weapon 13 -- Hammer
+#fixforgebonus 2
+#mastersmith 1
+#resources 30
+#magicskill 0 2
+#magicskill 1 1
+#magicskill 3 2
+#end
+
+#newmonster 4198
+#copystats 2300 -- Machaka Warrior
+#clearweapons
+#cleararmor
+#clearmagic
+#name "Warrior Queen Mother"
+#spr1 "./Gondwana/QueenMother.tga"
+#spr2 "./Gondwana/QueenMother2.tga"
+#descr "Idia is a beloved and feared warrior queen known for her political counsel, skill in warfare and her shamanic powers. She was the mother to a powerful Oba and throughout his reign guided and advised him through many succesful military campaigns. Upon his death his two sons began to squabble and it seemed that endless civil war would tear the kingdom apart. Idia however raised an army in support of one of her grandsons and smashed the forces of his brother, ending the conflict and returning the land to peace. Now she has stirred once more to aid in the battle for Ascension."
+#fixedname "Idia"
+#unique
+#humanoid
+#gcost 0
+#size 2
+#mr 16
+#mor 18
+#att 12
+#def 12
+#startage 66
+#masterrit 1
+#spellsinger
+#expertleader
+#female
+#inspirational 1
+#weapon 9 -- Dagger
+#magicskill 1 3
+#magicskill 6 3
+#magicskill 8 3
+#end
+
+
+
+----- Pretenders
+
+#newmonster 7001
+#copystats 2217
+#clearmagic
+#spr1 "./ExtraPretenders/Wormlord.tga"
+#spr2 "./ExtraPretenders/Wormlord2.tga"
+#name "Gondwanan Worm Lord"
+#descr "Potent nature mages do not die easily, and even death might not stop the more powerful ones. When the worms and bugs that feed of carrion devour the corpse of a dead Nature mage, some of the mages manage to transfer a portion of their mind and power into the crawling mass feeding on their remains. This being houses the life force of such a mage and it is formed by thousands of worms and bugs. Should it be slain in combat it can usually transfer its life force to other nearby bugs and shape a new body capable of casting spells.
+The Worm Lord has learnt all of magic that it can and now there is nothing left but to take the role of a Pretender God."
+#humanoid
+#itemslots 32142
+#gcost 200
+#startdom 2
+#magicskill 3 1
+#magicskill 5 1
+#magicskill 6 1
+#pathcost 40
+#okleader
+#heal
+#diseaseres 100
+#okundeadleader
+#str 14
+#hp 15
+#maxage 1000
+#watershape 7002
+#end
+
+#newmonster 7002
+#copystats 2975
+#copyspr 2975
+#clearmagic
+#name "Gondwanan Worm Lord"
+#descr "Potent nature mages do not die easily, and even death might not stop the more powerful ones. When the worms and bugs that feed of carrion devour the corpse of a dead Nature mage, some of the mages manage to transfer a portion of their mind and power into the crawling mass feeding on their remains. This being houses the life force of such a mage and it is formed by thousands of worms and bugs. Should it be slain in combat it can usually transfer its life force to other nearby bugs and shape a new body capable of casting spells.
+The Worm Lord has learnt all of magic that it can and now there is nothing left but to take the role of a Pretender God."
+#humanoid
+#itemslots 32142
+#gcost 200
+#startdom 2
+#pathcost 40
+#magicskill 3 1
+#magicskill 5 1
+#magicskill 6 1
+#pathcost 40
+#okleader
+#heal
+#diseaseres 100
+#okundeadleader
+#str 14
+#hp 15
+#maxage 1000
+#landshape 7001
+#end
+
+
+-- sites
+#newsite 1807
+#name "Gondwana Plains"
+#path 6
+#level 0
+#rarity 5
+#gems 6 1
+#homemon 4162 -- Ekaiwe
+#homemon 4164 -- Thunder Beast
+#homecom 4175 -- Ekaiwe Commander
+#homecom 4179 -- Thunder Beast Com
+#end
+
+
+
+#newsite 1809
+#name "Great Temple"
+#path 8
+#level 0
+#rarity 5
+#gems 0 1
+#gems 1 1
+#gems 5 1
+#end
+
+
+
+----- GONDWANA
+#newsite 1808
+#name "Benin Palace"
+#path 8
+#level 0
+#rarity 5
+#gold 700
+#homemon 4161 -- Iyoba
+#homecom 4177 -- Queen
+#homecom 4178 -- Oba
+#gold 700
+#end
+
+#selectnation 168
+#name "Gondwana"
+#epithet "The Shrouded Land"
+#era 2
+#descr "Gondwana is a land of dry savannah and dense jungle home to gigantic beasts from the distant past. Long ago the Pantokrator hid this land from the world using a great enchantment, however now the spell is fading. Refugees fleeing the ruins of Machaka found their way to the Shrouded Land and have brought the secret of ironworking to the Obas, rulers of Gondwana. Now a new God is awakening, one that will lead the nation back to a world that has forgotten them. The armies of Gondwana use bronze and iron weapons, with the creatures of the plains used as mounts and beasts of war."
+#brief "A nation of bronze and iron armed humans that ride gigantic beasts. Shamans use ritual chants to perform powerful magic."
+#summary "Race: Humans, Gigantic beasts.
+Military: Light and Medium infantry, Sacred Cavalry and Thunder Beasts. 
+Magic: Fire, Air, Nature, Death. Spellsingers and Spirit Dancers, Shamans can perform more powerful rituals.
+Priests: Average"
+#color 0.4 0.05 0.1
+#secondarycolor 0.85 0.75 0.20
+#flag  "./Gondwana/Flag.tga"
+#startsite "Gondwana Plains"
+#startsite "Benin Palace"
+#startsite "Great Temple"
+
+#addreccom 4165 -- Scout
+#addreccom 4166 -- Okakuo
+#addreccom 4167 -- Ezomo
+#addreccom 4168 -- Priest
+#addreccom 4169 -- Spirit Dancer
+#addreccom 4170 -- Witch Doctor
+#addreccom 4171 -- Lion Shaman
+#addreccom 4174 -- Shaman
+#addreccom 4176 -- Babalawo: Teachings of the Elders
+
+#addforeigncom "Golden Fortress"
+
+#addrecunit 4150 -- Militia
+#addrecunit 4151 -- Drummer
+#addrecunit 4152 -- Archer
+#addrecunit 4153 -- Iyo
+#addrecunit 4154 -- Iyo
+#addrecunit 4155 -- Iyo Long
+#addrecunit 4156 -- Iyo Veteran
+#addrecunit 4157 -- Iyo Vet Long
+#addrecunit 4158 -- Isien
+#addrecunit 4159 -- Razorhorn
+
+#defcom1 4166-- Okakuo
+#defcom2  4167
+#defunit1 4153
+#defunit1b 4152 -- Archer
+#defmult1 10
+#defmult1b 10
+#defunit2 4156
+#defunit2b 4152 -- Archer
+#defmult2 10
+#defmult2b 10
+
+#wallcom 4166 -- Okakuo
+#wallunit 4152 -- Archer
+
+#startcom 4166 -- Okakuo
+#startscout 4165 -- Scout
+#startunittype1 4157 -- Vet Long
+#startunitnbrs1 15
+#startunittype2 4152 -- Archer
+#startunitnbrs2 10
+
+#homerealm 7 -- Africa
+#templepic 5
+#fortera 2
+
+#idealcold -2
+
+#addgod 7001 -- "Gondwanan Worm Lord"
+--#addgod 5025 -- Worm Lord
+
+#delgod 384
+#delgod 385
+#delgod 386
+#delgod 387
+#delgod 388
+#delgod 2445
+#delgod 2446
+#delgod 2464
+#delgod 4981
+#delgod 5089
+
+#hero1 4195 -- Oriburu
+#hero2 4197 -- Ohen
+#hero3 4198 -- Idia
+#nationinc 14
+#merccost -99
+
+#end
+
+-- spells
+
+#newspell
+#copyspell 899 -- Cloud Trapeze
+#name "Gondwanan Cloud Trapeze"
+#path 0 6
+#pathlevel 0 1
+#restricted 168
+#end
+
+#newspell
+#copyspell 515 -- Web
+#name "Gondwanan Poison Web"
+#descr "The caster flings a few bundles of poisonous sticky strands at the enemy. Creatures trapped in the webs will be poisoned and unable to attack or defend themselves until they struggle free. Powerful casters can throw more of the web bundles with each casting."
+#researchlevel 5
+#path 0 6
+#pathlevel 0 1
+#path 1 5
+#pathlevel 1 1
+#aoe 3
+#nreff 1000
+#fatiguecost 30
+#restricted 168 -- Gondwana
+#nextspell "Area Weak Poison"
+#end
+
+-- Events
+
+#newevent -- Conscription for Gondwana 1 of 5
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 168
+#nation -2
+#req_capital 1
+#com 4179 -- Ogiso
+#com 4179 -- Ogiso
+#com 4179 -- Ogiso
+#msg "Thunderbeast riding mages"
+#nolog
+#end
+
+#newevent -- Conscription for Gondwana 2 of 5
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 168
+#nation -2
+#req_capital 1
+#1unit 4156 -- Iyoko Veteran
+#1unit 4156 -- 2
+#1unit 4156 -- 3
+#1unit 4156 -- 4
+#1unit 4156 -- 5
+#1unit 4156 -- 6
+#1unit 4156 -- 7
+#1unit 4156 -- 8
+#1unit 4156 -- 9
+#1unit 4156 -- 10
+#1unit 4156 -- 11
+#1unit 4156 -- 12
+#1unit 4156 -- 13
+#1unit 4156 -- 14
+#1unit 4156 -- 15
+#1unit 4156 -- 16
+#1unit 4156 -- 17
+#1unit 4156 -- 18
+#1unit 4156 -- 19
+#msg "The Spears!"
+#nolog
+#end
+
+#newevent -- Conscription for Gondwana 3 of 5
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 168
+#nation -2
+#req_capital 1
+#1unit 4156 -- Iyoko Veteran
+#1unit 4156 -- 2
+#1unit 4156 -- 3
+#1unit 4156 -- 4
+#1unit 4156 -- 5
+#1unit 4156 -- 6
+#1unit 4156 -- 7
+#1unit 4156 -- 8
+#1unit 4156 -- 9
+#1unit 4156 -- 10
+#1unit 4156 -- 11
+#1unit 4156 -- 12
+#1unit 4156 -- 13
+#1unit 4156 -- 14
+#1unit 4156 -- 15
+#1unit 4156 -- 16
+#msg "and the Shields!"
+#nolog
+#end
+
+
+
+#newevent -- Conscription for Gondwana 5 of 5
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 168
+#nation -2
+#req_capital 1
+#1unit 4152 -- Archers
+#1unit 4152 -- 2
+#1unit 4152 -- 3
+
+#msg "and the Bows!"
+#nolog
+#end
+
+#newevent -- Starting Commander for Gondwana
+#rarity 5
+#req_pregame 5
+#req_maxturn 1
+#req_unique 1
+#req_fornation 168
+#nation -2
+#req_capital 1
+#com 4179 -- Ogiso
+#msg "Magic Thunderbeast"
+#nolog
+#end
 
 
 
