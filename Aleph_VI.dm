@@ -102723,6 +102723,16 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 -- Internal Flame (Water)
 --Amphibious (Giboleth)
 --Anoint (Giboleth)
+#selectmonster 3997
+  #copystats 412
+  #copyspr 412
+  #secondtmpshape 413
+#end
+#selectmonster 3996
+  #copystats 411
+  #copyspr 411
+  #secondtmpshape 3997
+#end
 #selectweapon 1993
   #name "Fire Damage"
   #dmg 4
@@ -102766,7 +102776,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
   #gcost 45
   #rcost 9
   #rpcost 54
-  #secondtmpshape 496 
+  #secondtmpshape 3996 
   #holy
   #itemslots 12288
 #end
@@ -103059,10 +103069,6 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
   #nolog
 #end
 
-
-
-
-
 -- From Beyond The Veil
 --  Arisenv(Amber Clan Guard)
 --   Infection
@@ -103089,6 +103095,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
   #att 13
   #rpcost 18
   #gcost 14
+  #itemslots 13446
 #end
 
 -- From Beyond The Veil
@@ -103118,6 +103125,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
   #regeneration 10
   #gcost 56
   #rpcost 48
+  #itemslots 13446
 #end
 
 -- Slotted (Triton King, Arm)
@@ -103133,6 +103141,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #selectmonster 1417
   #clearspec
   #amphibian
+  #itemslots 13446
 #end
 
 -- Eldritch Corrution (W -> D)
@@ -103159,6 +103168,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
   #clearmagic
   #magicskill 0 1
   #magicskill 5 3
+  #gcost 185
 #end
 #selectmonster 1088
   #clearmagic
