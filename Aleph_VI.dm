@@ -102374,6 +102374,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #name "Holy Chorus Master"
 #path 0 8
 #restricted 59 -- Asphodel
+#restricted 47 -- Man
 #end
 
 #newspell
@@ -102381,6 +102382,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #name "Holy Communion"
 #path 0 8
 #restricted 59 -- Asphodel
+#restricted 47 -- Man
 #end
 
 #newspell
@@ -103234,10 +103236,6 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #selectnation 75
 #secondarycolor 0.3 0.1 0
 #end
-
-
-
-
 
 -- Dom events 
 
@@ -106255,7 +106253,6 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 
 
 
------ GONDWANA
 #newsite 1808
 #name "Benin Palace"
 #path 8
@@ -106490,8 +106487,126 @@ Priests: Average"
 #nolog
 #end
 
+-- ============
+-- == MA MAN ==
+-- ============
 
+-- The One Who Smites [Great Mother]
+--  The Archmaguc
+-- Give your pretender [+1 arm, +2 misc]
+#selectmonster 3995
+  #copystats 606
+  #copyspr 606
+  #name "Archmagus Great Mother"
+  #hp 195
+  #magicboost 53 1
+  #allrange 10
+  #bonusspells 2
+  #fastcast 75
+  #reinvigoration 7
+  #homerealm 0
+  #itemslots 64654
+#end
+#selectnation 47
+  #addgod 3995
+  #godrebirth
+#end
 
+-- Holy Word [Monk, Mother of Avalon, Crone of Avalon]
+--  Divine Arcana: [Horde of Skeletons]
+--  Sacred Chorus:
+--  Convert thy Enemy: [Monk, Mother of Avalon]
+-- Voice of Ra: [Monk]
+#selectmonster 60
+  #magicskill 8 2
+  #spellsinger
+  #inquisitor
+  #stealthy 20
+  #gcost 25
+  #rpcost 1
+  #onebattlespell "Divine Blessing"
+#end
+#selectmonster 152
+  #magicskill 8 2
+  #inquisitor
+  #stealthy 20
+  #gcost 195
+#end
+#selectmonster 153
+  #magicskill 8 2
+  #gcost 335
+#end
+#selectnation 47
+  #syncretism 1
+#end
+-- Holy Chorus and Holy Master restricted to Man in Asphedel section.
+#newspell
+  #copyspell 920
+  #name "Holy Horde of Skeletons"
+  #path 0 8
+  #restricted 47
+#end
 
+-- Enchanted Forges
+#selectnation 47
+  #castleprod 20
+#end
 
+-- Bankrolled
+#selectsite "Forest of Avalon"
+  #gold 210
+#end
+
+-- Ultra Advanced Schematics [Lightless Lantern]
+#newitem
+  #copyitem "Lightless Lantern"
+  #restricted 47
+  #constlevel 2
+#end
+
+-- Conscription [6x Daughter of Avalon, 21x Knight of Avalon, 3x Longbowman]
+#newevent
+  #rarity 5
+  #nation -2
+  #req_pregame
+  #req_fornation 47
+  #req_capital 1
+  #req_pop0ok
+  #com 152
+  #5com 152
+  #6d6units 64
+  #1d6units 59
+  #notext
+#end
+
+-- I'm a Single Player [MA Ulm]
+--  Headhunting [Master Smith, Black Lord]
+--  Suborned Soldiers [Black Plate Infantry (id:76), Black Iron Infantry]
+--  Research Teams [Hammer of the Master Smith, The First Hammer, Blade of Cold Iron]
+--  Research Teams [Contact Iron Angel, Iron Blizzard, Magma Forge]
+#selectnation 47
+  #killcappop -100 
+  #addreccom 70
+  #addreccom 325
+  #addrecunit 76
+  #addrecunit 5525
+#end
+#selectitem "Hammer of the Master Smith"
+  #restricted 47
+#end
+#selectitem "The First Hammer"
+  #restricted 47
+#end
+#selectitem "Blade of Cold Iron"
+  #restricted 47
+#end
+#selectspell "Contact Iron Angel"
+  #restricted 47
+#end
+#selectspell "Iron Blizzard"
+  #restricted 47
+#end
+#selectspell "Magma Forge"
+  #restricted 47
+#end
 
