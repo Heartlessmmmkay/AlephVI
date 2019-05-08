@@ -106689,11 +106689,6 @@ Priests: Average"
   #castleprod 20
 #end
 
--- Bankrolled
-#selectsite "Forest of Avalon"
-  #gold 210
-#end
-
 -- Ultra Advanced Schematics [Lightless Lantern]
 #newitem
   #copyitem "Lightless Lantern"
@@ -106716,17 +106711,25 @@ Priests: Average"
   #notext
 #end
 
+-- Bankrolled
 -- I'm a Single Player [MA Ulm]
+--  Gain all Sites
 --  Headhunting [Master Smith, Black Lord]
 --  Suborned Soldiers [Black Plate Infantry (id:76), Black Iron Infantry]
 --  Research Teams [Hammer of the Master Smith, The First Hammer, Blade of Cold Iron]
 --  Research Teams [Contact Iron Angel, Iron Blizzard, Magma Forge]
 #selectnation 47
   #killcappop -100 
+  #startsite "The Keep of Ulm" 
+  #startsite "The Forges of Ulm"
   #addreccom 70
   #addreccom 325
   #addrecunit 76
   #addrecunit 5525
+#end
+#selectsite "Forest of Avalon"
+  #gold 210
+  #res 100
 #end
 #selectitem "Hammer of the Master Smith"
   #restricted 47
