@@ -106750,3 +106750,192 @@ Priests: Average"
   #restricted 47
 #end
 
+-- =============
+-- == Kailasa ==
+-- =============
+
+-- Empire of Gold
+--  Merchant Princes
+--  Golden Gates
+-- Teachings of the Elders (Yaksha)
+--  Arcanic Methods (1A, 2E, 2N, 1W)
+-- Manna Reserves (1W, 3N, 1S)
+#selectnation 25
+  #fortera 1
+  #era 2
+  #nationinc 22
+  #addforeigncom "Golden Fortress"
+  #addreccom 1143
+#end
+#selectsite "Mount Kailasa"
+  #gold 200
+  #gems 1 1
+  #gems 2 2
+  #gems 3 4
+  #gems 4 1
+  #gems 6 5
+#end
+
+-- Magitech Revolution (Yogi, Guru, Yaksha, Yakshini) (Water Hammer)
+--  Master Smiths 
+#selectmonster 1145 -- Yogi
+  #fixforgebonus 2
+  #gcost 55
+#end
+#selectmonster 1143 -- Guru
+  #fixforgebonus 2
+  #mastersmith 1
+  #forgebonus 10
+  #gcost 160
+#end
+#selectmonster 1329 -- Yaksha
+  #fixforgebonus 2
+  #gcost 345
+#end
+#selectmonster 1330 -- Yakshini
+  #fixforgebonus 2
+  #mastersmith 1
+  #forgebonus 10
+  #gcost 345
+#end
+#newitem
+  #copyitem 30
+  #copyspr "Hammer of the Master Smith"
+  #constlevel 4
+  #mainpath 2
+  #mainlevel 3
+  #secondarypath 6
+  #secondarylevel 1
+  #restricted 25
+  #fixforgebonus 0
+  #forgebonus 25
+#end
+
+--  Runic Inscriptions
+--   Horned Helm (+8 shock resist, +10 moral, +1 mr)
+--   Armor of Knights (+8 cold resist, reduced const lvl, +7 hp)
+--   Boots of the Messenger (+2 reinvig, 33% reform, 80% air shield)
+--   Sword of Swiftness (+6 attack, +4 len & +1 attack, AP damage)
+--   Mind Shield (+8 fire resist, 7 hp, +3 def)
+#newitem
+  #copyitem 176
+  #copyspr 176
+  #name "Runic Horned Helm"
+  #restricted 25
+  #itemcost1 -20
+  #shockres 8
+  #morale 10
+  #mr 1
+#end
+#newitem
+  #copyitem 227
+  #copyspr 227 
+  #name "Runic Armor of Knights"
+  #restricted 25
+  #itemcost1 -20
+  #coldres 8
+  #constlevel 4
+  #hp 7
+#end
+#newitem
+  #copyitem 254
+  #copyspr 254
+  #name "Runic Boots of the Messenger"
+  #restricted 25
+  #itemcost1 -20
+  #reinvigoration 2
+  #reform 33
+  #airshield 80
+#end
+#newweapon 1899
+  #name "Runic Sword of Swiftness"
+  #copyweapon "Sword of Swiftness
+  #att 9
+  #len 5
+  #armorpiercing
+#end
+#newitem
+  #copyitem 15
+  #copyspr 15
+  #name "Runic Sword of Swiftness"
+  #restricted 25
+  #itemcost1 -20
+  #weapon 1899
+#end
+#newitem
+  #copyitem 993
+  #copyspr 993
+  #name "Runic Mind Shield"
+  #restricted 25
+  #itemcost1 -20
+  #fireres 8
+  #hp 7
+  #def 3
+#end
+
+-- Recipe Distortion (Blood Stone -> W3N2)
+#newitem
+  #copyitem 335
+  #copyspr 335
+  #restricted 25
+  #name "Distorted Blood Stone"
+  #mainpath 2
+  #secondarypath 5
+#end
+
+-- Conscription [Bandar Commander, Guru, Yaksha, Yakshini, Yogi, 51 Light Bandar Archers]
+#newevent
+  #rarity 5
+  #nation -2
+  #req_pregame
+  #req_fornation 25
+  #req_capital 1
+  #req_pop0ok
+  #com 1334
+  #com 1145
+  #com 1143
+  #com 1329
+  #com 1330
+  #14d6units 1130
+  #notext
+#end
+
+-- Mecca
+-- I'm a Single Player [MA Ulm]
+--  Gain all Sites
+--  Headhunting (Black Acolyte, Master Smith)
+--  Suborned Soldiers (Crossbowmen, Black Knight)
+--  Research Teams (Ringing of the Forge, Contact Iron Angle, Magma Force)
+--  Research Teams (Hammer the Arcane, Teachings of the Master Smiths, Sharpen Steel)
+#selectnation 25
+  #killcappop -133
+  #startsite "The Keep of Ulm" 
+  #startsite "The Forges of Ulm"
+  #addreccom 1974
+  #addreccom 325
+  #addrecunit 417
+  #addrecunit 69
+#end
+#selectsite "Mount Kailasa"
+  #res 100
+#end
+#selectspell "Ringing of the Forge"
+  #restricted 25
+#end
+#selectspell "Contact Iron Angel"
+  #restricted 25
+#end
+#selectspell "Magma Forge"
+  #restricted 25
+#end
+#selectspell "Hammer the Arcane"
+  #restricted 25
+#end
+#selectspell "Teachings of the Master Smiths"
+  #restricted 25
+#end
+#selectspell "Sharpen Steel"
+  #restricted 25
+#end
+
+
