@@ -106515,6 +106515,140 @@ Priests: Average"
   #godrebirth
 #end
 
+--  Arcane Insight
+#newmonster
+  #copystats 592
+  #copyspr 592
+  #name "Acashic Sprite"
+  #mapmove 6
+  #magicskill 8 1
+  #magicskill 1 1
+  #magicboost 1 -1
+  #noleader
+  #nomagicleader
+  #nowish
+#end
+#newspell
+  #copyspell 808 -- Acashic Knowledge
+  #restricted 47
+  #path 0 8
+  #pathlevel 0 1
+  #fatiguecost 0
+  #researchlevel 0
+  #onlymnr "Acashic Sprite"
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_owncapital 1
+  #req_targgod 1
+  #req_targowner 47
+  #req_pop0ok
+  #com "Acashic Sprite"
+  #notext
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_owncapital 1
+  #req_rare 20
+  #req_pop0ok
+  #com "Acashic Sprite"
+  #notext
+#end
+
+--  Student of Magics
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Fire magic is rising!"
+  #fireboost 
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Air magic is rising!"
+  #airboost 
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Water magic is rising!"
+  #waterboost 
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Earth magic is rising!"
+  #earthboost
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Astral magic is rising!"
+  #astralboost 
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Death magic is rising!"
+  #deathboost 
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Nature magic is rising!"
+  #natureboost 
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Blood magic is rising!"
+  #bloodboost 
+#end
+
 -- Holy Word [Monk, Mother of Avalon, Crone of Avalon]
 --  Divine Arcana: [Horde of Skeletons]
 --  Sacred Chorus:
