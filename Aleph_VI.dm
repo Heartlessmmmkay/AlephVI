@@ -102374,6 +102374,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #name "Holy Chorus Master"
 #path 0 8
 #restricted 59 -- Asphodel
+#restricted 47 -- Man
 #end
 
 #newspell
@@ -102381,6 +102382,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #name "Holy Communion"
 #path 0 8
 #restricted 59 -- Asphodel
+#restricted 47 -- Man
 #end
 
 #newspell
@@ -102723,6 +102725,16 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 -- Internal Flame (Water)
 --Amphibious (Giboleth)
 --Anoint (Giboleth)
+#selectmonster 3997
+  #copystats 412
+  #copyspr 412
+  #secondtmpshape 413
+#end
+#selectmonster 3996
+  #copystats 411
+  #copyspr 411
+  #secondtmpshape 3997
+#end
 #selectweapon 1993
   #name "Fire Damage"
   #dmg 4
@@ -102766,7 +102778,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
   #gcost 45
   #rcost 9
   #rpcost 54
-  #secondtmpshape 496 
+  #secondtmpshape 3996 
   #holy
   #itemslots 12288
 #end
@@ -103059,10 +103071,6 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
   #nolog
 #end
 
-
-
-
-
 -- From Beyond The Veil
 --  Arisenv(Amber Clan Guard)
 --   Infection
@@ -103089,6 +103097,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
   #att 13
   #rpcost 18
   #gcost 14
+  #itemslots 13446
 #end
 
 -- From Beyond The Veil
@@ -103118,6 +103127,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
   #regeneration 10
   #gcost 56
   #rpcost 48
+  #itemslots 13446
 #end
 
 -- Slotted (Triton King, Arm)
@@ -103133,6 +103143,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #selectmonster 1417
   #clearspec
   #amphibian
+  #itemslots 13446
 #end
 
 -- Eldritch Corrution (W -> D)
@@ -103159,6 +103170,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
   #clearmagic
   #magicskill 0 1
   #magicskill 5 3
+  #gcost 185
 #end
 #selectmonster 1088
   #clearmagic
@@ -103224,10 +103236,6 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #selectnation 75
 #secondarycolor 0.3 0.1 0
 #end
-
-
-
-
 
 -- Dom events 
 
@@ -106244,8 +106252,10 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #end
 
 
+-- ==============
+-- == GONDWANA ==
+-- ==============
 
------ GONDWANA
 #newsite 1808
 #name "Benin Palace"
 #path 8
@@ -106480,8 +106490,452 @@ Priests: Average"
 #nolog
 #end
 
+-- ============
+-- == MA MAN ==
+-- ============
 
+-- The One Who Smites [Great Mother]
+--  The Archmaguc
+-- Give your pretender [+1 arm, +2 misc]
+#selectmonster 3995
+  #copystats 606
+  #copyspr 606
+  #name "Archmagus Great Mother"
+  #hp 195
+  #magicboost 53 1
+  #allrange 10
+  #bonusspells 2
+  #fastcast 75
+  #reinvigoration 7
+  #homerealm 0
+  #itemslots 64654
+#end
+#selectnation 47
+  #addgod 3995
+  #godrebirth
+#end
 
+--  Arcane Insight
+#newmonster
+  #copystats 592
+  #copyspr 592
+  #name "Acashic Sprite"
+  #mapmove 6
+  #magicskill 8 1
+  #magicskill 1 1
+  #magicboost 1 -1
+  #noleader
+  #nomagicleader
+  #nowish
+#end
+#newspell
+  #copyspell 808 -- Acashic Knowledge
+  #restricted 47
+  #path 0 8
+  #pathlevel 0 1
+  #fatiguecost 0
+  #researchlevel 0
+  #onlymnr "Acashic Sprite"
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_owncapital 1
+  #req_targgod 1
+  #req_targowner 47
+  #req_pop0ok
+  #com "Acashic Sprite"
+  #notext
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_owncapital 1
+  #req_rare 20
+  #req_pop0ok
+  #com "Acashic Sprite"
+  #notext
+#end
 
+--  Student of Magics
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Fire magic is rising!"
+  #fireboost 
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Air magic is rising!"
+  #airboost 
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Water magic is rising!"
+  #waterboost 
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Earth magic is rising!"
+  #earthboost
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Astral magic is rising!"
+  #astralboost 
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Death magic is rising!"
+  #deathboost 
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Nature magic is rising!"
+  #natureboost 
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 47
+  #req_targgod 1
+  #req_targowner 47
+  #req_rare 10
+  #req_pop0ok
+  #msg "Your god's power in Blood magic is rising!"
+  #bloodboost 
+#end
+
+-- Holy Word [Monk, Mother of Avalon, Crone of Avalon]
+--  Divine Arcana: [Horde of Skeletons]
+--  Sacred Chorus:
+--  Convert thy Enemy: [Monk, Mother of Avalon]
+-- Voice of Ra: [Monk]
+#selectmonster 60
+  #magicskill 8 2
+  #spellsinger
+  #inquisitor
+  #stealthy 20
+  #gcost 25
+  #rpcost 1
+  #onebattlespell "Divine Blessing"
+#end
+#selectmonster 152
+  #magicskill 8 2
+  #inquisitor
+  #stealthy 20
+  #gcost 195
+#end
+#selectmonster 153
+  #magicskill 8 2
+  #gcost 335
+#end
+#selectnation 47
+  #syncretism 1
+#end
+-- Holy Chorus and Holy Master restricted to Man in Asphedel section.
+#newspell
+  #copyspell 920
+  #name "Holy Horde of Skeletons"
+  #path 0 8
+  #restricted 47
+#end
+
+-- Enchanted Forges
+#selectnation 47
+  #castleprod 20
+#end
+
+-- Ultra Advanced Schematics [Lightless Lantern]
+#newitem
+  #copyitem "Lightless Lantern"
+  #restricted 47
+  #constlevel 2
+#end
+
+-- Conscription [6x Daughter of Avalon, 21x Knight of Avalon, 3x Longbowman]
+#newevent
+  #rarity 5
+  #nation -2
+  #req_pregame
+  #req_fornation 47
+  #req_capital 1
+  #req_pop0ok
+  #com 152
+  #5com 152
+  #6d6units 64
+  #1d6units 59
+  #notext
+#end
+
+-- Bankrolled
+-- I'm a Single Player [MA Ulm]
+--  Gain all Sites
+--  Headhunting [Master Smith, Black Lord]
+--  Suborned Soldiers [Black Plate Infantry (id:76), Black Iron Infantry]
+--  Research Teams [Hammer of the Master Smith, The First Hammer, Blade of Cold Iron]
+--  Research Teams [Contact Iron Angel, Iron Blizzard, Magma Forge]
+#selectnation 47
+  #killcappop -100 
+  #startsite "The Keep of Ulm" 
+  #startsite "The Forges of Ulm"
+  #addreccom 70
+  #addreccom 325
+  #addrecunit 76
+  #addrecunit 5525
+#end
+#selectsite "Forest of Avalon"
+  #gold 210
+  #res 100
+#end
+#selectitem "Hammer of the Master Smith"
+  #restricted 47
+#end
+#selectitem "The First Hammer"
+  #restricted 47
+#end
+#selectitem "Blade of Cold Iron"
+  #restricted 47
+#end
+#selectspell "Contact Iron Angel"
+  #restricted 47
+#end
+#selectspell "Iron Blizzard"
+  #restricted 47
+#end
+#selectspell "Magma Forge"
+  #restricted 47
+#end
+
+-- =============
+-- == Kailasa ==
+-- =============
+
+-- Empire of Gold
+--  Merchant Princes
+--  Golden Gates
+-- Teachings of the Elders (Yaksha)
+--  Arcanic Methods (1A, 2E, 2N, 1W)
+-- Manna Reserves (1W, 3N, 1S)
+#selectnation 25
+  #fortera 1
+  #era 2
+  #nationinc 22
+  #addforeigncom "Golden Fortress"
+  #addreccom 1143
+#end
+#selectsite "Mount Kailasa"
+  #gold 200
+  #gems 1 1
+  #gems 2 2
+  #gems 3 4
+  #gems 4 1
+  #gems 6 5
+#end
+
+-- Magitech Revolution (Yogi, Guru, Yaksha, Yakshini) (Water Hammer)
+--  Master Smiths 
+#selectmonster 1145 -- Yogi
+  #fixforgebonus 2
+  #gcost 55
+#end
+#selectmonster 1143 -- Guru
+  #fixforgebonus 2
+  #mastersmith 1
+  #forgebonus 10
+  #gcost 160
+#end
+#selectmonster 1329 -- Yaksha
+  #fixforgebonus 2
+  #gcost 345
+#end
+#selectmonster 1330 -- Yakshini
+  #fixforgebonus 2
+  #mastersmith 1
+  #forgebonus 10
+  #gcost 345
+#end
+#newitem
+  #copyitem 30
+  #copyspr "Hammer of the Master Smith"
+  #constlevel 4
+  #mainpath 2
+  #mainlevel 3
+  #secondarypath 6
+  #secondarylevel 1
+  #restricted 25
+  #fixforgebonus 0
+  #forgebonus 25
+#end
+
+--  Runic Inscriptions
+--   Horned Helm (+8 shock resist, +10 moral, +1 mr)
+--   Armor of Knights (+8 cold resist, reduced const lvl, +7 hp)
+--   Boots of the Messenger (+2 reinvig, 33% reform, 80% air shield)
+--   Sword of Swiftness (+6 attack, +4 len & +1 attack, AP damage)
+--   Mind Shield (+8 fire resist, 7 hp, +3 def)
+#newitem
+  #copyitem 176
+  #copyspr 176
+  #name "Runic Horned Helm"
+  #restricted 25
+  #itemcost1 -20
+  #shockres 8
+  #morale 10
+  #mr 1
+#end
+#newitem
+  #copyitem 227
+  #copyspr 227 
+  #name "Runic Armor of Knights"
+  #restricted 25
+  #itemcost1 -20
+  #coldres 8
+  #constlevel 4
+  #hp 7
+#end
+#newitem
+  #copyitem 254
+  #copyspr 254
+  #name "Runic Boots of the Messenger"
+  #restricted 25
+  #itemcost1 -20
+  #reinvigoration 2
+  #reform 33
+  #airshield 80
+#end
+#newweapon 1899
+  #name "Runic Sword of Swiftness"
+  #copyweapon "Sword of Swiftness
+  #att 9
+  #len 5
+  #armorpiercing
+#end
+#newitem
+  #copyitem 15
+  #copyspr 15
+  #name "Runic Sword of Swiftness"
+  #restricted 25
+  #itemcost1 -20
+  #weapon 1899
+#end
+#newitem
+  #copyitem 993
+  #copyspr 993
+  #name "Runic Mind Shield"
+  #restricted 25
+  #itemcost1 -20
+  #fireres 8
+  #hp 7
+  #def 3
+#end
+
+-- Recipe Distortion (Blood Stone -> W3N2)
+#newitem
+  #copyitem 335
+  #copyspr 335
+  #restricted 25
+  #name "Distorted Blood Stone"
+  #mainpath 2
+  #secondarypath 5
+#end
+
+-- Conscription [Bandar Commander, Guru, Yaksha, Yakshini, Yogi, 51 Light Bandar Archers]
+#newevent
+  #rarity 5
+  #nation -2
+  #req_pregame
+  #req_fornation 25
+  #req_capital 1
+  #req_pop0ok
+  #com 1334
+  #com 1145
+  #com 1143
+  #com 1329
+  #com 1330
+  #14d6units 1130
+  #notext
+#end
+
+-- Mecca
+-- I'm a Single Player [MA Ulm]
+--  Gain all Sites
+--  Headhunting (Black Acolyte, Master Smith)
+--  Suborned Soldiers (Crossbowmen, Black Knight)
+--  Research Teams (Ringing of the Forge, Contact Iron Angle, Magma Force)
+--  Research Teams (Hammer the Arcane, Teachings of the Master Smiths, Sharpen Steel)
+#selectnation 25
+  #killcappop -133
+  #startsite "The Keep of Ulm" 
+  #startsite "The Forges of Ulm"
+  #addreccom 1974
+  #addreccom 325
+  #addrecunit 417
+  #addrecunit 69
+#end
+#selectsite "Mount Kailasa"
+  #res 100
+#end
+#selectspell "Ringing of the Forge"
+  #restricted 25
+#end
+#selectspell "Contact Iron Angel"
+  #restricted 25
+#end
+#selectspell "Magma Forge"
+  #restricted 25
+#end
+#selectspell "Hammer the Arcane"
+  #restricted 25
+#end
+#selectspell "Teachings of the Master Smiths"
+  #restricted 25
+#end
+#selectspell "Sharpen Steel"
+  #restricted 25
+#end
 
 
